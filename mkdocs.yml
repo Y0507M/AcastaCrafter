@@ -1,0 +1,44 @@
+site_name: Craftium
+
+docs_dir: craftium-docs
+
+nav:
+  - Home: index.md
+  - User Guide:
+      - installation.md
+      - getting-started.md
+      - creating-envs.md
+  - General Information:
+      - Observations and actions: obs-and-acts.md
+      - environments.md
+      - Wrappers: wrappers.md
+      - Extensions to the Lua API: lua_functions.md
+      - Lua environment cookbook: lua_env_cookbook.md
+  - Misc:
+    - troubleshooting.md
+    - API Reference: reference.md
+  - GitHub: https://github.com/mikelma/craftium
+  - Paper: https://arxiv.org/abs/2407.03969
+  - Luanti's main page: https://www.luanti.org/  
+
+theme:
+  name: readthedocs
+  logo: imgs/craftium_banner.png
+
+plugins:
+  - search
+  - mkdocstrings:
+      handlers:
+        python:
+          options:
+            docstring_style: sphinx
+
+extra:
+    version: 0.1
+    links:
+        - https://github.com/mkdocs
+        - https://docs.readthedocs.org/en/latest/builds.html#mkdocs
+        - http://www.mkdocs.org/
+
+markdown_extensions:
+- admonition
