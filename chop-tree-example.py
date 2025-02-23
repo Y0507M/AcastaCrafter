@@ -5,6 +5,7 @@ from craftium import CraftiumEnv
 import os
 import time
 import craftium
+import sys
 
 
 # Create output directory for images

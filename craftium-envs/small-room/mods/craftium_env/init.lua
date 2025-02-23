@@ -1,3 +1,34 @@
+-- SIZE = 10 -- the size of the room in blocks
+-- HEIGHT = 2 -- walls' height in blocks
+-- MATERIAL = "default:stone"
+
+-- core.register_on_joinplayer(function(_player, _last_login)
+--     -- Build the floor
+--     for x=0,SIZE do
+--        for z=0,SIZE do
+--           pos = {x = x, z = z, y = 4.5}
+--           core.set_node(pos, { name = MATERIAL })
+--        end
+--     end
+
+--     -- Build the walls
+--     for i=0,SIZE do
+--        for h=1,HEIGHT do
+--           pos = {x = i, z = 0, y = 4.5 + h}
+--           core.set_node(pos, { name = MATERIAL })
+
+--           pos = {x = i, z = SIZE, y = 4.5 + h}
+--           core.set_node(pos, { name = MATERIAL })
+
+--           pos = {x = 0, z = i, y = 4.5 + h}
+--           core.set_node(pos, { name = MATERIAL })
+
+--           pos = {x = SIZE, z = i, y = 4.5 + h}
+--           core.set_node(pos, { name = MATERIAL })
+--        end
+--     end
+-- end)
+
 -- Set the random seed
 if minetest.settings:has("fixed_map_seed") then
    math.randomseed(minetest.settings:get("fixed_map_seed"))
