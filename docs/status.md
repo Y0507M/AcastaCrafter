@@ -50,5 +50,5 @@ The current goals are to track:
 - **GitHub Copilot & ChatGPT:** Assisting with debugging and coding, ensuring careful and responsible AI tool usage.
 - **HPC3 Commands:** Running jobs efficiently (`srun --nodelist=hpc3-23-04 -A cs175_class --mem=10G -p standard --pty /bin/bash -i`).
 
-## Video Summary
-[![AcastaCrafterProgressVideo](https://img.youtube.com/vi/dQw4w9WgXcQ/0.jpg)](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+## Video Summary 
+[![AcastaCrafterProgressVideo](https://raw.githubusercontent.com/Y0507M/AcastaCrafter/main/docs/_assets/VideoCover.PNG)](https://www.youtube.com/)
