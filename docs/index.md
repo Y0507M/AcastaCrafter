@@ -3,40 +3,21 @@ layout: default
 title:  Home
 ---
 
-Source code: https://github.com/Y0507M/AcastaCrafter
+## Welcome
+Welcome to AcastaCrafter! AcastaCrafter is a CS 175 project focusing on applying reinforcement learning (RL) algorithms to one of the most famous open world games - MineCraft.
 
-Reports:
+## Source Code
+[https://github.com/Y0507M/AcastaCrafter](https://github.com/Y0507M/AcastaCrafter)
+
+## Reports
 
 - [Proposal](proposal.html)
 - [Status](status.html)
 - [Final](final.html)
 
-What's Markdown (`.md`)?
+## Why Name Acasta
+[Acasta Gneiss](https://en.wikipedia.org/wiki/Acasta_Gneiss) contains fragments of the **oldest** known crust in the world. Our ambition in this project is to build a smart and powerful AI agent, as famous as Acasta Gneiss.
 
-Markdown is markup that lets you write hypertext (HTML) documents
-in easy-to-read and easy-to-write plain text.
-No angle brackets `<></>` required for
-paragraphs, lists, blockquotes, tables, etc.
-
-
-This is a paragraph (in Markdown). Some more
-text here.
-
-This is another paragraph.
-
-This is a list:
-
-- Orange
-- Apple
-- Blueberry
-
-$$x^2 = y^2$$
-
-
-Just getting started with Markdown?
-See the [HTML <-> Markdown Quick Reference (Cheat Sheet)][quickref].
-
-
-[quickref]: https://github.com/mundimark/quickrefs/blob/master/HTML.md
-
-
+## Resources
+- [MineRL](https://minerl.readthedocs.io/en/latest/)
+- [Craftium](https://craftium.readthedocs.io/en/latest/)
