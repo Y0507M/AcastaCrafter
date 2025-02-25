@@ -3,7 +3,7 @@ layout: default
 title:  Status
 ---
 
-# {{ Technical Description }}
+# {{ page.title }}
 
 ## Project Summary
 

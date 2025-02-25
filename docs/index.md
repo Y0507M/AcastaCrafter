@@ -6,6 +6,8 @@ title:  Home
 ## Welcome
 Welcome to AcastaCrafter! AcastaCrafter is a CS 175 project focusing on applying reinforcement learning (RL) algorithms to one of the most famous open world games - MineCraft.
 
+![MineCraft](https://raw.githubusercontent.com/Y0507M/AcastaCrafter/main/docs/_assets/minecraft.png)
+
 ## Source Code
 [https://github.com/Y0507M/AcastaCrafter](https://github.com/Y0507M/AcastaCrafter)
 
