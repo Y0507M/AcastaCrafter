@@ -14,8 +14,8 @@ Initially, we explored using Craftium; however, due to compatibility issues with
 
 - **Environment Setup:** We successfully installed MineRL on HPC3 after resolving dependency conflicts with `pip` and `gradle`. Due to MineRL 1.0.2 being outdated and requiring manual installation (`python setup.py install`), this process involved extensive troubleshooting. 
 - **Training Strategy:** We are planning to implement Proximal Policy Optimization (PPO) with convolutional neural network function approximators, utilizing on-policy learning to efficiently update the agent’s behavior. We also discovered a dataset of real player's input and gameplay data, so we will implement imitation learning to enhance the agent's learning.
-- **Baseline Agent:** Currently, our agent takes random actions in different environments, ranging from simulating chopping tree to finding target block in small-room environments. This serves as a baseline for comparison when reinforcement learning is introduced for the main project.
-- **Sequential Learning Progression:** The agent will first train on simpler environments, such as tree chopping and path finding, before transitioning to underground navigation and mining.
+- **Baseline Agent:** Currently, our agent takes random actions in different environments, ranging from simulating chopping tree to finding target block in small-room environments. This serves as a baseline for comparison with our latest model which learns to stop moving and jumping when it near logs, identifying it has to break them. However, it still often misses the log. It will then be compared with a model that will eventually work in more complex, underground environments.
+- **Sequential Learning Progression:** The agent will first train on simpler environments and work off imitation learning with real gameplay inputs before using RL to improve the agent.  
 - **Implementation Challenges:** We encountered difficulties with recording long episode durations (~15 minutes), which impacted visualization and debugging. We are working on limiting episode length for more efficient data collection.
 
 ## Evaluation
@@ -36,7 +36,10 @@ The current goals are to track:
 
 ## Remaining Goals and Challenges
 
-- **Reward Design:** Implementing a meaningful reward function to guide learning beyond random actions.
+- **Reward Design:**
+  - Implementing a meaningful reward function to guide learning beyond random actions.
+  -  Small amount of reward for moving aroundinitially, then decrease to prevent the agent from farming rewards.
+  -  Reward for locating and gathering logs.
 - **Imitation Learning** Allow agents to learn from real gameplays.
 - **Training Refinements:** Adjusting hyperparameters (learning rate, batch size, discount factor) to optimize performance.
 - **Underground Navigation:** Extending the agent’s ability from surface tasks to complex, procedurally generated underground environments.
