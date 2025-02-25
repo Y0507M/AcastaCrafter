@@ -52,4 +52,4 @@ The current goals are to track:
 - **HPC3 Commands:** Running jobs efficiently (`srun --nodelist=hpc3-23-04 -A cs175_class --mem=10G -p standard --pty /bin/bash -i`).
 
 ## Video Summary 
-[![AcastaCrafterProgressVideo](https://raw.githubusercontent.com/Y0507M/AcastaCrafter/main/docs/_assets/VideoCover.PNG)](https://www.youtube.com/)
+[![AcastaCrafterProgressVideo](https://raw.githubusercontent.com/Y0507M/AcastaCrafter/main/docs/_assets/VideoCover.PNG)](https://youtu.be/Yfm7elNke0s)
