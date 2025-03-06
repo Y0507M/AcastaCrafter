@@ -82,7 +82,7 @@ class TensorboardVideoRecorder(VecEnvWrapper):
             T, H, W, C = video.shape
             summary = tf1.Summary()
             image = tf1.Summary.Image(height=H, width=W, colorspace=C)
-            image.encoded_image_string = self._encode_gif(video, self._fps)
+            image.encoded_image_string = self._encode_gif(list(video), self._fps)
             summary.value.add(tag=tag, image=image)
             self._file_writer.add_summary(summary, step)
         except (IOError, OSError) as e:
@@ -97,15 +97,14 @@ class TensorboardVideoRecorder(VecEnvWrapper):
         return obs
 
     def _record_frame(self):
-        frame = self.venv.envs[0].render()
-        if frame is not None:
-            frame = np.array(frame, dtype=np.uint8)
-            self._recorded_frames.append(frame)
+        frames = self.venv.env_method("render")
+        frame = frames[self._record_video_env_idx]
+        self._recorded_frames.append(frame)
 
     def _finalize_video(self):
         if not self._recorded_frames:
             return
-        video_np = np.array(self._recorded_frames, dtype=np.uint8)  # Shape: (T, H, W, C)
+        video_np = np.array(self._recorded_frames)  # Shape: (T, H, W, C)
         self._log_video_to_tensorboard(self._tag, video_np, self._global_step)
         self._recording = False
         self._recording_step_count = 0

@@ -10,4 +10,4 @@
 module load ffmpeg # necessary for saving gifs to tensorboard on HPC3
 
 export MINERL_JAVA_OPTS="-Xmx8G"
-xvfb-run -a python render_test.py
+xvfb-run -a python test.py

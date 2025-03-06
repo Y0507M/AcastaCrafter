@@ -1,6 +1,6 @@
 #!/bin/bash
 #SBATCH -A cs175_class_gpu    ## Account to charge
-#SBATCH --time=04:00:00       ## Maximum running time of program
+#SBATCH --time=10:00:00       ## Maximum running time of program
 #SBATCH --nodes=1             ## Number of nodes.
                               ## Set to 1 if you are using GPU.
 #SBATCH --partition=gpu       ## Partition name
