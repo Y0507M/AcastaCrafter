@@ -1,0 +1,14 @@
+# Ignore the data directory
+data/
+
+# Ignore TensorBoard event files
+event.out.tfevents.*
+
+# Ignore all log files
+*.log
+*.out
+
+# Ignore all zip files
+*.zip
+
+
