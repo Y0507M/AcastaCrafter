@@ -2,7 +2,7 @@
 data/
 
 # Ignore TensorBoard event files
-event.out.tfevents.*
+events.out.tfevents.*
 *.pid
 
 # Ignore all log files
