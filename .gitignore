@@ -3,6 +3,7 @@ data/
 
 # Ignore TensorBoard event files
 event.out.tfevents.*
+*.pid
 
 # Ignore all log files
 *.log
@@ -11,4 +12,5 @@ event.out.tfevents.*
 # Ignore all zip files
 *.zip
 
-
+# Ignore test files
+test.py
