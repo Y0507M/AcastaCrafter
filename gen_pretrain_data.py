@@ -15,19 +15,14 @@ os.makedirs(image_folder, exist_ok=True)
 
 def convert_action(action, camera_margin=5):
     """
-    Turn a batch of actions from dataset (`batch_iter`) to a numpy
-    array that corresponds to batch of actions of ActionShaping wrapper (_actions).
-
-    Camera margin sets the threshold what is considered "moving camera".
-
-    Note: Hardcoded to work for actions in ActionShaping._actions, with "intuitive"
-        ordering of actions.
-        If you change ActionShaping._actions, remember to change this!
-
-    Array elements are integers corresponding to actions, or "-1"
-    for actions that did not have any corresponding discrete match.
+    attack          0
+    forward         1
+    forward+jump    2
+    camera_1        3
+    camera_2        4
+    camera_3        5
+    camera_4        6
     """
-    # There are dummy dimensions of shape one
     if action['camera'][0] < -camera_margin:
         return 3
     elif action['camera'][0] > camera_margin:

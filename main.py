@@ -84,13 +84,13 @@ class ActionShaping(gym.ActionWrapper):
         return self.actions[action]
 
 
-def train_agent(experiment_name, timesteps, max_episode_steps=1000, video_trigger_steps=500, video_length=100, model_path=None):
+def train_agent(experiment_name,  max_episode_steps=1000, video_trigger_steps=500, video_length=100):
     experiment_logdir = f"./tensorboard_logs/{experiment_name}_{datetime.now().strftime('%Y-%m-%d_%H-%M-%S')}"
     os.makedirs(experiment_logdir, exist_ok=True)
 
     env = gym.make("MineRLTreechop-v0")
     env.make_interactive(port=None, realtime=False)
-    env = gym.wrappers.time_limit.TimeLimit(env, max_episode_steps=max_episode_steps)
+    #env = gym.wrappers.time_limit.TimeLimit(env, max_episode_steps=max_episode_steps)
     env = ObservationShaping(env)
     env = ActionShaping(env)
 
@@ -99,18 +99,17 @@ def train_agent(experiment_name, timesteps, max_episode_steps=1000, video_trigge
 
     #policy_kwargs = dict(features_extractor_class=CustomCNN, features_extractor_kwargs=dict(features_dim=256))
     
-    if model_path:
-        model = PPO2.load(model_path, env=env)
-    else:
-        model = PPO2('CnnPolicy', env, verbose=1,
-                    learning_rate=3e-3,
-                    tensorboard_log=experiment_logdir)
+    model = PPO2('CnnPolicy', env, verbose=1,
+                 learning_rate=0.001,
+                 tensorboard_log=experiment_logdir)
 
     # pretrain
-    dataset = ExpertDataset(expert_path='expert/MineRLTreechop-v0/expert.npz')
-    model.pretrain(dataset)
+    dataset = ExpertDataset(expert_path='expert/MineRLTreechop-v0/expert.npz',
+                            batch_size=128,
+                            randomize=False)
+    model.pretrain(dataset, n_epochs=1000)
 
-    model.learn(total_timesteps=timesteps)
+    model.learn(total_timesteps=2_000_000)
     model.save(f"model_{experiment_name}_{datetime.now().strftime('%Y-%m-%d_%H-%M-%S')}.zip")
 
 
@@ -118,11 +117,10 @@ experiment_name = "treechop"
 
 max_episode_steps = 1000
 video_trigger_steps = 1000
-video_length = 200
+video_length = 2000
 
 if __name__ == '__main__':
     train_agent(experiment_name,
-                timesteps=5000,
                 max_episode_steps=max_episode_steps,
                 video_trigger_steps=video_trigger_steps,
                 video_length=video_length)
