@@ -1,0 +1,1099 @@
+[04:45:02] [EnvServerSocketHandler/INFO]: [STDOUT]: Received from localhost:<MissionInit xmlns="http://ProjectMalmo.microsoft.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" SchemaVersion="" PlatformVersion="0.37.0"><Mission><About><Summary>MineRLTreechop-v0</Summary></About><ModSettings><MsPerTick>50</MsPerTick></ModSettings><ServerSection><HumanInteraction><Port>None</Port><MaxPlayers>10</MaxPlayers></HumanInteraction><ServerInitialConditions><Time><AllowPassageOfTime>false</AllowPassageOfTime></Time><AllowSpawning>true</AllowSpawning></ServerInitialConditions><ServerHandlers><DefaultWorldGenerator forceReset="true" generatorOptions="{&quot;coordinateScale&quot;:684.412,&quot;heightScale&quot;:684.412,&quot;lowerLimitScale&quot;:512.0,&quot;upperLimitScale&quot;:512.0,&quot;depthNoiseScaleX&quot;:200.0,&quot;depthNoiseScaleZ&quot;:200.0,&quot;depthNoiseScaleExponent&quot;:0.5,&quot;mainNoiseScaleX&quot;:80.0,&quot;mainNoiseScaleY&quot;:160.0,&quot;mainNoiseScaleZ&quot;:80.0,&quot;baseSize&quot;:8.5,&quot;stretchY&quot;:12.0,&quot;biomeDepthWeight&quot;:1.0,&quot;biomeDepthOffset&quot;:0.0,&quot;biomeScaleWeight&quot;:1.0,&quot;biomeScaleOffset&quot;:0.0,&quot;seaLevel&quot;:1,&quot;useCaves&quot;:false,&quot;useDungeons&quot;:false,&quot;dungeonChance&quot;:8,&quot;useStrongholds&quot;:false,&quot;useVillages&quot;:false,&quot;useMineShafts&quot;:false,&quot;useTemples&quot;:false,&quot;useMonuments&quot;:false,&quot;useMansions&quot;:false,&quot;useRavines&quot;:false,&quot;useWaterLakes&quot;:false,&quot;waterLakeChance&quot;:4,&quot;useLavaLakes&quot;:false,&quot;lavaLakeChance&quot;:80,&quot;useLavaOceans&quot;:false,&quot;fixedBiome&quot;:4,&quot;biomeSize&quot;:4,&quot;riverSize&quot;:1,&quot;dirtSize&quot;:33,&quot;dirtCount&quot;:10,&quot;dirtMinHeight&quot;:0,&quot;dirtMaxHeight&quot;:256,&quot;gravelSize&quot;:33,&quot;gravelCount&quot;:8,&quot;gravelMinHeight&quot;:0,&quot;gravelMaxHeight&quot;:256,&quot;graniteSize&quot;:33,&quot;graniteCount&quot;:10,&quot;graniteMinHeight&quot;:0,&quot;graniteMaxHeight&quot;:80,&quot;dioriteSize&quot;:33,&quot;dioriteCount&quot;:10,&quot;dioriteMinHeight&quot;:0,&quot;dioriteMaxHeight&quot;:80,&quot;andesiteSize&quot;:33,&quot;andesiteCount&quot;:10,&quot;andesiteMinHeight&quot;:0,&quot;andesiteMaxHeight&quot;:80,&quot;coalSize&quot;:17,&quot;coalCount&quot;:20,&quot;coalMinHeight&quot;:0,&quot;coalMaxHeight&quot;:128,&quot;ironSize&quot;:9,&quot;ironCount&quot;:20,&quot;ironMinHeight&quot;:0,&quot;ironMaxHeight&quot;:64,&quot;goldSize&quot;:9,&quot;goldCount&quot;:2,&quot;goldMinHeight&quot;:0,&quot;goldMaxHeight&quot;:32,&quot;redstoneSize&quot;:8,&quot;redstoneCount&quot;:8,&quot;redstoneMinHeight&quot;:0,&quot;redstoneMaxHeight&quot;:16,&quot;diamondSize&quot;:8,&quot;diamondCount&quot;:1,&quot;diamondMinHeight&quot;:0,&quot;diamondMaxHeight&quot;:16,&quot;lapisSize&quot;:7,&quot;lapisCount&quot;:1,&quot;lapisCenterHeight&quot;:16,&quot;lapisSpread&quot;:16}"/><ServerQuitFromTimeUp timeLimitMs="400000" description="out_of_time"/><ServerQuitWhenAnyAgentFinishes/></ServerHandlers></ServerSection><AgentSection mode="Survival"><Name>MineRLAgent0</Name><AgentStart><Inventory><InventoryObject slot="0" type="iron_axe" metadata="0" quantity="1"/></Inventory></AgentStart><AgentHandlers><FileBasedPerformanceProducer/><PauseCommand/><VideoProducer want_depth="false"><Width>64</Width><Height>64</Height></VideoProducer><HumanLevelCommands/><CameraCommands/><RewardForPossessingItem sparse="false" excludeLoops="true"><Item amount="1" reward="1.0" type="log"/></RewardForPossessingItem><AgentQuitFromPossessingItem><Item type="log" amount="64"/></AgentQuitFromPossessingItem></AgentHandlers></AgentSection></Mission><ExperimentUID>0d73899c-0b1d-4a6b-9638-9b2832072fba</ExperimentUID><ClientRole>0</ClientRole><ClientAgentConnection><ClientIPAddress>127.0.0.1</ClientIPAddress><ClientMissionControlPort>0</ClientMissionControlPort><ClientCommandsPort>0</ClientCommandsPort><AgentIPAddress>127.0.0.1</AgentIPAddress><AgentMissionControlPort>0</AgentMissionControlPort><AgentVideoPort>0</AgentVideoPort><AgentDepthPort>0</AgentDepthPort><AgentLuminancePort>0</AgentLuminancePort><AgentObservationsPort>0</AgentObservationsPort><AgentRewardsPort>0</AgentRewardsPort><AgentColourMapPort>0</AgentColourMapPort></ClientAgentConnection></MissionInit>
+[04:45:02] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
+[04:45:02] [EnvServerSocketHandler/INFO]: [STDOUT]: REPLYING WITH: MALMOOK
+[04:45:02] [Client thread/INFO]: [STDOUT]: Mission received: MineRLTreechop-v0
+[04:45:02] [Client thread/INFO]: [STDOUT]: CLIENT request state: CREATING_HANDLERS
+[04:45:02] [Client thread/INFO]: [STDOUT]: CLIENT enter state: CREATING_HANDLERS
+[04:45:03] [Client thread/INFO]: [STDOUT]: Starting command server.
+[04:45:03] [Thread-15/INFO]: [STDOUT]: INFO: ->com(0) Listening for messages on port 10762
+[04:45:03] [Client thread/INFO]: [STDOUT]: CLIENT request state: EVALUATING_WORLD_REQUIREMENTS
+[04:45:03] [Client thread/INFO]: [STDOUT]: CLIENT enter state: EVALUATING_WORLD_REQUIREMENTS
+[04:45:03] [Client thread/INFO]: [STDOUT]: CLIENT request state: CREATING_NEW_WORLD
+[04:45:03] [Client thread/INFO]: [STDOUT]: CLIENT enter state: CREATING_NEW_WORLD
+[04:45:03] [Client thread/INFO]: [STDOUT]: [LOGTOPY] GENERATOR OPTIONS = {"coordinateScale":684.412,"heightScale":684.412,"lowerLimitScale":512.0,"upperLimitScale":512.0,"depthNoiseScaleX":200.0,"depthNoiseScaleZ":200.0,"depthNoiseScaleExponent":0.5,"mainNoiseScaleX":80.0,"mainNoiseScaleY":160.0,"mainNoiseScaleZ":80.0,"baseSize":8.5,"stretchY":12.0,"biomeDepthWeight":1.0,"biomeDepthOffset":0.0,"biomeScaleWeight":1.0,"biomeScaleOffset":0.0,"seaLevel":1,"useCaves":false,"useDungeons":false,"dungeonChance":8,"useStrongholds":false,"useVillages":false,"useMineShafts":false,"useTemples":false,"useMonuments":false,"useMansions":false,"useRavines":false,"useWaterLakes":false,"waterLakeChance":4,"useLavaLakes":false,"lavaLakeChance":80,"useLavaOceans":false,"fixedBiome":4,"biomeSize":4,"riverSize":1,"dirtSize":33,"dirtCount":10,"dirtMinHeight":0,"dirtMaxHeight":256,"gravelSize":33,"gravelCount":8,"gravelMinHeight":0,"gravelMaxHeight":256,"graniteSize":33,"graniteCount":10,"graniteMinHeight":0,"graniteMaxHeight":80,"dioriteSize":33,"dioriteCount":10,"dioriteMinHeight":0,"dioriteMaxHeight":80,"andesiteSize":33,"andesiteCount":10,"andesiteMinHeight":0,"andesiteMaxHeight":80,"coalSize":17,"coalCount":20,"coalMinHeight":0,"coalMaxHeight":128,"ironSize":9,"ironCount":20,"ironMinHeight":0,"ironMaxHeight":64,"goldSize":9,"goldCount":2,"goldMinHeight":0,"goldMaxHeight":32,"redstoneSize":8,"redstoneCount":8,"redstoneMinHeight":0,"redstoneMaxHeight":16,"diamondSize":8,"diamondCount":1,"diamondMinHeight":0,"diamondMaxHeight":16,"lapisSize":7,"lapisCount":1,"lapisCenterHeight":16,"lapisSpread":16}
+[04:45:03] [Server thread/INFO]: Starting integrated minecraft server version 1.11.2
+[04:45:03] [Server thread/INFO]: Generating keypair
+[04:45:03] [Server thread/INFO]: Injecting existing block and item data into this server instance
+[04:45:03] [Server thread/INFO]: Applying holder lookups
+[04:45:03] [Server thread/INFO]: Holder lookups applied
+[04:45:03] [Server thread/INFO]: Loading dimension 0 (TEMP_0_4c4c924a-bdff-43dd-bd3d-20ebb01c0097) (net.minecraft.server.integrated.IntegratedServer@57ded242)
+[04:45:04] [Server thread/INFO]: Loading dimension 1 (TEMP_0_4c4c924a-bdff-43dd-bd3d-20ebb01c0097) (net.minecraft.server.integrated.IntegratedServer@57ded242)
+[04:45:04] [Server thread/INFO]: Loading dimension -1 (TEMP_0_4c4c924a-bdff-43dd-bd3d-20ebb01c0097) (net.minecraft.server.integrated.IntegratedServer@57ded242)
+[04:45:04] [Server thread/INFO]: Preparing start region for level 0
+[04:45:05] [Server thread/INFO]: Preparing spawn area: 13%
+[04:45:06] [Server thread/INFO]: Preparing spawn area: 30%
+[04:45:07] [Server thread/INFO]: Preparing spawn area: 47%
+[04:45:08] [Server thread/INFO]: Preparing spawn area: 64%
+[04:45:09] [Server thread/INFO]: Preparing spawn area: 81%
+[04:45:10] [Server thread/INFO]: Preparing spawn area: 98%
+[04:45:10] [Server thread/INFO]: Changing view distance to 4, from 10
+[04:45:10] [Netty Local Client IO #0/INFO]: [STDOUT]: Transformed Name: net.minecraft.client.entity.EntityOtherPlayerMP
+[04:45:10] [Netty Local Client IO #0/INFO]: [STDOUT]: MALMO: Found EntityOtherPlayerMP, attempting to transform it
+[04:45:10] [Server thread/INFO]: [STDOUT]: SERVER request state: WAITING_FOR_MOD_READY
+[04:45:10] [Server thread/INFO]: [STDOUT]: CLIENT request state: WAITING_FOR_SERVER_READY
+[04:45:10] [Client thread/INFO]: [STDOUT]: CLIENT enter state: WAITING_FOR_SERVER_READY
+[04:45:10] [Server thread/INFO]: [STDOUT]: SERVER enter state: WAITING_FOR_MOD_READY
+[04:45:10] [Netty Local Client IO #0/INFO]: Server protocol version 2
+[04:45:10] [Netty Server IO #1/INFO]: Client protocol version 2
+[04:45:10] [Netty Server IO #1/INFO]: Client attempting to join with 5 mods : minecraft@1.11.2,FML@8.0.99.99,malmomod@0.37.0,forge@13.20.1.2588,mcp@9.19
+[04:45:10] [Netty Local Client IO #0/INFO]: [Netty Local Client IO #0] Client side modded connection established
+[04:45:10] [Server thread/INFO]: [Server thread] Server side modded connection established
+[04:45:10] [Server thread/INFO]: MineRLAgent0[local:E:e85c6d33] logged in with entity id 204 at (215.5, 69.0, 246.5)
+[04:45:10] [Server thread/INFO]: MineRLAgent0 joined the game
+[04:45:10] [Server thread/INFO]: [STDOUT]: SERVER request state: DORMANT
+[04:45:10] [Server thread/INFO]: [STDOUT]: SERVER enter state: DORMANT
+[04:45:10] [Server thread/INFO]: [STDOUT]: INCOMING MISSION: Received MissionInit directly through ServerStateMachine constructor.
+[04:45:10] [Server thread/INFO]: [STDOUT]: Mission received: MineRLTreechop-v0
+[04:45:10] [Server thread/INFO]: Received mission: §9MineRLTreechop-v0
+[04:45:10] [Server thread/INFO]: Source: §alocalhost
+[04:45:10] [Server thread/INFO]: [STDOUT]: SERVER request state: BUILDING_WORLD
+[04:45:10] [Server thread/INFO]: [STDOUT]: SERVER enter state: BUILDING_WORLD
+[04:45:10] [Server thread/INFO]: [STDOUT]: SERVER request state: WAITING_FOR_AGENTS_TO_ASSEMBLE
+[04:45:11] [Client thread/INFO]: [CHAT] Received mission: §9MineRLTreechop-v0
+[04:45:11] [Client thread/INFO]: [CHAT] Source: §alocalhost
+[04:45:11] [Client thread/INFO]: [STDERR]: Failed to tick client state episode: java.lang.NumberFormatException: For input string: "None"
+[04:45:11] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[04:45:11] [Server thread/INFO]: [STDOUT]: SERVER enter state: WAITING_FOR_AGENTS_TO_ASSEMBLE
+[04:45:11] [Server thread/INFO]: [STDOUT]: Experiment requires: 
+[04:45:11] [Server thread/INFO]: [STDOUT]: >>>> MineRLAgent0
+[04:45:12] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[04:45:12] [Server thread/INFO]: [STDOUT]: Initializing player with username MineRLAgent0 and agentname MineRLAgent0
+[04:45:12] [Client thread/INFO]: [STDOUT]: CLIENT request state: RUNNING
+[04:45:12] [Client thread/INFO]: [STDOUT]: CLIENT enter state: RUNNING
+[04:45:12] [Client thread/INFO]: [STDOUT]: Preparing reward com.microsoft.Malmo.MissionHandlers.RewardForPossessingItemImplementation@10db0805 with agent name MineRLAgent0
+[04:45:12] [Client thread/INFO]: [STDOUT]: [LOGTOPY] On Mac OSX Catalina make sure to install this OpenJDK 1.8.0_152-release-1056-b12, this prevents the NSDragRegions crash
+[04:45:12] [Server thread/INFO]: [STDOUT]: SERVER request state: RUNNING
+[04:45:12] [Client thread/INFO]: [STDOUT]: Resized the window
+[04:45:12] [Server thread/INFO]: [STDOUT]: SERVER enter state: RUNNING
+[04:45:12] [Client thread/INFO]: [STDOUT]: Unpausing
+[04:45:24] [Client thread/INFO]: [STDOUT]: SM: [CLIENT_STATE_MACHINE] Mission ended for reason: null world still exists: true
+[04:45:24] [Client thread/INFO]: [STDOUT]: Unpausing
+[04:45:24] [Client thread/INFO]: [STDOUT]: CLIENT request state: IDLING
+[04:45:24] [Client thread/INFO]: [STDOUT]: CLIENT enter state: IDLING
+[04:45:24] [Server thread/INFO]: [STDOUT]: WHY IS THIS NOT WORKING
+[04:45:24] [Server thread/INFO]: [STDOUT]: SERVER request state: WAITING_FOR_AGENTS_TO_QUIT
+[04:45:24] [Server thread/INFO]: [STDOUT]: SERVER enter state: WAITING_FOR_AGENTS_TO_QUIT
+[04:45:24] [EnvServerSocketHandler/INFO]: [STDOUT]: Received from localhost:<MissionInit xmlns="http://ProjectMalmo.microsoft.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" SchemaVersion="" PlatformVersion="0.37.0"><Mission><About><Summary>MineRLTreechop-v0</Summary></About><ModSettings><MsPerTick>50</MsPerTick></ModSettings><ServerSection><HumanInteraction><Port>None</Port><MaxPlayers>10</MaxPlayers></HumanInteraction><ServerInitialConditions><Time><AllowPassageOfTime>false</AllowPassageOfTime></Time><AllowSpawning>true</AllowSpawning></ServerInitialConditions><ServerHandlers><DefaultWorldGenerator forceReset="true" generatorOptions="{&quot;coordinateScale&quot;:684.412,&quot;heightScale&quot;:684.412,&quot;lowerLimitScale&quot;:512.0,&quot;upperLimitScale&quot;:512.0,&quot;depthNoiseScaleX&quot;:200.0,&quot;depthNoiseScaleZ&quot;:200.0,&quot;depthNoiseScaleExponent&quot;:0.5,&quot;mainNoiseScaleX&quot;:80.0,&quot;mainNoiseScaleY&quot;:160.0,&quot;mainNoiseScaleZ&quot;:80.0,&quot;baseSize&quot;:8.5,&quot;stretchY&quot;:12.0,&quot;biomeDepthWeight&quot;:1.0,&quot;biomeDepthOffset&quot;:0.0,&quot;biomeScaleWeight&quot;:1.0,&quot;biomeScaleOffset&quot;:0.0,&quot;seaLevel&quot;:1,&quot;useCaves&quot;:false,&quot;useDungeons&quot;:false,&quot;dungeonChance&quot;:8,&quot;useStrongholds&quot;:false,&quot;useVillages&quot;:false,&quot;useMineShafts&quot;:false,&quot;useTemples&quot;:false,&quot;useMonuments&quot;:false,&quot;useMansions&quot;:false,&quot;useRavines&quot;:false,&quot;useWaterLakes&quot;:false,&quot;waterLakeChance&quot;:4,&quot;useLavaLakes&quot;:false,&quot;lavaLakeChance&quot;:80,&quot;useLavaOceans&quot;:false,&quot;fixedBiome&quot;:4,&quot;biomeSize&quot;:4,&quot;riverSize&quot;:1,&quot;dirtSize&quot;:33,&quot;dirtCount&quot;:10,&quot;dirtMinHeight&quot;:0,&quot;dirtMaxHeight&quot;:256,&quot;gravelSize&quot;:33,&quot;gravelCount&quot;:8,&quot;gravelMinHeight&quot;:0,&quot;gravelMaxHeight&quot;:256,&quot;graniteSize&quot;:33,&quot;graniteCount&quot;:10,&quot;graniteMinHeight&quot;:0,&quot;graniteMaxHeight&quot;:80,&quot;dioriteSize&quot;:33,&quot;dioriteCount&quot;:10,&quot;dioriteMinHeight&quot;:0,&quot;dioriteMaxHeight&quot;:80,&quot;andesiteSize&quot;:33,&quot;andesiteCount&quot;:10,&quot;andesiteMinHeight&quot;:0,&quot;andesiteMaxHeight&quot;:80,&quot;coalSize&quot;:17,&quot;coalCount&quot;:20,&quot;coalMinHeight&quot;:0,&quot;coalMaxHeight&quot;:128,&quot;ironSize&quot;:9,&quot;ironCount&quot;:20,&quot;ironMinHeight&quot;:0,&quot;ironMaxHeight&quot;:64,&quot;goldSize&quot;:9,&quot;goldCount&quot;:2,&quot;goldMinHeight&quot;:0,&quot;goldMaxHeight&quot;:32,&quot;redstoneSize&quot;:8,&quot;redstoneCount&quot;:8,&quot;redstoneMinHeight&quot;:0,&quot;redstoneMaxHeight&quot;:16,&quot;diamondSize&quot;:8,&quot;diamondCount&quot;:1,&quot;diamondMinHeight&quot;:0,&quot;diamondMaxHeight&quot;:16,&quot;lapisSize&quot;:7,&quot;lapisCount&quot;:1,&quot;lapisCenterHeight&quot;:16,&quot;lapisSpread&quot;:16}"/><ServerQuitFromTimeUp timeLimitMs="400000" description="out_of_time"/><ServerQuitWhenAnyAgentFinishes/></ServerHandlers></ServerSection><AgentSection mode="Survival"><Name>MineRLAgent0</Name><AgentStart><Inventory><InventoryObject slot="0" type="iron_axe" metadata="0" quantity="1"/></Inventory></AgentStart><AgentHandlers><FileBasedPerformanceProducer/><PauseCommand/><VideoProducer want_depth="false"><Width>64</Width><Height>64</Height></VideoProducer><HumanLevelCommands/><CameraCommands/><RewardForPossessingItem sparse="false" excludeLoops="true"><Item amount="1" reward="1.0" type="log"/></RewardForPossessingItem><AgentQuitFromPossessingItem><Item type="log" amount="64"/></AgentQuitFromPossessingItem></AgentHandlers></AgentSection></Mission><ExperimentUID>9257880b-5f52-44bd-b688-d9cd43a9bf59</ExperimentUID><ClientRole>0</ClientRole><ClientAgentConnection><ClientIPAddress>127.0.0.1</ClientIPAddress><ClientMissionControlPort>0</ClientMissionControlPort><ClientCommandsPort>0</ClientCommandsPort><AgentIPAddress>127.0.0.1</AgentIPAddress><AgentMissionControlPort>0</AgentMissionControlPort><AgentVideoPort>0</AgentVideoPort><AgentDepthPort>0</AgentDepthPort><AgentLuminancePort>0</AgentLuminancePort><AgentObservationsPort>0</AgentObservationsPort><AgentRewardsPort>0</AgentRewardsPort><AgentColourMapPort>0</AgentColourMapPort></ClientAgentConnection></MissionInit>
+[04:45:24] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:45:24] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:45:24] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:45:24] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:45:24] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:45:24] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:45:24] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:45:24] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:45:24] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:45:24] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:45:24] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:45:24] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:45:24] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:45:24] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:45:24] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:45:24] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:45:24] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:45:24] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:45:24] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:45:24] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:45:24] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:45:24] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:45:24] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:45:24] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:45:24] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:45:24] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:45:24] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:45:24] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:45:24] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:45:24] [Client thread/INFO]: [STDOUT]: CLIENT enter state: MISSION_ENDED
+[04:45:24] [Client thread/INFO]: [STDOUT]: inform the agent
+[04:45:24] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:45:24] [Client thread/INFO]: [STDOUT]: CLIENT request state: WAITING_FOR_SERVER_MISSION_END
+[04:45:24] [EnvServerSocketHandler/INFO]: [STDOUT]: REPLYING WITH: MALMOBUSY
+[04:45:24] [Client thread/INFO]: [STDOUT]: CLIENT enter state: WAITING_FOR_SERVER_MISSION_END
+[04:45:24] [Server thread/INFO]: [STDOUT]: SERVER request state: CLEAN_UP
+[04:45:24] [Server thread/INFO]: [STDOUT]: SERVER enter state: CLEAN_UP
+[04:45:24] [Server thread/INFO]: [STDOUT]: SERVER request state: DORMANT
+[04:45:24] [Client thread/INFO]: [STDOUT]: CLIENT request state: DORMANT
+[04:45:24] [Client thread/INFO]: [STDOUT]: CLIENT enter state: DORMANT
+[04:45:24] [Client thread/INFO]: [STDOUT]: JETTISONING 0 COMMANDS
+[04:45:25] [EnvServerSocketHandler/INFO]: [STDOUT]: Received from localhost:<MissionInit xmlns="http://ProjectMalmo.microsoft.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" SchemaVersion="" PlatformVersion="0.37.0"><Mission><About><Summary>MineRLTreechop-v0</Summary></About><ModSettings><MsPerTick>50</MsPerTick></ModSettings><ServerSection><HumanInteraction><Port>None</Port><MaxPlayers>10</MaxPlayers></HumanInteraction><ServerInitialConditions><Time><AllowPassageOfTime>false</AllowPassageOfTime></Time><AllowSpawning>true</AllowSpawning></ServerInitialConditions><ServerHandlers><DefaultWorldGenerator forceReset="true" generatorOptions="{&quot;coordinateScale&quot;:684.412,&quot;heightScale&quot;:684.412,&quot;lowerLimitScale&quot;:512.0,&quot;upperLimitScale&quot;:512.0,&quot;depthNoiseScaleX&quot;:200.0,&quot;depthNoiseScaleZ&quot;:200.0,&quot;depthNoiseScaleExponent&quot;:0.5,&quot;mainNoiseScaleX&quot;:80.0,&quot;mainNoiseScaleY&quot;:160.0,&quot;mainNoiseScaleZ&quot;:80.0,&quot;baseSize&quot;:8.5,&quot;stretchY&quot;:12.0,&quot;biomeDepthWeight&quot;:1.0,&quot;biomeDepthOffset&quot;:0.0,&quot;biomeScaleWeight&quot;:1.0,&quot;biomeScaleOffset&quot;:0.0,&quot;seaLevel&quot;:1,&quot;useCaves&quot;:false,&quot;useDungeons&quot;:false,&quot;dungeonChance&quot;:8,&quot;useStrongholds&quot;:false,&quot;useVillages&quot;:false,&quot;useMineShafts&quot;:false,&quot;useTemples&quot;:false,&quot;useMonuments&quot;:false,&quot;useMansions&quot;:false,&quot;useRavines&quot;:false,&quot;useWaterLakes&quot;:false,&quot;waterLakeChance&quot;:4,&quot;useLavaLakes&quot;:false,&quot;lavaLakeChance&quot;:80,&quot;useLavaOceans&quot;:false,&quot;fixedBiome&quot;:4,&quot;biomeSize&quot;:4,&quot;riverSize&quot;:1,&quot;dirtSize&quot;:33,&quot;dirtCount&quot;:10,&quot;dirtMinHeight&quot;:0,&quot;dirtMaxHeight&quot;:256,&quot;gravelSize&quot;:33,&quot;gravelCount&quot;:8,&quot;gravelMinHeight&quot;:0,&quot;gravelMaxHeight&quot;:256,&quot;graniteSize&quot;:33,&quot;graniteCount&quot;:10,&quot;graniteMinHeight&quot;:0,&quot;graniteMaxHeight&quot;:80,&quot;dioriteSize&quot;:33,&quot;dioriteCount&quot;:10,&quot;dioriteMinHeight&quot;:0,&quot;dioriteMaxHeight&quot;:80,&quot;andesiteSize&quot;:33,&quot;andesiteCount&quot;:10,&quot;andesiteMinHeight&quot;:0,&quot;andesiteMaxHeight&quot;:80,&quot;coalSize&quot;:17,&quot;coalCount&quot;:20,&quot;coalMinHeight&quot;:0,&quot;coalMaxHeight&quot;:128,&quot;ironSize&quot;:9,&quot;ironCount&quot;:20,&quot;ironMinHeight&quot;:0,&quot;ironMaxHeight&quot;:64,&quot;goldSize&quot;:9,&quot;goldCount&quot;:2,&quot;goldMinHeight&quot;:0,&quot;goldMaxHeight&quot;:32,&quot;redstoneSize&quot;:8,&quot;redstoneCount&quot;:8,&quot;redstoneMinHeight&quot;:0,&quot;redstoneMaxHeight&quot;:16,&quot;diamondSize&quot;:8,&quot;diamondCount&quot;:1,&quot;diamondMinHeight&quot;:0,&quot;diamondMaxHeight&quot;:16,&quot;lapisSize&quot;:7,&quot;lapisCount&quot;:1,&quot;lapisCenterHeight&quot;:16,&quot;lapisSpread&quot;:16}"/><ServerQuitFromTimeUp timeLimitMs="400000" description="out_of_time"/><ServerQuitWhenAnyAgentFinishes/></ServerHandlers></ServerSection><AgentSection mode="Survival"><Name>MineRLAgent0</Name><AgentStart><Inventory><InventoryObject slot="0" type="iron_axe" metadata="0" quantity="1"/></Inventory></AgentStart><AgentHandlers><FileBasedPerformanceProducer/><PauseCommand/><VideoProducer want_depth="false"><Width>64</Width><Height>64</Height></VideoProducer><HumanLevelCommands/><CameraCommands/><RewardForPossessingItem sparse="false" excludeLoops="true"><Item amount="1" reward="1.0" type="log"/></RewardForPossessingItem><AgentQuitFromPossessingItem><Item type="log" amount="64"/></AgentQuitFromPossessingItem></AgentHandlers></AgentSection></Mission><ExperimentUID>9257880b-5f52-44bd-b688-d9cd43a9bf59</ExperimentUID><ClientRole>0</ClientRole><ClientAgentConnection><ClientIPAddress>127.0.0.1</ClientIPAddress><ClientMissionControlPort>0</ClientMissionControlPort><ClientCommandsPort>0</ClientCommandsPort><AgentIPAddress>127.0.0.1</AgentIPAddress><AgentMissionControlPort>0</AgentMissionControlPort><AgentVideoPort>0</AgentVideoPort><AgentDepthPort>0</AgentDepthPort><AgentLuminancePort>0</AgentLuminancePort><AgentObservationsPort>0</AgentObservationsPort><AgentRewardsPort>0</AgentRewardsPort><AgentColourMapPort>0</AgentColourMapPort></ClientAgentConnection></MissionInit>
+[04:45:25] [EnvServerSocketHandler/INFO]: [STDOUT]: REPLYING WITH: MALMOOK
+[04:45:25] [Client thread/INFO]: [STDOUT]: Mission received: MineRLTreechop-v0
+[04:45:25] [Client thread/INFO]: [STDOUT]: CLIENT request state: CREATING_HANDLERS
+[04:45:25] [Client thread/INFO]: [STDOUT]: CLIENT enter state: CREATING_HANDLERS
+[04:45:25] [Client thread/INFO]: [STDOUT]: CLIENT request state: EVALUATING_WORLD_REQUIREMENTS
+[04:45:25] [Client thread/INFO]: [STDOUT]: CLIENT enter state: EVALUATING_WORLD_REQUIREMENTS
+[04:45:25] [Client thread/INFO]: [STDOUT]: CLIENT request state: PAUSING_OLD_SERVER
+[04:45:25] [Client thread/INFO]: [STDOUT]: CLIENT enter state: PAUSING_OLD_SERVER
+[04:45:25] [Server thread/INFO]: Saving and pausing game...
+[04:45:25] [Server thread/INFO]: Saving chunks for level 'TEMP_0_4c4c924a-bdff-43dd-bd3d-20ebb01c0097'/Overworld
+[04:45:25] [Server thread/INFO]: Saving chunks for level 'TEMP_0_4c4c924a-bdff-43dd-bd3d-20ebb01c0097'/Nether
+[04:45:25] [Server thread/INFO]: Saving chunks for level 'TEMP_0_4c4c924a-bdff-43dd-bd3d-20ebb01c0097'/The End
+[04:45:25] [Client thread/INFO]: [STDOUT]: CLIENT request state: CLOSING_OLD_SERVER
+[04:45:25] [Client thread/INFO]: [STDOUT]: CLIENT enter state: CLOSING_OLD_SERVER
+[04:45:25] [Client thread/INFO]: [STDOUT]: Unpausing
+[04:45:25] [Server thread/INFO]: Stopping server
+[04:45:25] [Server thread/INFO]: Saving players
+[04:45:25] [Server thread/INFO]: MineRLAgent0 lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[04:45:25] [Server thread/INFO]: MineRLAgent0 left the game
+[04:45:25] [Server thread/INFO]: Stopping singleplayer server as player logged out
+[04:45:25] [Server thread/INFO]: Saving worlds
+[04:45:25] [Server thread/INFO]: Saving chunks for level 'TEMP_0_4c4c924a-bdff-43dd-bd3d-20ebb01c0097'/Overworld
+[04:45:25] [Server thread/INFO]: Saving chunks for level 'TEMP_0_4c4c924a-bdff-43dd-bd3d-20ebb01c0097'/Nether
+[04:45:25] [Server thread/INFO]: Saving chunks for level 'TEMP_0_4c4c924a-bdff-43dd-bd3d-20ebb01c0097'/The End
+[04:45:25] [Server thread/INFO]: [STDOUT]: Unpausing
+[04:45:26] [Server thread/INFO]: [STDOUT]: Unpausing
+[04:45:26] [Server thread/INFO]: [STDOUT]: Unpausing
+[04:45:26] [Server thread/INFO]: Unloading dimension 0
+[04:45:26] [Server thread/INFO]: Unloading dimension -1
+[04:45:26] [Server thread/INFO]: Unloading dimension 1
+[04:45:26] [Server thread/INFO]: Applying holder lookups
+[04:45:26] [Server thread/INFO]: Holder lookups applied
+[04:45:36] [Client thread/INFO]: [STDOUT]: CLIENT request state: CREATING_NEW_WORLD
+[04:45:36] [Client thread/INFO]: [STDOUT]: CLIENT enter state: CREATING_NEW_WORLD
+[04:45:36] [Client thread/INFO]: [STDOUT]: [LOGTOPY] GENERATOR OPTIONS = {"coordinateScale":684.412,"heightScale":684.412,"lowerLimitScale":512.0,"upperLimitScale":512.0,"depthNoiseScaleX":200.0,"depthNoiseScaleZ":200.0,"depthNoiseScaleExponent":0.5,"mainNoiseScaleX":80.0,"mainNoiseScaleY":160.0,"mainNoiseScaleZ":80.0,"baseSize":8.5,"stretchY":12.0,"biomeDepthWeight":1.0,"biomeDepthOffset":0.0,"biomeScaleWeight":1.0,"biomeScaleOffset":0.0,"seaLevel":1,"useCaves":false,"useDungeons":false,"dungeonChance":8,"useStrongholds":false,"useVillages":false,"useMineShafts":false,"useTemples":false,"useMonuments":false,"useMansions":false,"useRavines":false,"useWaterLakes":false,"waterLakeChance":4,"useLavaLakes":false,"lavaLakeChance":80,"useLavaOceans":false,"fixedBiome":4,"biomeSize":4,"riverSize":1,"dirtSize":33,"dirtCount":10,"dirtMinHeight":0,"dirtMaxHeight":256,"gravelSize":33,"gravelCount":8,"gravelMinHeight":0,"gravelMaxHeight":256,"graniteSize":33,"graniteCount":10,"graniteMinHeight":0,"graniteMaxHeight":80,"dioriteSize":33,"dioriteCount":10,"dioriteMinHeight":0,"dioriteMaxHeight":80,"andesiteSize":33,"andesiteCount":10,"andesiteMinHeight":0,"andesiteMaxHeight":80,"coalSize":17,"coalCount":20,"coalMinHeight":0,"coalMaxHeight":128,"ironSize":9,"ironCount":20,"ironMinHeight":0,"ironMaxHeight":64,"goldSize":9,"goldCount":2,"goldMinHeight":0,"goldMaxHeight":32,"redstoneSize":8,"redstoneCount":8,"redstoneMinHeight":0,"redstoneMaxHeight":16,"diamondSize":8,"diamondCount":1,"diamondMinHeight":0,"diamondMaxHeight":16,"lapisSize":7,"lapisCount":1,"lapisCenterHeight":16,"lapisSpread":16}
+[04:45:36] [Server thread/INFO]: Starting integrated minecraft server version 1.11.2
+[04:45:36] [Server thread/INFO]: Generating keypair
+[04:45:36] [Server thread/INFO]: Injecting existing block and item data into this server instance
+[04:45:36] [Server thread/INFO]: Applying holder lookups
+[04:45:36] [Server thread/INFO]: Holder lookups applied
+[04:45:36] [Server thread/INFO]: Loading dimension 0 (TEMP_0_0570d5c4-be7d-4a67-8812-4f59b127db31) (net.minecraft.server.integrated.IntegratedServer@11e3a957)
+[04:45:36] [Server thread/INFO]: Loading dimension 1 (TEMP_0_0570d5c4-be7d-4a67-8812-4f59b127db31) (net.minecraft.server.integrated.IntegratedServer@11e3a957)
+[04:45:36] [Server thread/INFO]: Loading dimension -1 (TEMP_0_0570d5c4-be7d-4a67-8812-4f59b127db31) (net.minecraft.server.integrated.IntegratedServer@11e3a957)
+[04:45:36] [Server thread/INFO]: Preparing start region for level 0
+[04:45:37] [Server thread/INFO]: Preparing spawn area: 19%
+[04:45:38] [Server thread/INFO]: Preparing spawn area: 37%
+[04:45:39] [Server thread/INFO]: Preparing spawn area: 54%
+[04:45:40] [Server thread/INFO]: Preparing spawn area: 72%
+[04:45:41] [Server thread/INFO]: Preparing spawn area: 89%
+[04:45:42] [Server thread/INFO]: Changing view distance to 4, from 10
+[04:45:42] [Client thread/INFO]: Deleting level TEMP_0_4c4c924a-bdff-43dd-bd3d-20ebb01c0097
+[04:45:42] [Client thread/INFO]: Attempt 1...
+[04:45:42] [Server thread/INFO]: [STDOUT]: SERVER request state: WAITING_FOR_MOD_READY
+[04:45:42] [Server thread/INFO]: [STDOUT]: CLIENT request state: WAITING_FOR_SERVER_READY
+[04:45:42] [Client thread/INFO]: [STDOUT]: CLIENT enter state: WAITING_FOR_SERVER_READY
+[04:45:42] [Server thread/INFO]: [STDOUT]: SERVER enter state: WAITING_FOR_MOD_READY
+[04:45:42] [Netty Local Client IO #1/INFO]: Server protocol version 2
+[04:45:42] [Netty Server IO #3/INFO]: Client protocol version 2
+[04:45:42] [Netty Server IO #3/INFO]: Client attempting to join with 5 mods : minecraft@1.11.2,FML@8.0.99.99,malmomod@0.37.0,forge@13.20.1.2588,mcp@9.19
+[04:45:42] [Netty Local Client IO #1/INFO]: [Netty Local Client IO #1] Client side modded connection established
+[04:45:42] [Server thread/INFO]: [STDOUT]: SERVER request state: DORMANT
+[04:45:42] [Server thread/INFO]: [STDOUT]: SERVER enter state: DORMANT
+[04:45:42] [Server thread/INFO]: [STDOUT]: INCOMING MISSION: Received MissionInit directly through ServerStateMachine constructor.
+[04:45:42] [Server thread/INFO]: [STDOUT]: Mission received: MineRLTreechop-v0
+[04:45:42] [Server thread/INFO]: Received mission: §9MineRLTreechop-v0
+[04:45:42] [Server thread/INFO]: Source: §alocalhost
+[04:45:42] [Server thread/INFO]: [STDOUT]: SERVER request state: BUILDING_WORLD
+[04:45:43] [Server thread/INFO]: [Server thread] Server side modded connection established
+[04:45:43] [Server thread/INFO]: MineRLAgent0[local:E:13846b48] logged in with entity id 10613 at (91.5, 76.0, 250.5)
+[04:45:43] [Server thread/INFO]: MineRLAgent0 joined the game
+[04:45:43] [Server thread/INFO]: [STDOUT]: SERVER enter state: BUILDING_WORLD
+[04:45:43] [Server thread/INFO]: [STDOUT]: SERVER request state: WAITING_FOR_AGENTS_TO_ASSEMBLE
+[04:45:43] [Server thread/INFO]: [STDOUT]: SERVER enter state: WAITING_FOR_AGENTS_TO_ASSEMBLE
+[04:45:43] [Server thread/INFO]: [STDOUT]: Experiment requires: 
+[04:45:43] [Server thread/INFO]: [STDOUT]: >>>> MineRLAgent0
+[04:45:43] [Client thread/INFO]: [STDERR]: Failed to tick client state episode: java.lang.NumberFormatException: For input string: "None"
+[04:45:43] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[04:45:43] [Server thread/INFO]: [STDOUT]: Initializing player with username MineRLAgent0 and agentname MineRLAgent0
+[04:45:43] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[04:45:43] [Client thread/INFO]: [STDOUT]: CLIENT request state: RUNNING
+[04:45:43] [Client thread/INFO]: [STDOUT]: CLIENT enter state: RUNNING
+[04:45:43] [Client thread/INFO]: [STDOUT]: Preparing reward com.microsoft.Malmo.MissionHandlers.RewardForPossessingItemImplementation@1430ed3b with agent name MineRLAgent0
+[04:45:43] [Server thread/INFO]: [STDOUT]: SERVER request state: RUNNING
+[04:45:43] [Client thread/INFO]: [STDOUT]: Unpausing
+[04:45:43] [Server thread/INFO]: [STDOUT]: SERVER enter state: RUNNING
+[04:45:45] [Server thread/INFO]: [STDOUT]: Warning: managed 15/20 ticks this second.
+RewardForPossessingItemImplementation - MineRLAgent0: 1
+RewardForPossessingItemImplementation - MineRLAgent0: 2
+RewardForPossessingItemImplementation - MineRLAgent0: 3
+RewardForPossessingItemImplementation - MineRLAgent0: 1
+[04:45:55] [Client thread/INFO]: [STDOUT]: SM: [CLIENT_STATE_MACHINE] Mission ended for reason: null world still exists: true
+[04:45:55] [Client thread/INFO]: [STDOUT]: Unpausing
+[04:45:55] [Client thread/INFO]: [STDOUT]: CLIENT request state: IDLING
+[04:45:55] [Client thread/INFO]: [STDOUT]: CLIENT enter state: IDLING
+[04:45:55] [Server thread/INFO]: [STDOUT]: WHY IS THIS NOT WORKING
+[04:45:55] [Server thread/INFO]: [STDOUT]: SERVER request state: WAITING_FOR_AGENTS_TO_QUIT
+[04:45:55] [Server thread/INFO]: [STDOUT]: SERVER enter state: WAITING_FOR_AGENTS_TO_QUIT
+[04:45:55] [EnvServerSocketHandler/INFO]: [STDOUT]: Received from localhost:<MissionInit xmlns="http://ProjectMalmo.microsoft.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" SchemaVersion="" PlatformVersion="0.37.0"><Mission><About><Summary>MineRLTreechop-v0</Summary></About><ModSettings><MsPerTick>50</MsPerTick></ModSettings><ServerSection><HumanInteraction><Port>None</Port><MaxPlayers>10</MaxPlayers></HumanInteraction><ServerInitialConditions><Time><AllowPassageOfTime>false</AllowPassageOfTime></Time><AllowSpawning>true</AllowSpawning></ServerInitialConditions><ServerHandlers><DefaultWorldGenerator forceReset="true" generatorOptions="{&quot;coordinateScale&quot;:684.412,&quot;heightScale&quot;:684.412,&quot;lowerLimitScale&quot;:512.0,&quot;upperLimitScale&quot;:512.0,&quot;depthNoiseScaleX&quot;:200.0,&quot;depthNoiseScaleZ&quot;:200.0,&quot;depthNoiseScaleExponent&quot;:0.5,&quot;mainNoiseScaleX&quot;:80.0,&quot;mainNoiseScaleY&quot;:160.0,&quot;mainNoiseScaleZ&quot;:80.0,&quot;baseSize&quot;:8.5,&quot;stretchY&quot;:12.0,&quot;biomeDepthWeight&quot;:1.0,&quot;biomeDepthOffset&quot;:0.0,&quot;biomeScaleWeight&quot;:1.0,&quot;biomeScaleOffset&quot;:0.0,&quot;seaLevel&quot;:1,&quot;useCaves&quot;:false,&quot;useDungeons&quot;:false,&quot;dungeonChance&quot;:8,&quot;useStrongholds&quot;:false,&quot;useVillages&quot;:false,&quot;useMineShafts&quot;:false,&quot;useTemples&quot;:false,&quot;useMonuments&quot;:false,&quot;useMansions&quot;:false,&quot;useRavines&quot;:false,&quot;useWaterLakes&quot;:false,&quot;waterLakeChance&quot;:4,&quot;useLavaLakes&quot;:false,&quot;lavaLakeChance&quot;:80,&quot;useLavaOceans&quot;:false,&quot;fixedBiome&quot;:4,&quot;biomeSize&quot;:4,&quot;riverSize&quot;:1,&quot;dirtSize&quot;:33,&quot;dirtCount&quot;:10,&quot;dirtMinHeight&quot;:0,&quot;dirtMaxHeight&quot;:256,&quot;gravelSize&quot;:33,&quot;gravelCount&quot;:8,&quot;gravelMinHeight&quot;:0,&quot;gravelMaxHeight&quot;:256,&quot;graniteSize&quot;:33,&quot;graniteCount&quot;:10,&quot;graniteMinHeight&quot;:0,&quot;graniteMaxHeight&quot;:80,&quot;dioriteSize&quot;:33,&quot;dioriteCount&quot;:10,&quot;dioriteMinHeight&quot;:0,&quot;dioriteMaxHeight&quot;:80,&quot;andesiteSize&quot;:33,&quot;andesiteCount&quot;:10,&quot;andesiteMinHeight&quot;:0,&quot;andesiteMaxHeight&quot;:80,&quot;coalSize&quot;:17,&quot;coalCount&quot;:20,&quot;coalMinHeight&quot;:0,&quot;coalMaxHeight&quot;:128,&quot;ironSize&quot;:9,&quot;ironCount&quot;:20,&quot;ironMinHeight&quot;:0,&quot;ironMaxHeight&quot;:64,&quot;goldSize&quot;:9,&quot;goldCount&quot;:2,&quot;goldMinHeight&quot;:0,&quot;goldMaxHeight&quot;:32,&quot;redstoneSize&quot;:8,&quot;redstoneCount&quot;:8,&quot;redstoneMinHeight&quot;:0,&quot;redstoneMaxHeight&quot;:16,&quot;diamondSize&quot;:8,&quot;diamondCount&quot;:1,&quot;diamondMinHeight&quot;:0,&quot;diamondMaxHeight&quot;:16,&quot;lapisSize&quot;:7,&quot;lapisCount&quot;:1,&quot;lapisCenterHeight&quot;:16,&quot;lapisSpread&quot;:16}"/><ServerQuitFromTimeUp timeLimitMs="400000" description="out_of_time"/><ServerQuitWhenAnyAgentFinishes/></ServerHandlers></ServerSection><AgentSection mode="Survival"><Name>MineRLAgent0</Name><AgentStart><Inventory><InventoryObject slot="0" type="iron_axe" metadata="0" quantity="1"/></Inventory></AgentStart><AgentHandlers><FileBasedPerformanceProducer/><PauseCommand/><VideoProducer want_depth="false"><Width>64</Width><Height>64</Height></VideoProducer><HumanLevelCommands/><CameraCommands/><RewardForPossessingItem sparse="false" excludeLoops="true"><Item amount="1" reward="1.0" type="log"/></RewardForPossessingItem><AgentQuitFromPossessingItem><Item type="log" amount="64"/></AgentQuitFromPossessingItem></AgentHandlers></AgentSection></Mission><ExperimentUID>633f7b26-5dbd-4e06-9b6f-b95c295c84e1</ExperimentUID><ClientRole>0</ClientRole><ClientAgentConnection><ClientIPAddress>127.0.0.1</ClientIPAddress><ClientMissionControlPort>0</ClientMissionControlPort><ClientCommandsPort>0</ClientCommandsPort><AgentIPAddress>127.0.0.1</AgentIPAddress><AgentMissionControlPort>0</AgentMissionControlPort><AgentVideoPort>0</AgentVideoPort><AgentDepthPort>0</AgentDepthPort><AgentLuminancePort>0</AgentLuminancePort><AgentObservationsPort>0</AgentObservationsPort><AgentRewardsPort>0</AgentRewardsPort><AgentColourMapPort>0</AgentColourMapPort></ClientAgentConnection></MissionInit>
+[04:45:55] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:45:55] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:45:55] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:45:55] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:45:55] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:45:55] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:45:55] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:45:55] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:45:55] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:45:55] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:45:55] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:45:55] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:45:55] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:45:55] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:45:55] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:45:55] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:45:55] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:45:55] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:45:55] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:45:55] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:45:55] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:45:55] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:45:55] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:45:55] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:45:55] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:45:55] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:45:55] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:45:55] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:45:55] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:45:55] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:45:55] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:45:55] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:45:55] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:45:55] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:45:55] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:45:55] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:45:55] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:45:55] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:45:55] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:45:55] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:45:55] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:45:55] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:45:55] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:45:55] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:45:55] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:45:55] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:45:55] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:45:55] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:45:55] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:45:55] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:45:55] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:45:55] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:45:55] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:45:55] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:45:55] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:45:55] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:45:55] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:45:55] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:45:55] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:45:55] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:45:55] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:45:55] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:45:55] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:45:55] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:45:55] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:45:55] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:45:55] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:45:55] [EnvServerSocketHandler/INFO]: [STDOUT]: REPLYING WITH: MALMOBUSY
+[04:45:55] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:45:55] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:45:55] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:45:55] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:45:55] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:45:55] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:45:55] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:45:55] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:45:55] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:45:55] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:45:55] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:45:55] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:45:55] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:45:55] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:45:55] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:45:55] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:45:55] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:45:55] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:45:55] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:45:55] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:45:55] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:45:55] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:45:55] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:45:55] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:45:55] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:45:55] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:45:55] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:45:55] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:45:55] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:45:55] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:45:55] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:45:55] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:45:55] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:45:55] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:45:55] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:45:55] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:45:55] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:45:55] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:45:55] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:45:55] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:45:55] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:45:55] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:45:55] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:45:55] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:45:55] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:45:55] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:45:55] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:45:55] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:45:55] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:45:55] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:45:55] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:45:55] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:45:55] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:45:55] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:45:55] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:45:55] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:45:55] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:45:55] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:45:55] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:45:55] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:45:55] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:45:55] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:45:55] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:45:55] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:45:55] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:45:55] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:45:55] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:45:55] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:45:55] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:45:55] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:45:55] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:45:55] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:45:55] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:45:55] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:45:55] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:45:55] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:45:55] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:45:55] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:45:55] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:45:55] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:45:55] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:45:55] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:45:55] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:45:55] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:45:55] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:45:55] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:45:55] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:45:55] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:45:55] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:45:55] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:45:55] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:45:55] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:45:55] [Client thread/INFO]: [STDOUT]: CLIENT enter state: MISSION_ENDED
+[04:45:55] [Client thread/INFO]: [STDOUT]: inform the agent
+[04:45:55] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:45:55] [Client thread/INFO]: [STDOUT]: CLIENT request state: WAITING_FOR_SERVER_MISSION_END
+[04:45:56] [EnvServerSocketHandler/INFO]: [STDOUT]: Received from localhost:<MissionInit xmlns="http://ProjectMalmo.microsoft.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" SchemaVersion="" PlatformVersion="0.37.0"><Mission><About><Summary>MineRLTreechop-v0</Summary></About><ModSettings><MsPerTick>50</MsPerTick></ModSettings><ServerSection><HumanInteraction><Port>None</Port><MaxPlayers>10</MaxPlayers></HumanInteraction><ServerInitialConditions><Time><AllowPassageOfTime>false</AllowPassageOfTime></Time><AllowSpawning>true</AllowSpawning></ServerInitialConditions><ServerHandlers><DefaultWorldGenerator forceReset="true" generatorOptions="{&quot;coordinateScale&quot;:684.412,&quot;heightScale&quot;:684.412,&quot;lowerLimitScale&quot;:512.0,&quot;upperLimitScale&quot;:512.0,&quot;depthNoiseScaleX&quot;:200.0,&quot;depthNoiseScaleZ&quot;:200.0,&quot;depthNoiseScaleExponent&quot;:0.5,&quot;mainNoiseScaleX&quot;:80.0,&quot;mainNoiseScaleY&quot;:160.0,&quot;mainNoiseScaleZ&quot;:80.0,&quot;baseSize&quot;:8.5,&quot;stretchY&quot;:12.0,&quot;biomeDepthWeight&quot;:1.0,&quot;biomeDepthOffset&quot;:0.0,&quot;biomeScaleWeight&quot;:1.0,&quot;biomeScaleOffset&quot;:0.0,&quot;seaLevel&quot;:1,&quot;useCaves&quot;:false,&quot;useDungeons&quot;:false,&quot;dungeonChance&quot;:8,&quot;useStrongholds&quot;:false,&quot;useVillages&quot;:false,&quot;useMineShafts&quot;:false,&quot;useTemples&quot;:false,&quot;useMonuments&quot;:false,&quot;useMansions&quot;:false,&quot;useRavines&quot;:false,&quot;useWaterLakes&quot;:false,&quot;waterLakeChance&quot;:4,&quot;useLavaLakes&quot;:false,&quot;lavaLakeChance&quot;:80,&quot;useLavaOceans&quot;:false,&quot;fixedBiome&quot;:4,&quot;biomeSize&quot;:4,&quot;riverSize&quot;:1,&quot;dirtSize&quot;:33,&quot;dirtCount&quot;:10,&quot;dirtMinHeight&quot;:0,&quot;dirtMaxHeight&quot;:256,&quot;gravelSize&quot;:33,&quot;gravelCount&quot;:8,&quot;gravelMinHeight&quot;:0,&quot;gravelMaxHeight&quot;:256,&quot;graniteSize&quot;:33,&quot;graniteCount&quot;:10,&quot;graniteMinHeight&quot;:0,&quot;graniteMaxHeight&quot;:80,&quot;dioriteSize&quot;:33,&quot;dioriteCount&quot;:10,&quot;dioriteMinHeight&quot;:0,&quot;dioriteMaxHeight&quot;:80,&quot;andesiteSize&quot;:33,&quot;andesiteCount&quot;:10,&quot;andesiteMinHeight&quot;:0,&quot;andesiteMaxHeight&quot;:80,&quot;coalSize&quot;:17,&quot;coalCount&quot;:20,&quot;coalMinHeight&quot;:0,&quot;coalMaxHeight&quot;:128,&quot;ironSize&quot;:9,&quot;ironCount&quot;:20,&quot;ironMinHeight&quot;:0,&quot;ironMaxHeight&quot;:64,&quot;goldSize&quot;:9,&quot;goldCount&quot;:2,&quot;goldMinHeight&quot;:0,&quot;goldMaxHeight&quot;:32,&quot;redstoneSize&quot;:8,&quot;redstoneCount&quot;:8,&quot;redstoneMinHeight&quot;:0,&quot;redstoneMaxHeight&quot;:16,&quot;diamondSize&quot;:8,&quot;diamondCount&quot;:1,&quot;diamondMinHeight&quot;:0,&quot;diamondMaxHeight&quot;:16,&quot;lapisSize&quot;:7,&quot;lapisCount&quot;:1,&quot;lapisCenterHeight&quot;:16,&quot;lapisSpread&quot;:16}"/><ServerQuitFromTimeUp timeLimitMs="400000" description="out_of_time"/><ServerQuitWhenAnyAgentFinishes/></ServerHandlers></ServerSection><AgentSection mode="Survival"><Name>MineRLAgent0</Name><AgentStart><Inventory><InventoryObject slot="0" type="iron_axe" metadata="0" quantity="1"/></Inventory></AgentStart><AgentHandlers><FileBasedPerformanceProducer/><PauseCommand/><VideoProducer want_depth="false"><Width>64</Width><Height>64</Height></VideoProducer><HumanLevelCommands/><CameraCommands/><RewardForPossessingItem sparse="false" excludeLoops="true"><Item amount="1" reward="1.0" type="log"/></RewardForPossessingItem><AgentQuitFromPossessingItem><Item type="log" amount="64"/></AgentQuitFromPossessingItem></AgentHandlers></AgentSection></Mission><ExperimentUID>633f7b26-5dbd-4e06-9b6f-b95c295c84e1</ExperimentUID><ClientRole>0</ClientRole><ClientAgentConnection><ClientIPAddress>127.0.0.1</ClientIPAddress><ClientMissionControlPort>0</ClientMissionControlPort><ClientCommandsPort>0</ClientCommandsPort><AgentIPAddress>127.0.0.1</AgentIPAddress><AgentMissionControlPort>0</AgentMissionControlPort><AgentVideoPort>0</AgentVideoPort><AgentDepthPort>0</AgentDepthPort><AgentLuminancePort>0</AgentLuminancePort><AgentObservationsPort>0</AgentObservationsPort><AgentRewardsPort>0</AgentRewardsPort><AgentColourMapPort>0</AgentColourMapPort></ClientAgentConnection></MissionInit>
+[04:45:56] [EnvServerSocketHandler/INFO]: [STDOUT]: REPLYING WITH: MALMOBUSY
+[04:45:57] [EnvServerSocketHandler/INFO]: [STDOUT]: Received from localhost:<MissionInit xmlns="http://ProjectMalmo.microsoft.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" SchemaVersion="" PlatformVersion="0.37.0"><Mission><About><Summary>MineRLTreechop-v0</Summary></About><ModSettings><MsPerTick>50</MsPerTick></ModSettings><ServerSection><HumanInteraction><Port>None</Port><MaxPlayers>10</MaxPlayers></HumanInteraction><ServerInitialConditions><Time><AllowPassageOfTime>false</AllowPassageOfTime></Time><AllowSpawning>true</AllowSpawning></ServerInitialConditions><ServerHandlers><DefaultWorldGenerator forceReset="true" generatorOptions="{&quot;coordinateScale&quot;:684.412,&quot;heightScale&quot;:684.412,&quot;lowerLimitScale&quot;:512.0,&quot;upperLimitScale&quot;:512.0,&quot;depthNoiseScaleX&quot;:200.0,&quot;depthNoiseScaleZ&quot;:200.0,&quot;depthNoiseScaleExponent&quot;:0.5,&quot;mainNoiseScaleX&quot;:80.0,&quot;mainNoiseScaleY&quot;:160.0,&quot;mainNoiseScaleZ&quot;:80.0,&quot;baseSize&quot;:8.5,&quot;stretchY&quot;:12.0,&quot;biomeDepthWeight&quot;:1.0,&quot;biomeDepthOffset&quot;:0.0,&quot;biomeScaleWeight&quot;:1.0,&quot;biomeScaleOffset&quot;:0.0,&quot;seaLevel&quot;:1,&quot;useCaves&quot;:false,&quot;useDungeons&quot;:false,&quot;dungeonChance&quot;:8,&quot;useStrongholds&quot;:false,&quot;useVillages&quot;:false,&quot;useMineShafts&quot;:false,&quot;useTemples&quot;:false,&quot;useMonuments&quot;:false,&quot;useMansions&quot;:false,&quot;useRavines&quot;:false,&quot;useWaterLakes&quot;:false,&quot;waterLakeChance&quot;:4,&quot;useLavaLakes&quot;:false,&quot;lavaLakeChance&quot;:80,&quot;useLavaOceans&quot;:false,&quot;fixedBiome&quot;:4,&quot;biomeSize&quot;:4,&quot;riverSize&quot;:1,&quot;dirtSize&quot;:33,&quot;dirtCount&quot;:10,&quot;dirtMinHeight&quot;:0,&quot;dirtMaxHeight&quot;:256,&quot;gravelSize&quot;:33,&quot;gravelCount&quot;:8,&quot;gravelMinHeight&quot;:0,&quot;gravelMaxHeight&quot;:256,&quot;graniteSize&quot;:33,&quot;graniteCount&quot;:10,&quot;graniteMinHeight&quot;:0,&quot;graniteMaxHeight&quot;:80,&quot;dioriteSize&quot;:33,&quot;dioriteCount&quot;:10,&quot;dioriteMinHeight&quot;:0,&quot;dioriteMaxHeight&quot;:80,&quot;andesiteSize&quot;:33,&quot;andesiteCount&quot;:10,&quot;andesiteMinHeight&quot;:0,&quot;andesiteMaxHeight&quot;:80,&quot;coalSize&quot;:17,&quot;coalCount&quot;:20,&quot;coalMinHeight&quot;:0,&quot;coalMaxHeight&quot;:128,&quot;ironSize&quot;:9,&quot;ironCount&quot;:20,&quot;ironMinHeight&quot;:0,&quot;ironMaxHeight&quot;:64,&quot;goldSize&quot;:9,&quot;goldCount&quot;:2,&quot;goldMinHeight&quot;:0,&quot;goldMaxHeight&quot;:32,&quot;redstoneSize&quot;:8,&quot;redstoneCount&quot;:8,&quot;redstoneMinHeight&quot;:0,&quot;redstoneMaxHeight&quot;:16,&quot;diamondSize&quot;:8,&quot;diamondCount&quot;:1,&quot;diamondMinHeight&quot;:0,&quot;diamondMaxHeight&quot;:16,&quot;lapisSize&quot;:7,&quot;lapisCount&quot;:1,&quot;lapisCenterHeight&quot;:16,&quot;lapisSpread&quot;:16}"/><ServerQuitFromTimeUp timeLimitMs="400000" description="out_of_time"/><ServerQuitWhenAnyAgentFinishes/></ServerHandlers></ServerSection><AgentSection mode="Survival"><Name>MineRLAgent0</Name><AgentStart><Inventory><InventoryObject slot="0" type="iron_axe" metadata="0" quantity="1"/></Inventory></AgentStart><AgentHandlers><FileBasedPerformanceProducer/><PauseCommand/><VideoProducer want_depth="false"><Width>64</Width><Height>64</Height></VideoProducer><HumanLevelCommands/><CameraCommands/><RewardForPossessingItem sparse="false" excludeLoops="true"><Item amount="1" reward="1.0" type="log"/></RewardForPossessingItem><AgentQuitFromPossessingItem><Item type="log" amount="64"/></AgentQuitFromPossessingItem></AgentHandlers></AgentSection></Mission><ExperimentUID>633f7b26-5dbd-4e06-9b6f-b95c295c84e1</ExperimentUID><ClientRole>0</ClientRole><ClientAgentConnection><ClientIPAddress>127.0.0.1</ClientIPAddress><ClientMissionControlPort>0</ClientMissionControlPort><ClientCommandsPort>0</ClientCommandsPort><AgentIPAddress>127.0.0.1</AgentIPAddress><AgentMissionControlPort>0</AgentMissionControlPort><AgentVideoPort>0</AgentVideoPort><AgentDepthPort>0</AgentDepthPort><AgentLuminancePort>0</AgentLuminancePort><AgentObservationsPort>0</AgentObservationsPort><AgentRewardsPort>0</AgentRewardsPort><AgentColourMapPort>0</AgentColourMapPort></ClientAgentConnection></MissionInit>
+[04:45:57] [Client thread/INFO]: [STDOUT]: CLIENT enter state: WAITING_FOR_SERVER_MISSION_END
+[04:45:57] [EnvServerSocketHandler/INFO]: [STDOUT]: REPLYING WITH: MALMOBUSY
+[04:45:57] [Server thread/INFO]: [STDOUT]: SERVER request state: CLEAN_UP
+[04:45:57] [Server thread/INFO]: [STDOUT]: SERVER enter state: CLEAN_UP
+[04:45:57] [Server thread/INFO]: [STDOUT]: SERVER request state: DORMANT
+[04:45:57] [Client thread/INFO]: [STDOUT]: CLIENT request state: DORMANT
+[04:45:57] [Client thread/INFO]: [STDOUT]: CLIENT enter state: DORMANT
+[04:45:57] [Client thread/INFO]: [STDOUT]: JETTISONING 0 COMMANDS
+[04:45:58] [EnvServerSocketHandler/INFO]: [STDOUT]: Received from localhost:<MissionInit xmlns="http://ProjectMalmo.microsoft.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" SchemaVersion="" PlatformVersion="0.37.0"><Mission><About><Summary>MineRLTreechop-v0</Summary></About><ModSettings><MsPerTick>50</MsPerTick></ModSettings><ServerSection><HumanInteraction><Port>None</Port><MaxPlayers>10</MaxPlayers></HumanInteraction><ServerInitialConditions><Time><AllowPassageOfTime>false</AllowPassageOfTime></Time><AllowSpawning>true</AllowSpawning></ServerInitialConditions><ServerHandlers><DefaultWorldGenerator forceReset="true" generatorOptions="{&quot;coordinateScale&quot;:684.412,&quot;heightScale&quot;:684.412,&quot;lowerLimitScale&quot;:512.0,&quot;upperLimitScale&quot;:512.0,&quot;depthNoiseScaleX&quot;:200.0,&quot;depthNoiseScaleZ&quot;:200.0,&quot;depthNoiseScaleExponent&quot;:0.5,&quot;mainNoiseScaleX&quot;:80.0,&quot;mainNoiseScaleY&quot;:160.0,&quot;mainNoiseScaleZ&quot;:80.0,&quot;baseSize&quot;:8.5,&quot;stretchY&quot;:12.0,&quot;biomeDepthWeight&quot;:1.0,&quot;biomeDepthOffset&quot;:0.0,&quot;biomeScaleWeight&quot;:1.0,&quot;biomeScaleOffset&quot;:0.0,&quot;seaLevel&quot;:1,&quot;useCaves&quot;:false,&quot;useDungeons&quot;:false,&quot;dungeonChance&quot;:8,&quot;useStrongholds&quot;:false,&quot;useVillages&quot;:false,&quot;useMineShafts&quot;:false,&quot;useTemples&quot;:false,&quot;useMonuments&quot;:false,&quot;useMansions&quot;:false,&quot;useRavines&quot;:false,&quot;useWaterLakes&quot;:false,&quot;waterLakeChance&quot;:4,&quot;useLavaLakes&quot;:false,&quot;lavaLakeChance&quot;:80,&quot;useLavaOceans&quot;:false,&quot;fixedBiome&quot;:4,&quot;biomeSize&quot;:4,&quot;riverSize&quot;:1,&quot;dirtSize&quot;:33,&quot;dirtCount&quot;:10,&quot;dirtMinHeight&quot;:0,&quot;dirtMaxHeight&quot;:256,&quot;gravelSize&quot;:33,&quot;gravelCount&quot;:8,&quot;gravelMinHeight&quot;:0,&quot;gravelMaxHeight&quot;:256,&quot;graniteSize&quot;:33,&quot;graniteCount&quot;:10,&quot;graniteMinHeight&quot;:0,&quot;graniteMaxHeight&quot;:80,&quot;dioriteSize&quot;:33,&quot;dioriteCount&quot;:10,&quot;dioriteMinHeight&quot;:0,&quot;dioriteMaxHeight&quot;:80,&quot;andesiteSize&quot;:33,&quot;andesiteCount&quot;:10,&quot;andesiteMinHeight&quot;:0,&quot;andesiteMaxHeight&quot;:80,&quot;coalSize&quot;:17,&quot;coalCount&quot;:20,&quot;coalMinHeight&quot;:0,&quot;coalMaxHeight&quot;:128,&quot;ironSize&quot;:9,&quot;ironCount&quot;:20,&quot;ironMinHeight&quot;:0,&quot;ironMaxHeight&quot;:64,&quot;goldSize&quot;:9,&quot;goldCount&quot;:2,&quot;goldMinHeight&quot;:0,&quot;goldMaxHeight&quot;:32,&quot;redstoneSize&quot;:8,&quot;redstoneCount&quot;:8,&quot;redstoneMinHeight&quot;:0,&quot;redstoneMaxHeight&quot;:16,&quot;diamondSize&quot;:8,&quot;diamondCount&quot;:1,&quot;diamondMinHeight&quot;:0,&quot;diamondMaxHeight&quot;:16,&quot;lapisSize&quot;:7,&quot;lapisCount&quot;:1,&quot;lapisCenterHeight&quot;:16,&quot;lapisSpread&quot;:16}"/><ServerQuitFromTimeUp timeLimitMs="400000" description="out_of_time"/><ServerQuitWhenAnyAgentFinishes/></ServerHandlers></ServerSection><AgentSection mode="Survival"><Name>MineRLAgent0</Name><AgentStart><Inventory><InventoryObject slot="0" type="iron_axe" metadata="0" quantity="1"/></Inventory></AgentStart><AgentHandlers><FileBasedPerformanceProducer/><PauseCommand/><VideoProducer want_depth="false"><Width>64</Width><Height>64</Height></VideoProducer><HumanLevelCommands/><CameraCommands/><RewardForPossessingItem sparse="false" excludeLoops="true"><Item amount="1" reward="1.0" type="log"/></RewardForPossessingItem><AgentQuitFromPossessingItem><Item type="log" amount="64"/></AgentQuitFromPossessingItem></AgentHandlers></AgentSection></Mission><ExperimentUID>633f7b26-5dbd-4e06-9b6f-b95c295c84e1</ExperimentUID><ClientRole>0</ClientRole><ClientAgentConnection><ClientIPAddress>127.0.0.1</ClientIPAddress><ClientMissionControlPort>0</ClientMissionControlPort><ClientCommandsPort>0</ClientCommandsPort><AgentIPAddress>127.0.0.1</AgentIPAddress><AgentMissionControlPort>0</AgentMissionControlPort><AgentVideoPort>0</AgentVideoPort><AgentDepthPort>0</AgentDepthPort><AgentLuminancePort>0</AgentLuminancePort><AgentObservationsPort>0</AgentObservationsPort><AgentRewardsPort>0</AgentRewardsPort><AgentColourMapPort>0</AgentColourMapPort></ClientAgentConnection></MissionInit>
+[04:45:58] [EnvServerSocketHandler/INFO]: [STDOUT]: REPLYING WITH: MALMOOK
+[04:45:58] [Client thread/INFO]: [STDOUT]: Mission received: MineRLTreechop-v0
+[04:45:58] [Client thread/INFO]: [STDOUT]: CLIENT request state: CREATING_HANDLERS
+[04:45:58] [Client thread/INFO]: [STDOUT]: CLIENT enter state: CREATING_HANDLERS
+[04:45:58] [Client thread/INFO]: [STDOUT]: CLIENT request state: EVALUATING_WORLD_REQUIREMENTS
+[04:45:58] [Client thread/INFO]: [STDOUT]: CLIENT enter state: EVALUATING_WORLD_REQUIREMENTS
+[04:45:58] [Client thread/INFO]: [STDOUT]: CLIENT request state: PAUSING_OLD_SERVER
+[04:45:58] [Client thread/INFO]: [STDOUT]: CLIENT enter state: PAUSING_OLD_SERVER
+[04:45:58] [Server thread/INFO]: Saving and pausing game...
+[04:45:58] [Server thread/INFO]: Saving chunks for level 'TEMP_0_0570d5c4-be7d-4a67-8812-4f59b127db31'/Overworld
+[04:45:58] [Server thread/INFO]: Saving chunks for level 'TEMP_0_0570d5c4-be7d-4a67-8812-4f59b127db31'/Nether
+[04:45:58] [Server thread/INFO]: Saving chunks for level 'TEMP_0_0570d5c4-be7d-4a67-8812-4f59b127db31'/The End
+[04:45:58] [Client thread/INFO]: [STDOUT]: CLIENT request state: CLOSING_OLD_SERVER
+[04:45:58] [Client thread/INFO]: [STDOUT]: CLIENT enter state: CLOSING_OLD_SERVER
+[04:45:58] [Client thread/INFO]: [STDOUT]: Unpausing
+[04:45:59] [Server thread/INFO]: Stopping server
+[04:45:59] [Server thread/INFO]: Saving players
+[04:45:59] [Server thread/INFO]: MineRLAgent0 lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[04:45:59] [Server thread/INFO]: MineRLAgent0 left the game
+[04:45:59] [Server thread/INFO]: Stopping singleplayer server as player logged out
+[04:45:59] [Server thread/INFO]: Saving worlds
+[04:45:59] [Server thread/INFO]: Saving chunks for level 'TEMP_0_0570d5c4-be7d-4a67-8812-4f59b127db31'/Overworld
+[04:45:59] [Server thread/INFO]: Saving chunks for level 'TEMP_0_0570d5c4-be7d-4a67-8812-4f59b127db31'/Nether
+[04:45:59] [Server thread/INFO]: Saving chunks for level 'TEMP_0_0570d5c4-be7d-4a67-8812-4f59b127db31'/The End
+[04:45:59] [Server thread/INFO]: [STDOUT]: Unpausing
+[04:45:59] [Server thread/INFO]: [STDOUT]: Unpausing
+[04:45:59] [Server thread/INFO]: [STDOUT]: Unpausing
+[04:45:59] [Server thread/INFO]: Unloading dimension 0
+[04:45:59] [Server thread/INFO]: Unloading dimension -1
+[04:45:59] [Server thread/INFO]: Unloading dimension 1
+[04:45:59] [Server thread/INFO]: Applying holder lookups
+[04:45:59] [Server thread/INFO]: Holder lookups applied
+[04:46:09] [Client thread/INFO]: [STDOUT]: CLIENT request state: CREATING_NEW_WORLD
+[04:46:09] [Client thread/INFO]: [STDOUT]: CLIENT enter state: CREATING_NEW_WORLD
+[04:46:09] [Client thread/INFO]: [STDOUT]: [LOGTOPY] GENERATOR OPTIONS = {"coordinateScale":684.412,"heightScale":684.412,"lowerLimitScale":512.0,"upperLimitScale":512.0,"depthNoiseScaleX":200.0,"depthNoiseScaleZ":200.0,"depthNoiseScaleExponent":0.5,"mainNoiseScaleX":80.0,"mainNoiseScaleY":160.0,"mainNoiseScaleZ":80.0,"baseSize":8.5,"stretchY":12.0,"biomeDepthWeight":1.0,"biomeDepthOffset":0.0,"biomeScaleWeight":1.0,"biomeScaleOffset":0.0,"seaLevel":1,"useCaves":false,"useDungeons":false,"dungeonChance":8,"useStrongholds":false,"useVillages":false,"useMineShafts":false,"useTemples":false,"useMonuments":false,"useMansions":false,"useRavines":false,"useWaterLakes":false,"waterLakeChance":4,"useLavaLakes":false,"lavaLakeChance":80,"useLavaOceans":false,"fixedBiome":4,"biomeSize":4,"riverSize":1,"dirtSize":33,"dirtCount":10,"dirtMinHeight":0,"dirtMaxHeight":256,"gravelSize":33,"gravelCount":8,"gravelMinHeight":0,"gravelMaxHeight":256,"graniteSize":33,"graniteCount":10,"graniteMinHeight":0,"graniteMaxHeight":80,"dioriteSize":33,"dioriteCount":10,"dioriteMinHeight":0,"dioriteMaxHeight":80,"andesiteSize":33,"andesiteCount":10,"andesiteMinHeight":0,"andesiteMaxHeight":80,"coalSize":17,"coalCount":20,"coalMinHeight":0,"coalMaxHeight":128,"ironSize":9,"ironCount":20,"ironMinHeight":0,"ironMaxHeight":64,"goldSize":9,"goldCount":2,"goldMinHeight":0,"goldMaxHeight":32,"redstoneSize":8,"redstoneCount":8,"redstoneMinHeight":0,"redstoneMaxHeight":16,"diamondSize":8,"diamondCount":1,"diamondMinHeight":0,"diamondMaxHeight":16,"lapisSize":7,"lapisCount":1,"lapisCenterHeight":16,"lapisSpread":16}
+[04:46:09] [Server thread/INFO]: Starting integrated minecraft server version 1.11.2
+[04:46:09] [Server thread/INFO]: Generating keypair
+[04:46:09] [Server thread/INFO]: Injecting existing block and item data into this server instance
+[04:46:09] [Server thread/INFO]: Applying holder lookups
+[04:46:09] [Server thread/INFO]: Holder lookups applied
+[04:46:09] [Server thread/INFO]: Loading dimension 0 (TEMP_0_e1d46aee-60d3-487c-8fb8-d82c69ef6d1e) (net.minecraft.server.integrated.IntegratedServer@219fcb32)
+[04:46:10] [Server thread/INFO]: Loading dimension 1 (TEMP_0_e1d46aee-60d3-487c-8fb8-d82c69ef6d1e) (net.minecraft.server.integrated.IntegratedServer@219fcb32)
+[04:46:10] [Server thread/INFO]: Loading dimension -1 (TEMP_0_e1d46aee-60d3-487c-8fb8-d82c69ef6d1e) (net.minecraft.server.integrated.IntegratedServer@219fcb32)
+[04:46:10] [Server thread/INFO]: Preparing start region for level 0
+[04:46:11] [Server thread/INFO]: Preparing spawn area: 19%
+[04:46:12] [Server thread/INFO]: Preparing spawn area: 34%
+[04:46:13] [Server thread/INFO]: Preparing spawn area: 50%
+[04:46:14] [Server thread/INFO]: Preparing spawn area: 66%
+[04:46:15] [Server thread/INFO]: Preparing spawn area: 82%
+[04:46:16] [Server thread/INFO]: Preparing spawn area: 99%
+[04:46:16] [Server thread/INFO]: Changing view distance to 4, from 10
+[04:46:16] [Client thread/INFO]: Deleting level TEMP_0_0570d5c4-be7d-4a67-8812-4f59b127db31
+[04:46:16] [Client thread/INFO]: Attempt 1...
+[04:46:16] [Server thread/INFO]: [STDOUT]: SERVER request state: WAITING_FOR_MOD_READY
+[04:46:16] [Server thread/INFO]: [STDOUT]: CLIENT request state: WAITING_FOR_SERVER_READY
+[04:46:16] [Client thread/INFO]: [STDOUT]: CLIENT enter state: WAITING_FOR_SERVER_READY
+[04:46:16] [Server thread/INFO]: [STDOUT]: SERVER enter state: WAITING_FOR_MOD_READY
+[04:46:16] [Netty Local Client IO #2/INFO]: Server protocol version 2
+[04:46:16] [Netty Server IO #5/INFO]: Client protocol version 2
+[04:46:16] [Netty Server IO #5/INFO]: Client attempting to join with 5 mods : minecraft@1.11.2,FML@8.0.99.99,malmomod@0.37.0,forge@13.20.1.2588,mcp@9.19
+[04:46:16] [Netty Local Client IO #2/INFO]: [Netty Local Client IO #2] Client side modded connection established
+[04:46:16] [Server thread/INFO]: [STDOUT]: SERVER request state: DORMANT
+[04:46:16] [Server thread/INFO]: [STDOUT]: SERVER enter state: DORMANT
+[04:46:16] [Server thread/INFO]: [STDOUT]: INCOMING MISSION: Received MissionInit directly through ServerStateMachine constructor.
+[04:46:16] [Server thread/INFO]: [STDOUT]: Mission received: MineRLTreechop-v0
+[04:46:16] [Server thread/INFO]: Received mission: §9MineRLTreechop-v0
+[04:46:16] [Server thread/INFO]: Source: §alocalhost
+[04:46:16] [Server thread/INFO]: [STDOUT]: SERVER request state: BUILDING_WORLD
+[04:46:16] [Server thread/INFO]: [Server thread] Server side modded connection established
+[04:46:16] [Server thread/INFO]: MineRLAgent0[local:E:07950bae] logged in with entity id 20287 at (105.5, 75.0, 202.5)
+[04:46:16] [Server thread/INFO]: MineRLAgent0 joined the game
+[04:46:16] [Server thread/INFO]: [STDOUT]: SERVER enter state: BUILDING_WORLD
+[04:46:16] [Server thread/INFO]: [STDOUT]: SERVER request state: WAITING_FOR_AGENTS_TO_ASSEMBLE
+[04:46:16] [Server thread/INFO]: [STDOUT]: SERVER enter state: WAITING_FOR_AGENTS_TO_ASSEMBLE
+[04:46:16] [Server thread/INFO]: [STDOUT]: Experiment requires: 
+[04:46:16] [Server thread/INFO]: [STDOUT]: >>>> MineRLAgent0
+[04:46:16] [Client thread/INFO]: [STDERR]: Failed to tick client state episode: java.lang.NumberFormatException: For input string: "None"
+[04:46:16] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[04:46:16] [Server thread/INFO]: [STDOUT]: Initializing player with username MineRLAgent0 and agentname MineRLAgent0
+[04:46:17] [Client thread/INFO]: [STDOUT]: CLIENT request state: RUNNING
+[04:46:17] [Client thread/INFO]: [STDOUT]: CLIENT enter state: RUNNING
+[04:46:17] [Client thread/INFO]: [STDOUT]: Preparing reward com.microsoft.Malmo.MissionHandlers.RewardForPossessingItemImplementation@2a6bde7 with agent name MineRLAgent0
+[04:46:17] [Client thread/INFO]: [STDOUT]: Unpausing
+[04:46:17] [Server thread/INFO]: [STDOUT]: SERVER request state: RUNNING
+[04:46:17] [Server thread/INFO]: [STDOUT]: SERVER enter state: RUNNING
+RewardForPossessingItemImplementation - MineRLAgent0: 1
+[04:46:32] [Client thread/INFO]: [STDOUT]: SM: [CLIENT_STATE_MACHINE] Mission ended for reason: null world still exists: true
+[04:46:32] [Client thread/INFO]: [STDOUT]: Unpausing
+[04:46:32] [Client thread/INFO]: [STDOUT]: CLIENT request state: IDLING
+[04:46:32] [Client thread/INFO]: [STDOUT]: CLIENT enter state: IDLING
+[04:46:32] [Server thread/INFO]: [STDOUT]: WHY IS THIS NOT WORKING
+[04:46:32] [Server thread/INFO]: [STDOUT]: SERVER request state: WAITING_FOR_AGENTS_TO_QUIT
+[04:46:32] [Server thread/INFO]: [STDOUT]: SERVER enter state: WAITING_FOR_AGENTS_TO_QUIT
+[04:46:32] [EnvServerSocketHandler/INFO]: [STDOUT]: Received from localhost:<MissionInit xmlns="http://ProjectMalmo.microsoft.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" SchemaVersion="" PlatformVersion="0.37.0"><Mission><About><Summary>MineRLTreechop-v0</Summary></About><ModSettings><MsPerTick>50</MsPerTick></ModSettings><ServerSection><HumanInteraction><Port>None</Port><MaxPlayers>10</MaxPlayers></HumanInteraction><ServerInitialConditions><Time><AllowPassageOfTime>false</AllowPassageOfTime></Time><AllowSpawning>true</AllowSpawning></ServerInitialConditions><ServerHandlers><DefaultWorldGenerator forceReset="true" generatorOptions="{&quot;coordinateScale&quot;:684.412,&quot;heightScale&quot;:684.412,&quot;lowerLimitScale&quot;:512.0,&quot;upperLimitScale&quot;:512.0,&quot;depthNoiseScaleX&quot;:200.0,&quot;depthNoiseScaleZ&quot;:200.0,&quot;depthNoiseScaleExponent&quot;:0.5,&quot;mainNoiseScaleX&quot;:80.0,&quot;mainNoiseScaleY&quot;:160.0,&quot;mainNoiseScaleZ&quot;:80.0,&quot;baseSize&quot;:8.5,&quot;stretchY&quot;:12.0,&quot;biomeDepthWeight&quot;:1.0,&quot;biomeDepthOffset&quot;:0.0,&quot;biomeScaleWeight&quot;:1.0,&quot;biomeScaleOffset&quot;:0.0,&quot;seaLevel&quot;:1,&quot;useCaves&quot;:false,&quot;useDungeons&quot;:false,&quot;dungeonChance&quot;:8,&quot;useStrongholds&quot;:false,&quot;useVillages&quot;:false,&quot;useMineShafts&quot;:false,&quot;useTemples&quot;:false,&quot;useMonuments&quot;:false,&quot;useMansions&quot;:false,&quot;useRavines&quot;:false,&quot;useWaterLakes&quot;:false,&quot;waterLakeChance&quot;:4,&quot;useLavaLakes&quot;:false,&quot;lavaLakeChance&quot;:80,&quot;useLavaOceans&quot;:false,&quot;fixedBiome&quot;:4,&quot;biomeSize&quot;:4,&quot;riverSize&quot;:1,&quot;dirtSize&quot;:33,&quot;dirtCount&quot;:10,&quot;dirtMinHeight&quot;:0,&quot;dirtMaxHeight&quot;:256,&quot;gravelSize&quot;:33,&quot;gravelCount&quot;:8,&quot;gravelMinHeight&quot;:0,&quot;gravelMaxHeight&quot;:256,&quot;graniteSize&quot;:33,&quot;graniteCount&quot;:10,&quot;graniteMinHeight&quot;:0,&quot;graniteMaxHeight&quot;:80,&quot;dioriteSize&quot;:33,&quot;dioriteCount&quot;:10,&quot;dioriteMinHeight&quot;:0,&quot;dioriteMaxHeight&quot;:80,&quot;andesiteSize&quot;:33,&quot;andesiteCount&quot;:10,&quot;andesiteMinHeight&quot;:0,&quot;andesiteMaxHeight&quot;:80,&quot;coalSize&quot;:17,&quot;coalCount&quot;:20,&quot;coalMinHeight&quot;:0,&quot;coalMaxHeight&quot;:128,&quot;ironSize&quot;:9,&quot;ironCount&quot;:20,&quot;ironMinHeight&quot;:0,&quot;ironMaxHeight&quot;:64,&quot;goldSize&quot;:9,&quot;goldCount&quot;:2,&quot;goldMinHeight&quot;:0,&quot;goldMaxHeight&quot;:32,&quot;redstoneSize&quot;:8,&quot;redstoneCount&quot;:8,&quot;redstoneMinHeight&quot;:0,&quot;redstoneMaxHeight&quot;:16,&quot;diamondSize&quot;:8,&quot;diamondCount&quot;:1,&quot;diamondMinHeight&quot;:0,&quot;diamondMaxHeight&quot;:16,&quot;lapisSize&quot;:7,&quot;lapisCount&quot;:1,&quot;lapisCenterHeight&quot;:16,&quot;lapisSpread&quot;:16}"/><ServerQuitFromTimeUp timeLimitMs="400000" description="out_of_time"/><ServerQuitWhenAnyAgentFinishes/></ServerHandlers></ServerSection><AgentSection mode="Survival"><Name>MineRLAgent0</Name><AgentStart><Inventory><InventoryObject slot="0" type="iron_axe" metadata="0" quantity="1"/></Inventory></AgentStart><AgentHandlers><FileBasedPerformanceProducer/><PauseCommand/><VideoProducer want_depth="false"><Width>64</Width><Height>64</Height></VideoProducer><HumanLevelCommands/><CameraCommands/><RewardForPossessingItem sparse="false" excludeLoops="true"><Item amount="1" reward="1.0" type="log"/></RewardForPossessingItem><AgentQuitFromPossessingItem><Item type="log" amount="64"/></AgentQuitFromPossessingItem></AgentHandlers></AgentSection></Mission><ExperimentUID>7b780070-768a-424e-8991-4e24286e9ea2</ExperimentUID><ClientRole>0</ClientRole><ClientAgentConnection><ClientIPAddress>127.0.0.1</ClientIPAddress><ClientMissionControlPort>0</ClientMissionControlPort><ClientCommandsPort>0</ClientCommandsPort><AgentIPAddress>127.0.0.1</AgentIPAddress><AgentMissionControlPort>0</AgentMissionControlPort><AgentVideoPort>0</AgentVideoPort><AgentDepthPort>0</AgentDepthPort><AgentLuminancePort>0</AgentLuminancePort><AgentObservationsPort>0</AgentObservationsPort><AgentRewardsPort>0</AgentRewardsPort><AgentColourMapPort>0</AgentColourMapPort></ClientAgentConnection></MissionInit>
+[04:46:32] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:46:32] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:46:32] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:46:32] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:46:32] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:46:32] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:46:32] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:46:32] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:46:32] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:46:32] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:46:32] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:46:32] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:46:32] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:46:32] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:46:32] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:46:32] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:46:32] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:46:32] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:46:32] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:46:32] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:46:32] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:46:32] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:46:32] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:46:32] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:46:32] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:46:32] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:46:32] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:46:32] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:46:32] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:46:32] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:46:32] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:46:32] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:46:32] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:46:32] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:46:32] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:46:32] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:46:32] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:46:32] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:46:32] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:46:32] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:46:32] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:46:32] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:46:32] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:46:32] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:46:32] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:46:32] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:46:32] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:46:32] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:46:32] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:46:32] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:46:32] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:46:32] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:46:32] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:46:32] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:46:32] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:46:32] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:46:32] [EnvServerSocketHandler/INFO]: [STDOUT]: REPLYING WITH: MALMOBUSY
+[04:46:32] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:46:32] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:46:32] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:46:32] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:46:32] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:46:32] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:46:32] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:46:32] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:46:32] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:46:32] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:46:32] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:46:32] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:46:32] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:46:32] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:46:32] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:46:32] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:46:32] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:46:32] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:46:32] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:46:32] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:46:32] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:46:32] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:46:32] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:46:32] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:46:32] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:46:32] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:46:32] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:46:32] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:46:32] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:46:32] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:46:32] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:46:32] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:46:32] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:46:32] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:46:32] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:46:32] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:46:32] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:46:32] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:46:32] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:46:32] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:46:32] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:46:32] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:46:32] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:46:32] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:46:32] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:46:32] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:46:32] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:46:32] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:46:32] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:46:32] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:46:32] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:46:32] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:46:32] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:46:32] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:46:32] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:46:32] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:46:32] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:46:32] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:46:32] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:46:32] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:46:32] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:46:32] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:46:32] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:46:32] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:46:32] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:46:32] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:46:32] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:46:32] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:46:32] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:46:32] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:46:32] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:46:32] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:46:32] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:46:32] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:46:32] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:46:32] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:46:32] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:46:32] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:46:32] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:46:32] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:46:32] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:46:32] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:46:32] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:46:32] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:46:32] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:46:32] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:46:32] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:46:32] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:46:32] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:46:32] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:46:32] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:46:32] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:46:32] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:46:32] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:46:32] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:46:32] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:46:32] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:46:32] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:46:32] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:46:32] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:46:32] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:46:32] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:46:32] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:46:32] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:46:32] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:46:32] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:46:32] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:46:32] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:46:32] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:46:32] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:46:32] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:46:32] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:46:32] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:46:32] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:46:32] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:46:32] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:46:32] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:46:32] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:46:32] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:46:32] [Client thread/INFO]: [STDOUT]: CLIENT enter state: MISSION_ENDED
+[04:46:32] [Client thread/INFO]: [STDOUT]: inform the agent
+[04:46:32] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:46:32] [Client thread/INFO]: [STDOUT]: CLIENT request state: WAITING_FOR_SERVER_MISSION_END
+[04:46:33] [EnvServerSocketHandler/INFO]: [STDOUT]: Received from localhost:<MissionInit xmlns="http://ProjectMalmo.microsoft.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" SchemaVersion="" PlatformVersion="0.37.0"><Mission><About><Summary>MineRLTreechop-v0</Summary></About><ModSettings><MsPerTick>50</MsPerTick></ModSettings><ServerSection><HumanInteraction><Port>None</Port><MaxPlayers>10</MaxPlayers></HumanInteraction><ServerInitialConditions><Time><AllowPassageOfTime>false</AllowPassageOfTime></Time><AllowSpawning>true</AllowSpawning></ServerInitialConditions><ServerHandlers><DefaultWorldGenerator forceReset="true" generatorOptions="{&quot;coordinateScale&quot;:684.412,&quot;heightScale&quot;:684.412,&quot;lowerLimitScale&quot;:512.0,&quot;upperLimitScale&quot;:512.0,&quot;depthNoiseScaleX&quot;:200.0,&quot;depthNoiseScaleZ&quot;:200.0,&quot;depthNoiseScaleExponent&quot;:0.5,&quot;mainNoiseScaleX&quot;:80.0,&quot;mainNoiseScaleY&quot;:160.0,&quot;mainNoiseScaleZ&quot;:80.0,&quot;baseSize&quot;:8.5,&quot;stretchY&quot;:12.0,&quot;biomeDepthWeight&quot;:1.0,&quot;biomeDepthOffset&quot;:0.0,&quot;biomeScaleWeight&quot;:1.0,&quot;biomeScaleOffset&quot;:0.0,&quot;seaLevel&quot;:1,&quot;useCaves&quot;:false,&quot;useDungeons&quot;:false,&quot;dungeonChance&quot;:8,&quot;useStrongholds&quot;:false,&quot;useVillages&quot;:false,&quot;useMineShafts&quot;:false,&quot;useTemples&quot;:false,&quot;useMonuments&quot;:false,&quot;useMansions&quot;:false,&quot;useRavines&quot;:false,&quot;useWaterLakes&quot;:false,&quot;waterLakeChance&quot;:4,&quot;useLavaLakes&quot;:false,&quot;lavaLakeChance&quot;:80,&quot;useLavaOceans&quot;:false,&quot;fixedBiome&quot;:4,&quot;biomeSize&quot;:4,&quot;riverSize&quot;:1,&quot;dirtSize&quot;:33,&quot;dirtCount&quot;:10,&quot;dirtMinHeight&quot;:0,&quot;dirtMaxHeight&quot;:256,&quot;gravelSize&quot;:33,&quot;gravelCount&quot;:8,&quot;gravelMinHeight&quot;:0,&quot;gravelMaxHeight&quot;:256,&quot;graniteSize&quot;:33,&quot;graniteCount&quot;:10,&quot;graniteMinHeight&quot;:0,&quot;graniteMaxHeight&quot;:80,&quot;dioriteSize&quot;:33,&quot;dioriteCount&quot;:10,&quot;dioriteMinHeight&quot;:0,&quot;dioriteMaxHeight&quot;:80,&quot;andesiteSize&quot;:33,&quot;andesiteCount&quot;:10,&quot;andesiteMinHeight&quot;:0,&quot;andesiteMaxHeight&quot;:80,&quot;coalSize&quot;:17,&quot;coalCount&quot;:20,&quot;coalMinHeight&quot;:0,&quot;coalMaxHeight&quot;:128,&quot;ironSize&quot;:9,&quot;ironCount&quot;:20,&quot;ironMinHeight&quot;:0,&quot;ironMaxHeight&quot;:64,&quot;goldSize&quot;:9,&quot;goldCount&quot;:2,&quot;goldMinHeight&quot;:0,&quot;goldMaxHeight&quot;:32,&quot;redstoneSize&quot;:8,&quot;redstoneCount&quot;:8,&quot;redstoneMinHeight&quot;:0,&quot;redstoneMaxHeight&quot;:16,&quot;diamondSize&quot;:8,&quot;diamondCount&quot;:1,&quot;diamondMinHeight&quot;:0,&quot;diamondMaxHeight&quot;:16,&quot;lapisSize&quot;:7,&quot;lapisCount&quot;:1,&quot;lapisCenterHeight&quot;:16,&quot;lapisSpread&quot;:16}"/><ServerQuitFromTimeUp timeLimitMs="400000" description="out_of_time"/><ServerQuitWhenAnyAgentFinishes/></ServerHandlers></ServerSection><AgentSection mode="Survival"><Name>MineRLAgent0</Name><AgentStart><Inventory><InventoryObject slot="0" type="iron_axe" metadata="0" quantity="1"/></Inventory></AgentStart><AgentHandlers><FileBasedPerformanceProducer/><PauseCommand/><VideoProducer want_depth="false"><Width>64</Width><Height>64</Height></VideoProducer><HumanLevelCommands/><CameraCommands/><RewardForPossessingItem sparse="false" excludeLoops="true"><Item amount="1" reward="1.0" type="log"/></RewardForPossessingItem><AgentQuitFromPossessingItem><Item type="log" amount="64"/></AgentQuitFromPossessingItem></AgentHandlers></AgentSection></Mission><ExperimentUID>7b780070-768a-424e-8991-4e24286e9ea2</ExperimentUID><ClientRole>0</ClientRole><ClientAgentConnection><ClientIPAddress>127.0.0.1</ClientIPAddress><ClientMissionControlPort>0</ClientMissionControlPort><ClientCommandsPort>0</ClientCommandsPort><AgentIPAddress>127.0.0.1</AgentIPAddress><AgentMissionControlPort>0</AgentMissionControlPort><AgentVideoPort>0</AgentVideoPort><AgentDepthPort>0</AgentDepthPort><AgentLuminancePort>0</AgentLuminancePort><AgentObservationsPort>0</AgentObservationsPort><AgentRewardsPort>0</AgentRewardsPort><AgentColourMapPort>0</AgentColourMapPort></ClientAgentConnection></MissionInit>
+[04:46:33] [EnvServerSocketHandler/INFO]: [STDOUT]: REPLYING WITH: MALMOBUSY
+[04:46:34] [EnvServerSocketHandler/INFO]: [STDOUT]: Received from localhost:<MissionInit xmlns="http://ProjectMalmo.microsoft.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" SchemaVersion="" PlatformVersion="0.37.0"><Mission><About><Summary>MineRLTreechop-v0</Summary></About><ModSettings><MsPerTick>50</MsPerTick></ModSettings><ServerSection><HumanInteraction><Port>None</Port><MaxPlayers>10</MaxPlayers></HumanInteraction><ServerInitialConditions><Time><AllowPassageOfTime>false</AllowPassageOfTime></Time><AllowSpawning>true</AllowSpawning></ServerInitialConditions><ServerHandlers><DefaultWorldGenerator forceReset="true" generatorOptions="{&quot;coordinateScale&quot;:684.412,&quot;heightScale&quot;:684.412,&quot;lowerLimitScale&quot;:512.0,&quot;upperLimitScale&quot;:512.0,&quot;depthNoiseScaleX&quot;:200.0,&quot;depthNoiseScaleZ&quot;:200.0,&quot;depthNoiseScaleExponent&quot;:0.5,&quot;mainNoiseScaleX&quot;:80.0,&quot;mainNoiseScaleY&quot;:160.0,&quot;mainNoiseScaleZ&quot;:80.0,&quot;baseSize&quot;:8.5,&quot;stretchY&quot;:12.0,&quot;biomeDepthWeight&quot;:1.0,&quot;biomeDepthOffset&quot;:0.0,&quot;biomeScaleWeight&quot;:1.0,&quot;biomeScaleOffset&quot;:0.0,&quot;seaLevel&quot;:1,&quot;useCaves&quot;:false,&quot;useDungeons&quot;:false,&quot;dungeonChance&quot;:8,&quot;useStrongholds&quot;:false,&quot;useVillages&quot;:false,&quot;useMineShafts&quot;:false,&quot;useTemples&quot;:false,&quot;useMonuments&quot;:false,&quot;useMansions&quot;:false,&quot;useRavines&quot;:false,&quot;useWaterLakes&quot;:false,&quot;waterLakeChance&quot;:4,&quot;useLavaLakes&quot;:false,&quot;lavaLakeChance&quot;:80,&quot;useLavaOceans&quot;:false,&quot;fixedBiome&quot;:4,&quot;biomeSize&quot;:4,&quot;riverSize&quot;:1,&quot;dirtSize&quot;:33,&quot;dirtCount&quot;:10,&quot;dirtMinHeight&quot;:0,&quot;dirtMaxHeight&quot;:256,&quot;gravelSize&quot;:33,&quot;gravelCount&quot;:8,&quot;gravelMinHeight&quot;:0,&quot;gravelMaxHeight&quot;:256,&quot;graniteSize&quot;:33,&quot;graniteCount&quot;:10,&quot;graniteMinHeight&quot;:0,&quot;graniteMaxHeight&quot;:80,&quot;dioriteSize&quot;:33,&quot;dioriteCount&quot;:10,&quot;dioriteMinHeight&quot;:0,&quot;dioriteMaxHeight&quot;:80,&quot;andesiteSize&quot;:33,&quot;andesiteCount&quot;:10,&quot;andesiteMinHeight&quot;:0,&quot;andesiteMaxHeight&quot;:80,&quot;coalSize&quot;:17,&quot;coalCount&quot;:20,&quot;coalMinHeight&quot;:0,&quot;coalMaxHeight&quot;:128,&quot;ironSize&quot;:9,&quot;ironCount&quot;:20,&quot;ironMinHeight&quot;:0,&quot;ironMaxHeight&quot;:64,&quot;goldSize&quot;:9,&quot;goldCount&quot;:2,&quot;goldMinHeight&quot;:0,&quot;goldMaxHeight&quot;:32,&quot;redstoneSize&quot;:8,&quot;redstoneCount&quot;:8,&quot;redstoneMinHeight&quot;:0,&quot;redstoneMaxHeight&quot;:16,&quot;diamondSize&quot;:8,&quot;diamondCount&quot;:1,&quot;diamondMinHeight&quot;:0,&quot;diamondMaxHeight&quot;:16,&quot;lapisSize&quot;:7,&quot;lapisCount&quot;:1,&quot;lapisCenterHeight&quot;:16,&quot;lapisSpread&quot;:16}"/><ServerQuitFromTimeUp timeLimitMs="400000" description="out_of_time"/><ServerQuitWhenAnyAgentFinishes/></ServerHandlers></ServerSection><AgentSection mode="Survival"><Name>MineRLAgent0</Name><AgentStart><Inventory><InventoryObject slot="0" type="iron_axe" metadata="0" quantity="1"/></Inventory></AgentStart><AgentHandlers><FileBasedPerformanceProducer/><PauseCommand/><VideoProducer want_depth="false"><Width>64</Width><Height>64</Height></VideoProducer><HumanLevelCommands/><CameraCommands/><RewardForPossessingItem sparse="false" excludeLoops="true"><Item amount="1" reward="1.0" type="log"/></RewardForPossessingItem><AgentQuitFromPossessingItem><Item type="log" amount="64"/></AgentQuitFromPossessingItem></AgentHandlers></AgentSection></Mission><ExperimentUID>7b780070-768a-424e-8991-4e24286e9ea2</ExperimentUID><ClientRole>0</ClientRole><ClientAgentConnection><ClientIPAddress>127.0.0.1</ClientIPAddress><ClientMissionControlPort>0</ClientMissionControlPort><ClientCommandsPort>0</ClientCommandsPort><AgentIPAddress>127.0.0.1</AgentIPAddress><AgentMissionControlPort>0</AgentMissionControlPort><AgentVideoPort>0</AgentVideoPort><AgentDepthPort>0</AgentDepthPort><AgentLuminancePort>0</AgentLuminancePort><AgentObservationsPort>0</AgentObservationsPort><AgentRewardsPort>0</AgentRewardsPort><AgentColourMapPort>0</AgentColourMapPort></ClientAgentConnection></MissionInit>
+[04:46:34] [EnvServerSocketHandler/INFO]: [STDOUT]: REPLYING WITH: MALMOBUSY
+[04:46:34] [Client thread/INFO]: [STDOUT]: CLIENT enter state: WAITING_FOR_SERVER_MISSION_END
+[04:46:34] [Server thread/INFO]: [STDOUT]: SERVER request state: CLEAN_UP
+[04:46:34] [Server thread/INFO]: [STDOUT]: SERVER enter state: CLEAN_UP
+[04:46:34] [Server thread/INFO]: [STDOUT]: SERVER request state: DORMANT
+[04:46:34] [Client thread/INFO]: [STDOUT]: CLIENT request state: DORMANT
+[04:46:34] [Client thread/INFO]: [STDOUT]: CLIENT enter state: DORMANT
+[04:46:34] [Client thread/INFO]: [STDOUT]: JETTISONING 0 COMMANDS
+[04:46:35] [EnvServerSocketHandler/INFO]: [STDOUT]: Received from localhost:<MissionInit xmlns="http://ProjectMalmo.microsoft.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" SchemaVersion="" PlatformVersion="0.37.0"><Mission><About><Summary>MineRLTreechop-v0</Summary></About><ModSettings><MsPerTick>50</MsPerTick></ModSettings><ServerSection><HumanInteraction><Port>None</Port><MaxPlayers>10</MaxPlayers></HumanInteraction><ServerInitialConditions><Time><AllowPassageOfTime>false</AllowPassageOfTime></Time><AllowSpawning>true</AllowSpawning></ServerInitialConditions><ServerHandlers><DefaultWorldGenerator forceReset="true" generatorOptions="{&quot;coordinateScale&quot;:684.412,&quot;heightScale&quot;:684.412,&quot;lowerLimitScale&quot;:512.0,&quot;upperLimitScale&quot;:512.0,&quot;depthNoiseScaleX&quot;:200.0,&quot;depthNoiseScaleZ&quot;:200.0,&quot;depthNoiseScaleExponent&quot;:0.5,&quot;mainNoiseScaleX&quot;:80.0,&quot;mainNoiseScaleY&quot;:160.0,&quot;mainNoiseScaleZ&quot;:80.0,&quot;baseSize&quot;:8.5,&quot;stretchY&quot;:12.0,&quot;biomeDepthWeight&quot;:1.0,&quot;biomeDepthOffset&quot;:0.0,&quot;biomeScaleWeight&quot;:1.0,&quot;biomeScaleOffset&quot;:0.0,&quot;seaLevel&quot;:1,&quot;useCaves&quot;:false,&quot;useDungeons&quot;:false,&quot;dungeonChance&quot;:8,&quot;useStrongholds&quot;:false,&quot;useVillages&quot;:false,&quot;useMineShafts&quot;:false,&quot;useTemples&quot;:false,&quot;useMonuments&quot;:false,&quot;useMansions&quot;:false,&quot;useRavines&quot;:false,&quot;useWaterLakes&quot;:false,&quot;waterLakeChance&quot;:4,&quot;useLavaLakes&quot;:false,&quot;lavaLakeChance&quot;:80,&quot;useLavaOceans&quot;:false,&quot;fixedBiome&quot;:4,&quot;biomeSize&quot;:4,&quot;riverSize&quot;:1,&quot;dirtSize&quot;:33,&quot;dirtCount&quot;:10,&quot;dirtMinHeight&quot;:0,&quot;dirtMaxHeight&quot;:256,&quot;gravelSize&quot;:33,&quot;gravelCount&quot;:8,&quot;gravelMinHeight&quot;:0,&quot;gravelMaxHeight&quot;:256,&quot;graniteSize&quot;:33,&quot;graniteCount&quot;:10,&quot;graniteMinHeight&quot;:0,&quot;graniteMaxHeight&quot;:80,&quot;dioriteSize&quot;:33,&quot;dioriteCount&quot;:10,&quot;dioriteMinHeight&quot;:0,&quot;dioriteMaxHeight&quot;:80,&quot;andesiteSize&quot;:33,&quot;andesiteCount&quot;:10,&quot;andesiteMinHeight&quot;:0,&quot;andesiteMaxHeight&quot;:80,&quot;coalSize&quot;:17,&quot;coalCount&quot;:20,&quot;coalMinHeight&quot;:0,&quot;coalMaxHeight&quot;:128,&quot;ironSize&quot;:9,&quot;ironCount&quot;:20,&quot;ironMinHeight&quot;:0,&quot;ironMaxHeight&quot;:64,&quot;goldSize&quot;:9,&quot;goldCount&quot;:2,&quot;goldMinHeight&quot;:0,&quot;goldMaxHeight&quot;:32,&quot;redstoneSize&quot;:8,&quot;redstoneCount&quot;:8,&quot;redstoneMinHeight&quot;:0,&quot;redstoneMaxHeight&quot;:16,&quot;diamondSize&quot;:8,&quot;diamondCount&quot;:1,&quot;diamondMinHeight&quot;:0,&quot;diamondMaxHeight&quot;:16,&quot;lapisSize&quot;:7,&quot;lapisCount&quot;:1,&quot;lapisCenterHeight&quot;:16,&quot;lapisSpread&quot;:16}"/><ServerQuitFromTimeUp timeLimitMs="400000" description="out_of_time"/><ServerQuitWhenAnyAgentFinishes/></ServerHandlers></ServerSection><AgentSection mode="Survival"><Name>MineRLAgent0</Name><AgentStart><Inventory><InventoryObject slot="0" type="iron_axe" metadata="0" quantity="1"/></Inventory></AgentStart><AgentHandlers><FileBasedPerformanceProducer/><PauseCommand/><VideoProducer want_depth="false"><Width>64</Width><Height>64</Height></VideoProducer><HumanLevelCommands/><CameraCommands/><RewardForPossessingItem sparse="false" excludeLoops="true"><Item amount="1" reward="1.0" type="log"/></RewardForPossessingItem><AgentQuitFromPossessingItem><Item type="log" amount="64"/></AgentQuitFromPossessingItem></AgentHandlers></AgentSection></Mission><ExperimentUID>7b780070-768a-424e-8991-4e24286e9ea2</ExperimentUID><ClientRole>0</ClientRole><ClientAgentConnection><ClientIPAddress>127.0.0.1</ClientIPAddress><ClientMissionControlPort>0</ClientMissionControlPort><ClientCommandsPort>0</ClientCommandsPort><AgentIPAddress>127.0.0.1</AgentIPAddress><AgentMissionControlPort>0</AgentMissionControlPort><AgentVideoPort>0</AgentVideoPort><AgentDepthPort>0</AgentDepthPort><AgentLuminancePort>0</AgentLuminancePort><AgentObservationsPort>0</AgentObservationsPort><AgentRewardsPort>0</AgentRewardsPort><AgentColourMapPort>0</AgentColourMapPort></ClientAgentConnection></MissionInit>
+[04:46:35] [EnvServerSocketHandler/INFO]: [STDOUT]: REPLYING WITH: MALMOOK
+[04:46:35] [Client thread/INFO]: [STDOUT]: Mission received: MineRLTreechop-v0
+[04:46:35] [Client thread/INFO]: [STDOUT]: CLIENT request state: CREATING_HANDLERS
+[04:46:35] [Client thread/INFO]: [STDOUT]: CLIENT enter state: CREATING_HANDLERS
+[04:46:35] [Client thread/INFO]: [STDOUT]: CLIENT request state: EVALUATING_WORLD_REQUIREMENTS
+[04:46:35] [Client thread/INFO]: [STDOUT]: CLIENT enter state: EVALUATING_WORLD_REQUIREMENTS
+[04:46:35] [Client thread/INFO]: [STDOUT]: CLIENT request state: PAUSING_OLD_SERVER
+[04:46:35] [Client thread/INFO]: [STDOUT]: CLIENT enter state: PAUSING_OLD_SERVER
+[04:46:35] [Server thread/INFO]: Saving and pausing game...
+[04:46:35] [Server thread/INFO]: Saving chunks for level 'TEMP_0_e1d46aee-60d3-487c-8fb8-d82c69ef6d1e'/Overworld
+[04:46:35] [Server thread/INFO]: Saving chunks for level 'TEMP_0_e1d46aee-60d3-487c-8fb8-d82c69ef6d1e'/Nether
+[04:46:35] [Server thread/INFO]: Saving chunks for level 'TEMP_0_e1d46aee-60d3-487c-8fb8-d82c69ef6d1e'/The End
+[04:46:35] [Client thread/INFO]: [STDOUT]: CLIENT request state: CLOSING_OLD_SERVER
+[04:46:35] [Client thread/INFO]: [STDOUT]: CLIENT enter state: CLOSING_OLD_SERVER
+[04:46:35] [Client thread/INFO]: [STDOUT]: Unpausing
+[04:46:35] [Server thread/INFO]: Stopping server
+[04:46:35] [Server thread/INFO]: Saving players
+[04:46:35] [Server thread/INFO]: MineRLAgent0 lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[04:46:35] [Server thread/INFO]: MineRLAgent0 left the game
+[04:46:35] [Server thread/INFO]: Stopping singleplayer server as player logged out
+[04:46:35] [Server thread/INFO]: Saving worlds
+[04:46:35] [Server thread/INFO]: Saving chunks for level 'TEMP_0_e1d46aee-60d3-487c-8fb8-d82c69ef6d1e'/Overworld
+[04:46:35] [Server thread/INFO]: Saving chunks for level 'TEMP_0_e1d46aee-60d3-487c-8fb8-d82c69ef6d1e'/Nether
+[04:46:35] [Server thread/INFO]: Saving chunks for level 'TEMP_0_e1d46aee-60d3-487c-8fb8-d82c69ef6d1e'/The End
+[04:46:35] [Server thread/INFO]: [STDOUT]: Unpausing
+[04:46:36] [Server thread/INFO]: [STDOUT]: Unpausing
+[04:46:36] [Server thread/INFO]: [STDOUT]: Unpausing
+[04:46:36] [Server thread/INFO]: Unloading dimension 0
+[04:46:36] [Server thread/INFO]: Unloading dimension -1
+[04:46:36] [Server thread/INFO]: Unloading dimension 1
+[04:46:36] [Server thread/INFO]: Applying holder lookups
+[04:46:36] [Server thread/INFO]: Holder lookups applied
+[04:46:46] [Client thread/INFO]: [STDOUT]: CLIENT request state: CREATING_NEW_WORLD
+[04:46:46] [Client thread/INFO]: [STDOUT]: CLIENT enter state: CREATING_NEW_WORLD
+[04:46:46] [Client thread/INFO]: [STDOUT]: [LOGTOPY] GENERATOR OPTIONS = {"coordinateScale":684.412,"heightScale":684.412,"lowerLimitScale":512.0,"upperLimitScale":512.0,"depthNoiseScaleX":200.0,"depthNoiseScaleZ":200.0,"depthNoiseScaleExponent":0.5,"mainNoiseScaleX":80.0,"mainNoiseScaleY":160.0,"mainNoiseScaleZ":80.0,"baseSize":8.5,"stretchY":12.0,"biomeDepthWeight":1.0,"biomeDepthOffset":0.0,"biomeScaleWeight":1.0,"biomeScaleOffset":0.0,"seaLevel":1,"useCaves":false,"useDungeons":false,"dungeonChance":8,"useStrongholds":false,"useVillages":false,"useMineShafts":false,"useTemples":false,"useMonuments":false,"useMansions":false,"useRavines":false,"useWaterLakes":false,"waterLakeChance":4,"useLavaLakes":false,"lavaLakeChance":80,"useLavaOceans":false,"fixedBiome":4,"biomeSize":4,"riverSize":1,"dirtSize":33,"dirtCount":10,"dirtMinHeight":0,"dirtMaxHeight":256,"gravelSize":33,"gravelCount":8,"gravelMinHeight":0,"gravelMaxHeight":256,"graniteSize":33,"graniteCount":10,"graniteMinHeight":0,"graniteMaxHeight":80,"dioriteSize":33,"dioriteCount":10,"dioriteMinHeight":0,"dioriteMaxHeight":80,"andesiteSize":33,"andesiteCount":10,"andesiteMinHeight":0,"andesiteMaxHeight":80,"coalSize":17,"coalCount":20,"coalMinHeight":0,"coalMaxHeight":128,"ironSize":9,"ironCount":20,"ironMinHeight":0,"ironMaxHeight":64,"goldSize":9,"goldCount":2,"goldMinHeight":0,"goldMaxHeight":32,"redstoneSize":8,"redstoneCount":8,"redstoneMinHeight":0,"redstoneMaxHeight":16,"diamondSize":8,"diamondCount":1,"diamondMinHeight":0,"diamondMaxHeight":16,"lapisSize":7,"lapisCount":1,"lapisCenterHeight":16,"lapisSpread":16}
+[04:46:46] [Server thread/INFO]: Starting integrated minecraft server version 1.11.2
+[04:46:46] [Server thread/INFO]: Generating keypair
+[04:46:46] [Server thread/INFO]: Injecting existing block and item data into this server instance
+[04:46:46] [Server thread/INFO]: Applying holder lookups
+[04:46:46] [Server thread/INFO]: Holder lookups applied
+[04:46:46] [Server thread/INFO]: Loading dimension 0 (TEMP_0_ad41d7ed-b128-4e68-87bf-335ccdfe8464) (net.minecraft.server.integrated.IntegratedServer@78773508)
+[04:46:46] [Server thread/INFO]: Loading dimension 1 (TEMP_0_ad41d7ed-b128-4e68-87bf-335ccdfe8464) (net.minecraft.server.integrated.IntegratedServer@78773508)
+[04:46:46] [Server thread/INFO]: Loading dimension -1 (TEMP_0_ad41d7ed-b128-4e68-87bf-335ccdfe8464) (net.minecraft.server.integrated.IntegratedServer@78773508)
+[04:46:46] [Server thread/INFO]: Preparing start region for level 0
+[04:46:47] [Server thread/INFO]: Preparing spawn area: 20%
+[04:46:48] [Server thread/INFO]: Preparing spawn area: 38%
+[04:46:49] [Server thread/INFO]: Preparing spawn area: 55%
+[04:46:50] [Server thread/INFO]: Preparing spawn area: 72%
+[04:46:51] [Server thread/INFO]: Preparing spawn area: 88%
+[04:46:52] [Server thread/INFO]: Changing view distance to 4, from 10
+[04:46:52] [Client thread/INFO]: Deleting level TEMP_0_e1d46aee-60d3-487c-8fb8-d82c69ef6d1e
+[04:46:52] [Client thread/INFO]: Attempt 1...
+[04:46:52] [Server thread/INFO]: [STDOUT]: SERVER request state: WAITING_FOR_MOD_READY
+[04:46:52] [Server thread/INFO]: [STDOUT]: CLIENT request state: WAITING_FOR_SERVER_READY
+[04:46:52] [Client thread/INFO]: [STDOUT]: CLIENT enter state: WAITING_FOR_SERVER_READY
+[04:46:52] [Server thread/INFO]: [STDOUT]: SERVER enter state: WAITING_FOR_MOD_READY
+[04:46:52] [Netty Local Client IO #3/INFO]: Server protocol version 2
+[04:46:52] [Netty Server IO #7/INFO]: Client protocol version 2
+[04:46:52] [Netty Server IO #7/INFO]: Client attempting to join with 5 mods : minecraft@1.11.2,FML@8.0.99.99,malmomod@0.37.0,forge@13.20.1.2588,mcp@9.19
+[04:46:52] [Netty Local Client IO #3/INFO]: [Netty Local Client IO #3] Client side modded connection established
+[04:46:52] [Server thread/INFO]: [STDOUT]: SERVER request state: DORMANT
+[04:46:52] [Server thread/INFO]: [STDOUT]: SERVER enter state: DORMANT
+[04:46:52] [Server thread/INFO]: [STDOUT]: INCOMING MISSION: Received MissionInit directly through ServerStateMachine constructor.
+[04:46:52] [Server thread/INFO]: [STDOUT]: Mission received: MineRLTreechop-v0
+[04:46:52] [Server thread/INFO]: Received mission: §9MineRLTreechop-v0
+[04:46:52] [Server thread/INFO]: Source: §alocalhost
+[04:46:52] [Server thread/INFO]: [STDOUT]: SERVER request state: BUILDING_WORLD
+[04:46:52] [Server thread/INFO]: [Server thread] Server side modded connection established
+[04:46:52] [Server thread/INFO]: MineRLAgent0[local:E:c4a29223] logged in with entity id 29525 at (-255.5, 65.0, 248.5)
+[04:46:52] [Server thread/INFO]: MineRLAgent0 joined the game
+[04:46:52] [Server thread/INFO]: [STDOUT]: SERVER enter state: BUILDING_WORLD
+[04:46:52] [Server thread/INFO]: [STDOUT]: SERVER request state: WAITING_FOR_AGENTS_TO_ASSEMBLE
+[04:46:52] [Server thread/INFO]: [STDOUT]: SERVER enter state: WAITING_FOR_AGENTS_TO_ASSEMBLE
+[04:46:52] [Server thread/INFO]: [STDOUT]: Experiment requires: 
+[04:46:52] [Server thread/INFO]: [STDOUT]: >>>> MineRLAgent0
+[04:46:53] [Client thread/INFO]: [STDERR]: Failed to tick client state episode: java.lang.NumberFormatException: For input string: "None"
+[04:46:53] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[04:46:53] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[04:46:53] [Server thread/INFO]: [STDOUT]: Initializing player with username MineRLAgent0 and agentname MineRLAgent0
+[04:46:53] [Client thread/INFO]: [STDOUT]: CLIENT request state: RUNNING
+[04:46:53] [Client thread/INFO]: [STDOUT]: CLIENT enter state: RUNNING
+[04:46:53] [Client thread/INFO]: [STDOUT]: Preparing reward com.microsoft.Malmo.MissionHandlers.RewardForPossessingItemImplementation@27f5d88 with agent name MineRLAgent0
+[04:46:53] [Client thread/INFO]: [STDOUT]: Unpausing
+[04:46:53] [Server thread/INFO]: [STDOUT]: SERVER request state: RUNNING
+[04:46:53] [Server thread/INFO]: [STDOUT]: SERVER enter state: RUNNING
+[04:47:03] [Client thread/INFO]: [STDOUT]: SM: [CLIENT_STATE_MACHINE] Mission ended for reason: null world still exists: true
+[04:47:03] [Client thread/INFO]: [STDOUT]: Unpausing
+[04:47:03] [Client thread/INFO]: [STDOUT]: CLIENT request state: IDLING
+[04:47:03] [Client thread/INFO]: [STDOUT]: CLIENT enter state: IDLING
+[04:47:03] [Server thread/INFO]: [STDOUT]: WHY IS THIS NOT WORKING
+[04:47:03] [Server thread/INFO]: [STDOUT]: SERVER request state: WAITING_FOR_AGENTS_TO_QUIT
+[04:47:03] [Server thread/INFO]: [STDOUT]: SERVER enter state: WAITING_FOR_AGENTS_TO_QUIT
+[04:47:03] [EnvServerSocketHandler/INFO]: [STDOUT]: Received from localhost:<MissionInit xmlns="http://ProjectMalmo.microsoft.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" SchemaVersion="" PlatformVersion="0.37.0"><Mission><About><Summary>MineRLTreechop-v0</Summary></About><ModSettings><MsPerTick>50</MsPerTick></ModSettings><ServerSection><HumanInteraction><Port>None</Port><MaxPlayers>10</MaxPlayers></HumanInteraction><ServerInitialConditions><Time><AllowPassageOfTime>false</AllowPassageOfTime></Time><AllowSpawning>true</AllowSpawning></ServerInitialConditions><ServerHandlers><DefaultWorldGenerator forceReset="true" generatorOptions="{&quot;coordinateScale&quot;:684.412,&quot;heightScale&quot;:684.412,&quot;lowerLimitScale&quot;:512.0,&quot;upperLimitScale&quot;:512.0,&quot;depthNoiseScaleX&quot;:200.0,&quot;depthNoiseScaleZ&quot;:200.0,&quot;depthNoiseScaleExponent&quot;:0.5,&quot;mainNoiseScaleX&quot;:80.0,&quot;mainNoiseScaleY&quot;:160.0,&quot;mainNoiseScaleZ&quot;:80.0,&quot;baseSize&quot;:8.5,&quot;stretchY&quot;:12.0,&quot;biomeDepthWeight&quot;:1.0,&quot;biomeDepthOffset&quot;:0.0,&quot;biomeScaleWeight&quot;:1.0,&quot;biomeScaleOffset&quot;:0.0,&quot;seaLevel&quot;:1,&quot;useCaves&quot;:false,&quot;useDungeons&quot;:false,&quot;dungeonChance&quot;:8,&quot;useStrongholds&quot;:false,&quot;useVillages&quot;:false,&quot;useMineShafts&quot;:false,&quot;useTemples&quot;:false,&quot;useMonuments&quot;:false,&quot;useMansions&quot;:false,&quot;useRavines&quot;:false,&quot;useWaterLakes&quot;:false,&quot;waterLakeChance&quot;:4,&quot;useLavaLakes&quot;:false,&quot;lavaLakeChance&quot;:80,&quot;useLavaOceans&quot;:false,&quot;fixedBiome&quot;:4,&quot;biomeSize&quot;:4,&quot;riverSize&quot;:1,&quot;dirtSize&quot;:33,&quot;dirtCount&quot;:10,&quot;dirtMinHeight&quot;:0,&quot;dirtMaxHeight&quot;:256,&quot;gravelSize&quot;:33,&quot;gravelCount&quot;:8,&quot;gravelMinHeight&quot;:0,&quot;gravelMaxHeight&quot;:256,&quot;graniteSize&quot;:33,&quot;graniteCount&quot;:10,&quot;graniteMinHeight&quot;:0,&quot;graniteMaxHeight&quot;:80,&quot;dioriteSize&quot;:33,&quot;dioriteCount&quot;:10,&quot;dioriteMinHeight&quot;:0,&quot;dioriteMaxHeight&quot;:80,&quot;andesiteSize&quot;:33,&quot;andesiteCount&quot;:10,&quot;andesiteMinHeight&quot;:0,&quot;andesiteMaxHeight&quot;:80,&quot;coalSize&quot;:17,&quot;coalCount&quot;:20,&quot;coalMinHeight&quot;:0,&quot;coalMaxHeight&quot;:128,&quot;ironSize&quot;:9,&quot;ironCount&quot;:20,&quot;ironMinHeight&quot;:0,&quot;ironMaxHeight&quot;:64,&quot;goldSize&quot;:9,&quot;goldCount&quot;:2,&quot;goldMinHeight&quot;:0,&quot;goldMaxHeight&quot;:32,&quot;redstoneSize&quot;:8,&quot;redstoneCount&quot;:8,&quot;redstoneMinHeight&quot;:0,&quot;redstoneMaxHeight&quot;:16,&quot;diamondSize&quot;:8,&quot;diamondCount&quot;:1,&quot;diamondMinHeight&quot;:0,&quot;diamondMaxHeight&quot;:16,&quot;lapisSize&quot;:7,&quot;lapisCount&quot;:1,&quot;lapisCenterHeight&quot;:16,&quot;lapisSpread&quot;:16}"/><ServerQuitFromTimeUp timeLimitMs="400000" description="out_of_time"/><ServerQuitWhenAnyAgentFinishes/></ServerHandlers></ServerSection><AgentSection mode="Survival"><Name>MineRLAgent0</Name><AgentStart><Inventory><InventoryObject slot="0" type="iron_axe" metadata="0" quantity="1"/></Inventory></AgentStart><AgentHandlers><FileBasedPerformanceProducer/><PauseCommand/><VideoProducer want_depth="false"><Width>64</Width><Height>64</Height></VideoProducer><HumanLevelCommands/><CameraCommands/><RewardForPossessingItem sparse="false" excludeLoops="true"><Item amount="1" reward="1.0" type="log"/></RewardForPossessingItem><AgentQuitFromPossessingItem><Item type="log" amount="64"/></AgentQuitFromPossessingItem></AgentHandlers></AgentSection></Mission><ExperimentUID>ae681940-0c70-45f0-a901-5bb470a28740</ExperimentUID><ClientRole>0</ClientRole><ClientAgentConnection><ClientIPAddress>127.0.0.1</ClientIPAddress><ClientMissionControlPort>0</ClientMissionControlPort><ClientCommandsPort>0</ClientCommandsPort><AgentIPAddress>127.0.0.1</AgentIPAddress><AgentMissionControlPort>0</AgentMissionControlPort><AgentVideoPort>0</AgentVideoPort><AgentDepthPort>0</AgentDepthPort><AgentLuminancePort>0</AgentLuminancePort><AgentObservationsPort>0</AgentObservationsPort><AgentRewardsPort>0</AgentRewardsPort><AgentColourMapPort>0</AgentColourMapPort></ClientAgentConnection></MissionInit>
+[04:47:03] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:47:03] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:47:03] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:47:03] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:47:03] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:47:03] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:47:03] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:47:03] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:47:03] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:47:03] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:47:03] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:47:03] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:47:03] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:47:03] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:47:03] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:47:03] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:47:03] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:47:03] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:47:03] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:47:03] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:47:03] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:47:03] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:47:03] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:47:03] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:47:03] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:47:03] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:47:03] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:47:03] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:47:03] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:47:03] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:47:03] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:47:03] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:47:03] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:47:03] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:47:03] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:47:03] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:47:03] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:47:03] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:47:03] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:47:03] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:47:03] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:47:03] [EnvServerSocketHandler/INFO]: [STDOUT]: REPLYING WITH: MALMOBUSY
+[04:47:03] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:47:03] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:47:03] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:47:03] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:47:03] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:47:03] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:47:03] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:47:03] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:47:03] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:47:03] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:47:03] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:47:03] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:47:03] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:47:03] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:47:03] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:47:03] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:47:03] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:47:03] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:47:03] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:47:03] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:47:03] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:47:03] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:47:03] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:47:03] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:47:03] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:47:03] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:47:03] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:47:03] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:47:03] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:47:03] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:47:03] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:47:03] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:47:03] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:47:03] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:47:03] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:47:03] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:47:03] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:47:03] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:47:03] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:47:03] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:47:03] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:47:03] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:47:03] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:47:03] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:47:03] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:47:03] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:47:03] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:47:03] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:47:03] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:47:03] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:47:03] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:47:03] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:47:03] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:47:03] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:47:03] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:47:03] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:47:03] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:47:03] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:47:03] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:47:03] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:47:03] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:47:03] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:47:03] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:47:03] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:47:03] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:47:03] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:47:03] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:47:03] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:47:03] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:47:03] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:47:03] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:47:03] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:47:03] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:47:03] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:47:03] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:47:03] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:47:03] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:47:03] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:47:03] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:47:03] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:47:03] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:47:03] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:47:03] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:47:03] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:47:03] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:47:03] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:47:03] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:47:03] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:47:03] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:47:03] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:47:03] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:47:03] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:47:03] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:47:03] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:47:03] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:47:03] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:47:03] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:47:03] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:47:03] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:47:03] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:47:03] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:47:03] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:47:03] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:47:03] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:47:03] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:47:03] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:47:03] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:47:03] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:47:03] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:47:03] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:47:03] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:47:03] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:47:03] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:47:03] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:47:03] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:47:03] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:47:03] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:47:03] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:47:03] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:47:03] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:47:03] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:47:03] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:47:03] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:47:03] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:47:03] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:47:03] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:47:03] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:47:03] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:47:03] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:47:03] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:47:03] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:47:03] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:47:03] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:47:03] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:47:03] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:47:03] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:47:03] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:47:03] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:47:03] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:47:03] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:47:03] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:47:03] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:47:03] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:47:03] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:47:03] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:47:03] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:47:03] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:47:03] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:47:03] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:47:03] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:47:03] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:47:03] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:47:03] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:47:03] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:47:03] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:47:03] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:47:03] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:47:03] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:47:03] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:47:03] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:47:03] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:47:03] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:47:03] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:47:03] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:47:03] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:47:03] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:47:03] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:47:03] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:47:03] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:47:03] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:47:03] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:47:03] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:47:03] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:47:03] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:47:03] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:47:03] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:47:03] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:47:03] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:47:03] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:47:03] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:47:03] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:47:03] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[04:47:03] [Client thread/INFO]: [STDOUT]: CLIENT enter state: MISSION_ENDED
+[04:47:03] [Client thread/INFO]: [STDOUT]: inform the agent
+[04:47:03] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[04:47:03] [Client thread/INFO]: [STDOUT]: CLIENT request state: WAITING_FOR_SERVER_MISSION_END
+[04:47:04] [EnvServerSocketHandler/INFO]: [STDOUT]: Received from localhost:<MissionInit xmlns="http://ProjectMalmo.microsoft.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" SchemaVersion="" PlatformVersion="0.37.0"><Mission><About><Summary>MineRLTreechop-v0</Summary></About><ModSettings><MsPerTick>50</MsPerTick></ModSettings><ServerSection><HumanInteraction><Port>None</Port><MaxPlayers>10</MaxPlayers></HumanInteraction><ServerInitialConditions><Time><AllowPassageOfTime>false</AllowPassageOfTime></Time><AllowSpawning>true</AllowSpawning></ServerInitialConditions><ServerHandlers><DefaultWorldGenerator forceReset="true" generatorOptions="{&quot;coordinateScale&quot;:684.412,&quot;heightScale&quot;:684.412,&quot;lowerLimitScale&quot;:512.0,&quot;upperLimitScale&quot;:512.0,&quot;depthNoiseScaleX&quot;:200.0,&quot;depthNoiseScaleZ&quot;:200.0,&quot;depthNoiseScaleExponent&quot;:0.5,&quot;mainNoiseScaleX&quot;:80.0,&quot;mainNoiseScaleY&quot;:160.0,&quot;mainNoiseScaleZ&quot;:80.0,&quot;baseSize&quot;:8.5,&quot;stretchY&quot;:12.0,&quot;biomeDepthWeight&quot;:1.0,&quot;biomeDepthOffset&quot;:0.0,&quot;biomeScaleWeight&quot;:1.0,&quot;biomeScaleOffset&quot;:0.0,&quot;seaLevel&quot;:1,&quot;useCaves&quot;:false,&quot;useDungeons&quot;:false,&quot;dungeonChance&quot;:8,&quot;useStrongholds&quot;:false,&quot;useVillages&quot;:false,&quot;useMineShafts&quot;:false,&quot;useTemples&quot;:false,&quot;useMonuments&quot;:false,&quot;useMansions&quot;:false,&quot;useRavines&quot;:false,&quot;useWaterLakes&quot;:false,&quot;waterLakeChance&quot;:4,&quot;useLavaLakes&quot;:false,&quot;lavaLakeChance&quot;:80,&quot;useLavaOceans&quot;:false,&quot;fixedBiome&quot;:4,&quot;biomeSize&quot;:4,&quot;riverSize&quot;:1,&quot;dirtSize&quot;:33,&quot;dirtCount&quot;:10,&quot;dirtMinHeight&quot;:0,&quot;dirtMaxHeight&quot;:256,&quot;gravelSize&quot;:33,&quot;gravelCount&quot;:8,&quot;gravelMinHeight&quot;:0,&quot;gravelMaxHeight&quot;:256,&quot;graniteSize&quot;:33,&quot;graniteCount&quot;:10,&quot;graniteMinHeight&quot;:0,&quot;graniteMaxHeight&quot;:80,&quot;dioriteSize&quot;:33,&quot;dioriteCount&quot;:10,&quot;dioriteMinHeight&quot;:0,&quot;dioriteMaxHeight&quot;:80,&quot;andesiteSize&quot;:33,&quot;andesiteCount&quot;:10,&quot;andesiteMinHeight&quot;:0,&quot;andesiteMaxHeight&quot;:80,&quot;coalSize&quot;:17,&quot;coalCount&quot;:20,&quot;coalMinHeight&quot;:0,&quot;coalMaxHeight&quot;:128,&quot;ironSize&quot;:9,&quot;ironCount&quot;:20,&quot;ironMinHeight&quot;:0,&quot;ironMaxHeight&quot;:64,&quot;goldSize&quot;:9,&quot;goldCount&quot;:2,&quot;goldMinHeight&quot;:0,&quot;goldMaxHeight&quot;:32,&quot;redstoneSize&quot;:8,&quot;redstoneCount&quot;:8,&quot;redstoneMinHeight&quot;:0,&quot;redstoneMaxHeight&quot;:16,&quot;diamondSize&quot;:8,&quot;diamondCount&quot;:1,&quot;diamondMinHeight&quot;:0,&quot;diamondMaxHeight&quot;:16,&quot;lapisSize&quot;:7,&quot;lapisCount&quot;:1,&quot;lapisCenterHeight&quot;:16,&quot;lapisSpread&quot;:16}"/><ServerQuitFromTimeUp timeLimitMs="400000" description="out_of_time"/><ServerQuitWhenAnyAgentFinishes/></ServerHandlers></ServerSection><AgentSection mode="Survival"><Name>MineRLAgent0</Name><AgentStart><Inventory><InventoryObject slot="0" type="iron_axe" metadata="0" quantity="1"/></Inventory></AgentStart><AgentHandlers><FileBasedPerformanceProducer/><PauseCommand/><VideoProducer want_depth="false"><Width>64</Width><Height>64</Height></VideoProducer><HumanLevelCommands/><CameraCommands/><RewardForPossessingItem sparse="false" excludeLoops="true"><Item amount="1" reward="1.0" type="log"/></RewardForPossessingItem><AgentQuitFromPossessingItem><Item type="log" amount="64"/></AgentQuitFromPossessingItem></AgentHandlers></AgentSection></Mission><ExperimentUID>ae681940-0c70-45f0-a901-5bb470a28740</ExperimentUID><ClientRole>0</ClientRole><ClientAgentConnection><ClientIPAddress>127.0.0.1</ClientIPAddress><ClientMissionControlPort>0</ClientMissionControlPort><ClientCommandsPort>0</ClientCommandsPort><AgentIPAddress>127.0.0.1</AgentIPAddress><AgentMissionControlPort>0</AgentMissionControlPort><AgentVideoPort>0</AgentVideoPort><AgentDepthPort>0</AgentDepthPort><AgentLuminancePort>0</AgentLuminancePort><AgentObservationsPort>0</AgentObservationsPort><AgentRewardsPort>0</AgentRewardsPort><AgentColourMapPort>0</AgentColourMapPort></ClientAgentConnection></MissionInit>
+[04:47:04] [EnvServerSocketHandler/INFO]: [STDOUT]: REPLYING WITH: MALMOBUSY
+[04:47:05] [EnvServerSocketHandler/INFO]: [STDOUT]: Received from localhost:<MissionInit xmlns="http://ProjectMalmo.microsoft.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" SchemaVersion="" PlatformVersion="0.37.0"><Mission><About><Summary>MineRLTreechop-v0</Summary></About><ModSettings><MsPerTick>50</MsPerTick></ModSettings><ServerSection><HumanInteraction><Port>None</Port><MaxPlayers>10</MaxPlayers></HumanInteraction><ServerInitialConditions><Time><AllowPassageOfTime>false</AllowPassageOfTime></Time><AllowSpawning>true</AllowSpawning></ServerInitialConditions><ServerHandlers><DefaultWorldGenerator forceReset="true" generatorOptions="{&quot;coordinateScale&quot;:684.412,&quot;heightScale&quot;:684.412,&quot;lowerLimitScale&quot;:512.0,&quot;upperLimitScale&quot;:512.0,&quot;depthNoiseScaleX&quot;:200.0,&quot;depthNoiseScaleZ&quot;:200.0,&quot;depthNoiseScaleExponent&quot;:0.5,&quot;mainNoiseScaleX&quot;:80.0,&quot;mainNoiseScaleY&quot;:160.0,&quot;mainNoiseScaleZ&quot;:80.0,&quot;baseSize&quot;:8.5,&quot;stretchY&quot;:12.0,&quot;biomeDepthWeight&quot;:1.0,&quot;biomeDepthOffset&quot;:0.0,&quot;biomeScaleWeight&quot;:1.0,&quot;biomeScaleOffset&quot;:0.0,&quot;seaLevel&quot;:1,&quot;useCaves&quot;:false,&quot;useDungeons&quot;:false,&quot;dungeonChance&quot;:8,&quot;useStrongholds&quot;:false,&quot;useVillages&quot;:false,&quot;useMineShafts&quot;:false,&quot;useTemples&quot;:false,&quot;useMonuments&quot;:false,&quot;useMansions&quot;:false,&quot;useRavines&quot;:false,&quot;useWaterLakes&quot;:false,&quot;waterLakeChance&quot;:4,&quot;useLavaLakes&quot;:false,&quot;lavaLakeChance&quot;:80,&quot;useLavaOceans&quot;:false,&quot;fixedBiome&quot;:4,&quot;biomeSize&quot;:4,&quot;riverSize&quot;:1,&quot;dirtSize&quot;:33,&quot;dirtCount&quot;:10,&quot;dirtMinHeight&quot;:0,&quot;dirtMaxHeight&quot;:256,&quot;gravelSize&quot;:33,&quot;gravelCount&quot;:8,&quot;gravelMinHeight&quot;:0,&quot;gravelMaxHeight&quot;:256,&quot;graniteSize&quot;:33,&quot;graniteCount&quot;:10,&quot;graniteMinHeight&quot;:0,&quot;graniteMaxHeight&quot;:80,&quot;dioriteSize&quot;:33,&quot;dioriteCount&quot;:10,&quot;dioriteMinHeight&quot;:0,&quot;dioriteMaxHeight&quot;:80,&quot;andesiteSize&quot;:33,&quot;andesiteCount&quot;:10,&quot;andesiteMinHeight&quot;:0,&quot;andesiteMaxHeight&quot;:80,&quot;coalSize&quot;:17,&quot;coalCount&quot;:20,&quot;coalMinHeight&quot;:0,&quot;coalMaxHeight&quot;:128,&quot;ironSize&quot;:9,&quot;ironCount&quot;:20,&quot;ironMinHeight&quot;:0,&quot;ironMaxHeight&quot;:64,&quot;goldSize&quot;:9,&quot;goldCount&quot;:2,&quot;goldMinHeight&quot;:0,&quot;goldMaxHeight&quot;:32,&quot;redstoneSize&quot;:8,&quot;redstoneCount&quot;:8,&quot;redstoneMinHeight&quot;:0,&quot;redstoneMaxHeight&quot;:16,&quot;diamondSize&quot;:8,&quot;diamondCount&quot;:1,&quot;diamondMinHeight&quot;:0,&quot;diamondMaxHeight&quot;:16,&quot;lapisSize&quot;:7,&quot;lapisCount&quot;:1,&quot;lapisCenterHeight&quot;:16,&quot;lapisSpread&quot;:16}"/><ServerQuitFromTimeUp timeLimitMs="400000" description="out_of_time"/><ServerQuitWhenAnyAgentFinishes/></ServerHandlers></ServerSection><AgentSection mode="Survival"><Name>MineRLAgent0</Name><AgentStart><Inventory><InventoryObject slot="0" type="iron_axe" metadata="0" quantity="1"/></Inventory></AgentStart><AgentHandlers><FileBasedPerformanceProducer/><PauseCommand/><VideoProducer want_depth="false"><Width>64</Width><Height>64</Height></VideoProducer><HumanLevelCommands/><CameraCommands/><RewardForPossessingItem sparse="false" excludeLoops="true"><Item amount="1" reward="1.0" type="log"/></RewardForPossessingItem><AgentQuitFromPossessingItem><Item type="log" amount="64"/></AgentQuitFromPossessingItem></AgentHandlers></AgentSection></Mission><ExperimentUID>ae681940-0c70-45f0-a901-5bb470a28740</ExperimentUID><ClientRole>0</ClientRole><ClientAgentConnection><ClientIPAddress>127.0.0.1</ClientIPAddress><ClientMissionControlPort>0</ClientMissionControlPort><ClientCommandsPort>0</ClientCommandsPort><AgentIPAddress>127.0.0.1</AgentIPAddress><AgentMissionControlPort>0</AgentMissionControlPort><AgentVideoPort>0</AgentVideoPort><AgentDepthPort>0</AgentDepthPort><AgentLuminancePort>0</AgentLuminancePort><AgentObservationsPort>0</AgentObservationsPort><AgentRewardsPort>0</AgentRewardsPort><AgentColourMapPort>0</AgentColourMapPort></ClientAgentConnection></MissionInit>
+[04:47:05] [EnvServerSocketHandler/INFO]: [STDOUT]: REPLYING WITH: MALMOBUSY
+[04:47:06] [Client thread/INFO]: [STDOUT]: CLIENT enter state: WAITING_FOR_SERVER_MISSION_END
+[04:47:06] [Server thread/INFO]: [STDOUT]: SERVER request state: CLEAN_UP
+[04:47:06] [Server thread/INFO]: [STDOUT]: SERVER enter state: CLEAN_UP
+[04:47:06] [Server thread/INFO]: [STDOUT]: SERVER request state: DORMANT
+[04:47:06] [Client thread/INFO]: [STDOUT]: CLIENT request state: DORMANT
+[04:47:06] [Client thread/INFO]: [STDOUT]: CLIENT enter state: DORMANT
+[04:47:06] [Client thread/INFO]: [STDOUT]: JETTISONING 0 COMMANDS
+[04:47:07] [EnvServerSocketHandler/INFO]: [STDOUT]: Received from localhost:<MissionInit xmlns="http://ProjectMalmo.microsoft.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" SchemaVersion="" PlatformVersion="0.37.0"><Mission><About><Summary>MineRLTreechop-v0</Summary></About><ModSettings><MsPerTick>50</MsPerTick></ModSettings><ServerSection><HumanInteraction><Port>None</Port><MaxPlayers>10</MaxPlayers></HumanInteraction><ServerInitialConditions><Time><AllowPassageOfTime>false</AllowPassageOfTime></Time><AllowSpawning>true</AllowSpawning></ServerInitialConditions><ServerHandlers><DefaultWorldGenerator forceReset="true" generatorOptions="{&quot;coordinateScale&quot;:684.412,&quot;heightScale&quot;:684.412,&quot;lowerLimitScale&quot;:512.0,&quot;upperLimitScale&quot;:512.0,&quot;depthNoiseScaleX&quot;:200.0,&quot;depthNoiseScaleZ&quot;:200.0,&quot;depthNoiseScaleExponent&quot;:0.5,&quot;mainNoiseScaleX&quot;:80.0,&quot;mainNoiseScaleY&quot;:160.0,&quot;mainNoiseScaleZ&quot;:80.0,&quot;baseSize&quot;:8.5,&quot;stretchY&quot;:12.0,&quot;biomeDepthWeight&quot;:1.0,&quot;biomeDepthOffset&quot;:0.0,&quot;biomeScaleWeight&quot;:1.0,&quot;biomeScaleOffset&quot;:0.0,&quot;seaLevel&quot;:1,&quot;useCaves&quot;:false,&quot;useDungeons&quot;:false,&quot;dungeonChance&quot;:8,&quot;useStrongholds&quot;:false,&quot;useVillages&quot;:false,&quot;useMineShafts&quot;:false,&quot;useTemples&quot;:false,&quot;useMonuments&quot;:false,&quot;useMansions&quot;:false,&quot;useRavines&quot;:false,&quot;useWaterLakes&quot;:false,&quot;waterLakeChance&quot;:4,&quot;useLavaLakes&quot;:false,&quot;lavaLakeChance&quot;:80,&quot;useLavaOceans&quot;:false,&quot;fixedBiome&quot;:4,&quot;biomeSize&quot;:4,&quot;riverSize&quot;:1,&quot;dirtSize&quot;:33,&quot;dirtCount&quot;:10,&quot;dirtMinHeight&quot;:0,&quot;dirtMaxHeight&quot;:256,&quot;gravelSize&quot;:33,&quot;gravelCount&quot;:8,&quot;gravelMinHeight&quot;:0,&quot;gravelMaxHeight&quot;:256,&quot;graniteSize&quot;:33,&quot;graniteCount&quot;:10,&quot;graniteMinHeight&quot;:0,&quot;graniteMaxHeight&quot;:80,&quot;dioriteSize&quot;:33,&quot;dioriteCount&quot;:10,&quot;dioriteMinHeight&quot;:0,&quot;dioriteMaxHeight&quot;:80,&quot;andesiteSize&quot;:33,&quot;andesiteCount&quot;:10,&quot;andesiteMinHeight&quot;:0,&quot;andesiteMaxHeight&quot;:80,&quot;coalSize&quot;:17,&quot;coalCount&quot;:20,&quot;coalMinHeight&quot;:0,&quot;coalMaxHeight&quot;:128,&quot;ironSize&quot;:9,&quot;ironCount&quot;:20,&quot;ironMinHeight&quot;:0,&quot;ironMaxHeight&quot;:64,&quot;goldSize&quot;:9,&quot;goldCount&quot;:2,&quot;goldMinHeight&quot;:0,&quot;goldMaxHeight&quot;:32,&quot;redstoneSize&quot;:8,&quot;redstoneCount&quot;:8,&quot;redstoneMinHeight&quot;:0,&quot;redstoneMaxHeight&quot;:16,&quot;diamondSize&quot;:8,&quot;diamondCount&quot;:1,&quot;diamondMinHeight&quot;:0,&quot;diamondMaxHeight&quot;:16,&quot;lapisSize&quot;:7,&quot;lapisCount&quot;:1,&quot;lapisCenterHeight&quot;:16,&quot;lapisSpread&quot;:16}"/><ServerQuitFromTimeUp timeLimitMs="400000" description="out_of_time"/><ServerQuitWhenAnyAgentFinishes/></ServerHandlers></ServerSection><AgentSection mode="Survival"><Name>MineRLAgent0</Name><AgentStart><Inventory><InventoryObject slot="0" type="iron_axe" metadata="0" quantity="1"/></Inventory></AgentStart><AgentHandlers><FileBasedPerformanceProducer/><PauseCommand/><VideoProducer want_depth="false"><Width>64</Width><Height>64</Height></VideoProducer><HumanLevelCommands/><CameraCommands/><RewardForPossessingItem sparse="false" excludeLoops="true"><Item amount="1" reward="1.0" type="log"/></RewardForPossessingItem><AgentQuitFromPossessingItem><Item type="log" amount="64"/></AgentQuitFromPossessingItem></AgentHandlers></AgentSection></Mission><ExperimentUID>ae681940-0c70-45f0-a901-5bb470a28740</ExperimentUID><ClientRole>0</ClientRole><ClientAgentConnection><ClientIPAddress>127.0.0.1</ClientIPAddress><ClientMissionControlPort>0</ClientMissionControlPort><ClientCommandsPort>0</ClientCommandsPort><AgentIPAddress>127.0.0.1</AgentIPAddress><AgentMissionControlPort>0</AgentMissionControlPort><AgentVideoPort>0</AgentVideoPort><AgentDepthPort>0</AgentDepthPort><AgentLuminancePort>0</AgentLuminancePort><AgentObservationsPort>0</AgentObservationsPort><AgentRewardsPort>0</AgentRewardsPort><AgentColourMapPort>0</AgentColourMapPort></ClientAgentConnection></MissionInit>
+[04:47:07] [EnvServerSocketHandler/INFO]: [STDOUT]: REPLYING WITH: MALMOOK
+[04:47:07] [Client thread/INFO]: [STDOUT]: Mission received: MineRLTreechop-v0
+[04:47:07] [Client thread/INFO]: [STDOUT]: CLIENT request state: CREATING_HANDLERS
+[04:47:07] [Client thread/INFO]: [STDOUT]: CLIENT enter state: CREATING_HANDLERS
+[04:47:07] [Client thread/INFO]: [STDOUT]: CLIENT request state: EVALUATING_WORLD_REQUIREMENTS
+[04:47:07] [Client thread/INFO]: [STDOUT]: CLIENT enter state: EVALUATING_WORLD_REQUIREMENTS
+[04:47:07] [Client thread/INFO]: [STDOUT]: CLIENT request state: PAUSING_OLD_SERVER
+[04:47:07] [Client thread/INFO]: [STDOUT]: CLIENT enter state: PAUSING_OLD_SERVER
+[04:47:07] [Server thread/INFO]: Saving and pausing game...
+[04:47:07] [Server thread/INFO]: Saving chunks for level 'TEMP_0_ad41d7ed-b128-4e68-87bf-335ccdfe8464'/Overworld
+[04:47:07] [Server thread/INFO]: Saving chunks for level 'TEMP_0_ad41d7ed-b128-4e68-87bf-335ccdfe8464'/Nether
+[04:47:07] [Server thread/INFO]: Saving chunks for level 'TEMP_0_ad41d7ed-b128-4e68-87bf-335ccdfe8464'/The End
+[04:47:07] [Client thread/INFO]: [STDOUT]: CLIENT request state: CLOSING_OLD_SERVER
+[04:47:07] [Client thread/INFO]: [STDOUT]: CLIENT enter state: CLOSING_OLD_SERVER
+[04:47:07] [Client thread/INFO]: [STDOUT]: Unpausing
+[04:47:07] [Server thread/INFO]: Stopping server
+[04:47:07] [Server thread/INFO]: Saving players
+[04:47:07] [Server thread/INFO]: MineRLAgent0 lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[04:47:07] [Server thread/INFO]: MineRLAgent0 left the game
+[04:47:07] [Server thread/INFO]: Stopping singleplayer server as player logged out
+[04:47:07] [Server thread/INFO]: Saving worlds
+[04:47:07] [Server thread/INFO]: Saving chunks for level 'TEMP_0_ad41d7ed-b128-4e68-87bf-335ccdfe8464'/Overworld
+[04:47:07] [Server thread/INFO]: Saving chunks for level 'TEMP_0_ad41d7ed-b128-4e68-87bf-335ccdfe8464'/Nether
+[04:47:07] [Server thread/INFO]: Saving chunks for level 'TEMP_0_ad41d7ed-b128-4e68-87bf-335ccdfe8464'/The End
+[04:47:07] [Server thread/INFO]: [STDOUT]: Unpausing
+[04:47:07] [Server thread/INFO]: [STDOUT]: Unpausing
+[04:47:07] [Server thread/INFO]: [STDOUT]: Unpausing
+[04:47:07] [Server thread/INFO]: Unloading dimension 0
+[04:47:07] [Server thread/INFO]: Unloading dimension -1
+[04:47:07] [Server thread/INFO]: Unloading dimension 1
+[04:47:07] [Server thread/INFO]: Applying holder lookups
+[04:47:07] [Server thread/INFO]: Holder lookups applied
+[04:47:17] [Client thread/INFO]: [STDOUT]: CLIENT request state: CREATING_NEW_WORLD
+[04:47:17] [Client thread/INFO]: [STDOUT]: CLIENT enter state: CREATING_NEW_WORLD
+[04:47:17] [Client thread/INFO]: [STDOUT]: [LOGTOPY] GENERATOR OPTIONS = {"coordinateScale":684.412,"heightScale":684.412,"lowerLimitScale":512.0,"upperLimitScale":512.0,"depthNoiseScaleX":200.0,"depthNoiseScaleZ":200.0,"depthNoiseScaleExponent":0.5,"mainNoiseScaleX":80.0,"mainNoiseScaleY":160.0,"mainNoiseScaleZ":80.0,"baseSize":8.5,"stretchY":12.0,"biomeDepthWeight":1.0,"biomeDepthOffset":0.0,"biomeScaleWeight":1.0,"biomeScaleOffset":0.0,"seaLevel":1,"useCaves":false,"useDungeons":false,"dungeonChance":8,"useStrongholds":false,"useVillages":false,"useMineShafts":false,"useTemples":false,"useMonuments":false,"useMansions":false,"useRavines":false,"useWaterLakes":false,"waterLakeChance":4,"useLavaLakes":false,"lavaLakeChance":80,"useLavaOceans":false,"fixedBiome":4,"biomeSize":4,"riverSize":1,"dirtSize":33,"dirtCount":10,"dirtMinHeight":0,"dirtMaxHeight":256,"gravelSize":33,"gravelCount":8,"gravelMinHeight":0,"gravelMaxHeight":256,"graniteSize":33,"graniteCount":10,"graniteMinHeight":0,"graniteMaxHeight":80,"dioriteSize":33,"dioriteCount":10,"dioriteMinHeight":0,"dioriteMaxHeight":80,"andesiteSize":33,"andesiteCount":10,"andesiteMinHeight":0,"andesiteMaxHeight":80,"coalSize":17,"coalCount":20,"coalMinHeight":0,"coalMaxHeight":128,"ironSize":9,"ironCount":20,"ironMinHeight":0,"ironMaxHeight":64,"goldSize":9,"goldCount":2,"goldMinHeight":0,"goldMaxHeight":32,"redstoneSize":8,"redstoneCount":8,"redstoneMinHeight":0,"redstoneMaxHeight":16,"diamondSize":8,"diamondCount":1,"diamondMinHeight":0,"diamondMaxHeight":16,"lapisSize":7,"lapisCount":1,"lapisCenterHeight":16,"lapisSpread":16}
+[04:47:18] [Server thread/INFO]: Starting integrated minecraft server version 1.11.2
+[04:47:18] [Server thread/INFO]: Generating keypair
+[04:47:18] [Server thread/INFO]: Injecting existing block and item data into this server instance
+[04:47:18] [Server thread/INFO]: Applying holder lookups
+[04:47:18] [Server thread/INFO]: Holder lookups applied
+[04:47:18] [Server thread/INFO]: Loading dimension 0 (TEMP_0_e4c4ee84-3b23-4816-a20f-d963870d033e) (net.minecraft.server.integrated.IntegratedServer@1af10a08)
+[04:47:18] [Server thread/INFO]: Loading dimension 1 (TEMP_0_e4c4ee84-3b23-4816-a20f-d963870d033e) (net.minecraft.server.integrated.IntegratedServer@1af10a08)
+[04:47:18] [Server thread/INFO]: Loading dimension -1 (TEMP_0_e4c4ee84-3b23-4816-a20f-d963870d033e) (net.minecraft.server.integrated.IntegratedServer@1af10a08)
+[04:47:18] [Server thread/INFO]: Preparing start region for level 0
+[04:47:19] [Server thread/INFO]: Preparing spawn area: 20%
+[04:47:20] [Server thread/INFO]: Preparing spawn area: 38%
+[04:47:21] [Server thread/INFO]: Preparing spawn area: 55%
+[04:47:22] [Server thread/INFO]: Preparing spawn area: 73%
+[04:47:23] [Server thread/INFO]: Preparing spawn area: 90%
+[04:47:23] [Server thread/INFO]: Changing view distance to 4, from 10
+[04:47:23] [Client thread/INFO]: Deleting level TEMP_0_ad41d7ed-b128-4e68-87bf-335ccdfe8464
+[04:47:23] [Client thread/INFO]: Attempt 1...
+[04:47:23] [Netty Local Client IO #4/INFO]: Server protocol version 2
+[04:47:23] [Server thread/INFO]: [STDOUT]: SERVER request state: WAITING_FOR_MOD_READY
+[04:47:23] [Netty Server IO #9/INFO]: Client protocol version 2
+[04:47:23] [Netty Server IO #9/INFO]: Client attempting to join with 5 mods : minecraft@1.11.2,FML@8.0.99.99,malmomod@0.37.0,forge@13.20.1.2588,mcp@9.19
+[04:47:23] [Netty Local Client IO #4/INFO]: [Netty Local Client IO #4] Client side modded connection established
+[04:47:23] [Server thread/INFO]: [STDOUT]: CLIENT request state: WAITING_FOR_SERVER_READY
+[04:47:23] [Server thread/INFO]: [STDOUT]: SERVER enter state: WAITING_FOR_MOD_READY
+[04:47:23] [Client thread/INFO]: [STDOUT]: CLIENT enter state: WAITING_FOR_SERVER_READY
+[04:47:24] [Server thread/INFO]: [Server thread] Server side modded connection established
+[04:47:24] [Server thread/INFO]: MineRLAgent0[local:E:97e299fb] logged in with entity id 37717 at (-222.5, 64.0, 241.5)
+[04:47:24] [Server thread/INFO]: MineRLAgent0 joined the game
+[04:47:24] [Server thread/INFO]: [STDOUT]: SERVER request state: DORMANT
+[04:47:24] [Server thread/INFO]: [STDOUT]: SERVER enter state: DORMANT
+[04:47:24] [Server thread/INFO]: [STDOUT]: INCOMING MISSION: Received MissionInit directly through ServerStateMachine constructor.
+[04:47:24] [Server thread/INFO]: [STDOUT]: Mission received: MineRLTreechop-v0
+[04:47:24] [Server thread/INFO]: Received mission: §9MineRLTreechop-v0
+[04:47:24] [Server thread/INFO]: Source: §alocalhost
+[04:47:24] [Server thread/INFO]: [STDOUT]: SERVER request state: BUILDING_WORLD
+[04:47:24] [Server thread/INFO]: [STDOUT]: SERVER enter state: BUILDING_WORLD
+[04:47:24] [Server thread/INFO]: [STDOUT]: SERVER request state: WAITING_FOR_AGENTS_TO_ASSEMBLE
+[04:47:24] [Client thread/INFO]: [CHAT] Received mission: §9MineRLTreechop-v0
+[04:47:24] [Client thread/INFO]: [CHAT] Source: §alocalhost
+[04:47:24] [Client thread/INFO]: [STDERR]: Failed to tick client state episode: java.lang.NumberFormatException: For input string: "None"
+[04:47:24] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[04:47:24] [Server thread/INFO]: [STDOUT]: SERVER enter state: WAITING_FOR_AGENTS_TO_ASSEMBLE
+[04:47:24] [Server thread/INFO]: [STDOUT]: Experiment requires: 
+[04:47:24] [Server thread/INFO]: [STDOUT]: >>>> MineRLAgent0
+[04:47:24] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[04:47:24] [Server thread/INFO]: [STDOUT]: Initializing player with username MineRLAgent0 and agentname MineRLAgent0
+[04:47:24] [Client thread/INFO]: [STDOUT]: CLIENT request state: RUNNING
+[04:47:24] [Client thread/INFO]: [STDOUT]: CLIENT enter state: RUNNING
+[04:47:24] [Client thread/INFO]: [STDOUT]: Preparing reward com.microsoft.Malmo.MissionHandlers.RewardForPossessingItemImplementation@79bdc9 with agent name MineRLAgent0
+[04:47:24] [Client thread/INFO]: [STDOUT]: Unpausing
+[04:47:24] [Server thread/INFO]: [STDOUT]: SERVER request state: RUNNING
+[04:47:24] [Server thread/INFO]: [STDOUT]: SERVER enter state: RUNNING
+[04:47:39] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 1744ms behind, skipping 34 tick(s)
