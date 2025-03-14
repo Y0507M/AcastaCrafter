@@ -1,0 +1,2 @@
+2025-03-14 01:15:00 login-i17 process_watcher[623919] INFO Process watcher started between parent 623720 and child 623852 
+2025-03-14 01:18:02 login-i17 process_watcher[623919] INFO Child is not running anymore, launcher can terminate.

@@ -1,0 +1,570 @@
+[02:34:57] [EnvServerSocketHandler/INFO]: [STDOUT]: Received from localhost:<MissionInit xmlns="http://ProjectMalmo.microsoft.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" SchemaVersion="" PlatformVersion="0.37.0"><Mission><About><Summary>MineRLTreechop-v0</Summary></About><ModSettings><MsPerTick>50</MsPerTick></ModSettings><ServerSection><HumanInteraction><Port>None</Port><MaxPlayers>10</MaxPlayers></HumanInteraction><ServerInitialConditions><Time><AllowPassageOfTime>false</AllowPassageOfTime></Time><AllowSpawning>true</AllowSpawning></ServerInitialConditions><ServerHandlers><DefaultWorldGenerator forceReset="true" generatorOptions="{&quot;coordinateScale&quot;:684.412,&quot;heightScale&quot;:684.412,&quot;lowerLimitScale&quot;:512.0,&quot;upperLimitScale&quot;:512.0,&quot;depthNoiseScaleX&quot;:200.0,&quot;depthNoiseScaleZ&quot;:200.0,&quot;depthNoiseScaleExponent&quot;:0.5,&quot;mainNoiseScaleX&quot;:80.0,&quot;mainNoiseScaleY&quot;:160.0,&quot;mainNoiseScaleZ&quot;:80.0,&quot;baseSize&quot;:8.5,&quot;stretchY&quot;:12.0,&quot;biomeDepthWeight&quot;:1.0,&quot;biomeDepthOffset&quot;:0.0,&quot;biomeScaleWeight&quot;:1.0,&quot;biomeScaleOffset&quot;:0.0,&quot;seaLevel&quot;:1,&quot;useCaves&quot;:false,&quot;useDungeons&quot;:false,&quot;dungeonChance&quot;:8,&quot;useStrongholds&quot;:false,&quot;useVillages&quot;:false,&quot;useMineShafts&quot;:false,&quot;useTemples&quot;:false,&quot;useMonuments&quot;:false,&quot;useMansions&quot;:false,&quot;useRavines&quot;:false,&quot;useWaterLakes&quot;:false,&quot;waterLakeChance&quot;:4,&quot;useLavaLakes&quot;:false,&quot;lavaLakeChance&quot;:80,&quot;useLavaOceans&quot;:false,&quot;fixedBiome&quot;:4,&quot;biomeSize&quot;:4,&quot;riverSize&quot;:1,&quot;dirtSize&quot;:33,&quot;dirtCount&quot;:10,&quot;dirtMinHeight&quot;:0,&quot;dirtMaxHeight&quot;:256,&quot;gravelSize&quot;:33,&quot;gravelCount&quot;:8,&quot;gravelMinHeight&quot;:0,&quot;gravelMaxHeight&quot;:256,&quot;graniteSize&quot;:33,&quot;graniteCount&quot;:10,&quot;graniteMinHeight&quot;:0,&quot;graniteMaxHeight&quot;:80,&quot;dioriteSize&quot;:33,&quot;dioriteCount&quot;:10,&quot;dioriteMinHeight&quot;:0,&quot;dioriteMaxHeight&quot;:80,&quot;andesiteSize&quot;:33,&quot;andesiteCount&quot;:10,&quot;andesiteMinHeight&quot;:0,&quot;andesiteMaxHeight&quot;:80,&quot;coalSize&quot;:17,&quot;coalCount&quot;:20,&quot;coalMinHeight&quot;:0,&quot;coalMaxHeight&quot;:128,&quot;ironSize&quot;:9,&quot;ironCount&quot;:20,&quot;ironMinHeight&quot;:0,&quot;ironMaxHeight&quot;:64,&quot;goldSize&quot;:9,&quot;goldCount&quot;:2,&quot;goldMinHeight&quot;:0,&quot;goldMaxHeight&quot;:32,&quot;redstoneSize&quot;:8,&quot;redstoneCount&quot;:8,&quot;redstoneMinHeight&quot;:0,&quot;redstoneMaxHeight&quot;:16,&quot;diamondSize&quot;:8,&quot;diamondCount&quot;:1,&quot;diamondMinHeight&quot;:0,&quot;diamondMaxHeight&quot;:16,&quot;lapisSize&quot;:7,&quot;lapisCount&quot;:1,&quot;lapisCenterHeight&quot;:16,&quot;lapisSpread&quot;:16}"/><ServerQuitFromTimeUp timeLimitMs="400000" description="out_of_time"/><ServerQuitWhenAnyAgentFinishes/></ServerHandlers></ServerSection><AgentSection mode="Survival"><Name>MineRLAgent0</Name><AgentStart><Inventory><InventoryObject slot="0" type="iron_axe" metadata="0" quantity="1"/></Inventory></AgentStart><AgentHandlers><FileBasedPerformanceProducer/><PauseCommand/><VideoProducer want_depth="false"><Width>64</Width><Height>64</Height></VideoProducer><HumanLevelCommands/><CameraCommands/><RewardForPossessingItem sparse="false" excludeLoops="true"><Item amount="1" reward="1.0" type="log"/></RewardForPossessingItem><AgentQuitFromPossessingItem><Item type="log" amount="64"/></AgentQuitFromPossessingItem></AgentHandlers></AgentSection></Mission><ExperimentUID>49ebbd8e-4fbc-4a45-9261-44d84de88f15</ExperimentUID><ClientRole>0</ClientRole><ClientAgentConnection><ClientIPAddress>127.0.0.1</ClientIPAddress><ClientMissionControlPort>0</ClientMissionControlPort><ClientCommandsPort>0</ClientCommandsPort><AgentIPAddress>127.0.0.1</AgentIPAddress><AgentMissionControlPort>0</AgentMissionControlPort><AgentVideoPort>0</AgentVideoPort><AgentDepthPort>0</AgentDepthPort><AgentLuminancePort>0</AgentLuminancePort><AgentObservationsPort>0</AgentObservationsPort><AgentRewardsPort>0</AgentRewardsPort><AgentColourMapPort>0</AgentColourMapPort></ClientAgentConnection></MissionInit>
+[02:34:57] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
+[02:34:57] [EnvServerSocketHandler/INFO]: [STDOUT]: REPLYING WITH: MALMOOK
+[02:34:57] [Client thread/INFO]: [STDOUT]: Mission received: MineRLTreechop-v0
+[02:34:57] [Client thread/INFO]: [STDOUT]: CLIENT request state: CREATING_HANDLERS
+[02:34:57] [Client thread/INFO]: [STDOUT]: CLIENT enter state: CREATING_HANDLERS
+[02:34:57] [Client thread/INFO]: [STDOUT]: Starting command server.
+[02:34:57] [Thread-15/INFO]: [STDOUT]: INFO: ->com(0) Listening for messages on port 10364
+[02:34:58] [Client thread/INFO]: [STDOUT]: CLIENT request state: EVALUATING_WORLD_REQUIREMENTS
+[02:34:58] [Client thread/INFO]: [STDOUT]: CLIENT enter state: EVALUATING_WORLD_REQUIREMENTS
+[02:34:58] [Client thread/INFO]: [STDOUT]: CLIENT request state: CREATING_NEW_WORLD
+[02:34:58] [Client thread/INFO]: [STDOUT]: CLIENT enter state: CREATING_NEW_WORLD
+[02:34:58] [Client thread/INFO]: [STDOUT]: [LOGTOPY] GENERATOR OPTIONS = {"coordinateScale":684.412,"heightScale":684.412,"lowerLimitScale":512.0,"upperLimitScale":512.0,"depthNoiseScaleX":200.0,"depthNoiseScaleZ":200.0,"depthNoiseScaleExponent":0.5,"mainNoiseScaleX":80.0,"mainNoiseScaleY":160.0,"mainNoiseScaleZ":80.0,"baseSize":8.5,"stretchY":12.0,"biomeDepthWeight":1.0,"biomeDepthOffset":0.0,"biomeScaleWeight":1.0,"biomeScaleOffset":0.0,"seaLevel":1,"useCaves":false,"useDungeons":false,"dungeonChance":8,"useStrongholds":false,"useVillages":false,"useMineShafts":false,"useTemples":false,"useMonuments":false,"useMansions":false,"useRavines":false,"useWaterLakes":false,"waterLakeChance":4,"useLavaLakes":false,"lavaLakeChance":80,"useLavaOceans":false,"fixedBiome":4,"biomeSize":4,"riverSize":1,"dirtSize":33,"dirtCount":10,"dirtMinHeight":0,"dirtMaxHeight":256,"gravelSize":33,"gravelCount":8,"gravelMinHeight":0,"gravelMaxHeight":256,"graniteSize":33,"graniteCount":10,"graniteMinHeight":0,"graniteMaxHeight":80,"dioriteSize":33,"dioriteCount":10,"dioriteMinHeight":0,"dioriteMaxHeight":80,"andesiteSize":33,"andesiteCount":10,"andesiteMinHeight":0,"andesiteMaxHeight":80,"coalSize":17,"coalCount":20,"coalMinHeight":0,"coalMaxHeight":128,"ironSize":9,"ironCount":20,"ironMinHeight":0,"ironMaxHeight":64,"goldSize":9,"goldCount":2,"goldMinHeight":0,"goldMaxHeight":32,"redstoneSize":8,"redstoneCount":8,"redstoneMinHeight":0,"redstoneMaxHeight":16,"diamondSize":8,"diamondCount":1,"diamondMinHeight":0,"diamondMaxHeight":16,"lapisSize":7,"lapisCount":1,"lapisCenterHeight":16,"lapisSpread":16}
+[02:34:58] [Server thread/INFO]: Starting integrated minecraft server version 1.11.2
+[02:34:58] [Server thread/INFO]: Generating keypair
+[02:34:58] [Server thread/INFO]: Injecting existing block and item data into this server instance
+[02:34:58] [Server thread/INFO]: Applying holder lookups
+[02:34:58] [Server thread/INFO]: Holder lookups applied
+[02:34:58] [Server thread/INFO]: Loading dimension 0 (TEMP_0_b72f13dd-cd0c-40ce-9310-e45956bb0364) (net.minecraft.server.integrated.IntegratedServer@7eb4b3cc)
+[02:34:59] [Server thread/INFO]: Loading dimension 1 (TEMP_0_b72f13dd-cd0c-40ce-9310-e45956bb0364) (net.minecraft.server.integrated.IntegratedServer@7eb4b3cc)
+[02:34:59] [Server thread/INFO]: Loading dimension -1 (TEMP_0_b72f13dd-cd0c-40ce-9310-e45956bb0364) (net.minecraft.server.integrated.IntegratedServer@7eb4b3cc)
+[02:34:59] [Server thread/INFO]: Preparing start region for level 0
+[02:35:00] [Server thread/INFO]: Preparing spawn area: 17%
+[02:35:01] [Server thread/INFO]: Preparing spawn area: 34%
+[02:35:02] [Server thread/INFO]: Preparing spawn area: 52%
+[02:35:03] [Server thread/INFO]: Preparing spawn area: 71%
+[02:35:04] [Server thread/INFO]: Preparing spawn area: 91%
+[02:35:04] [Server thread/INFO]: Changing view distance to 4, from 10
+[02:35:05] [Netty Local Client IO #0/INFO]: [STDOUT]: Transformed Name: net.minecraft.client.entity.EntityOtherPlayerMP
+[02:35:05] [Netty Local Client IO #0/INFO]: [STDOUT]: MALMO: Found EntityOtherPlayerMP, attempting to transform it
+[02:35:05] [Server thread/INFO]: [STDOUT]: SERVER request state: WAITING_FOR_MOD_READY
+[02:35:05] [Server thread/INFO]: [STDOUT]: CLIENT request state: WAITING_FOR_SERVER_READY
+[02:35:05] [Server thread/INFO]: [STDOUT]: SERVER enter state: WAITING_FOR_MOD_READY
+[02:35:05] [Netty Local Client IO #0/INFO]: Server protocol version 2
+[02:35:05] [Netty Server IO #1/INFO]: Client protocol version 2
+[02:35:05] [Netty Server IO #1/INFO]: Client attempting to join with 5 mods : minecraft@1.11.2,FML@8.0.99.99,malmomod@0.37.0,forge@13.20.1.2588,mcp@9.19
+[02:35:05] [Netty Local Client IO #0/INFO]: [Netty Local Client IO #0] Client side modded connection established
+[02:35:05] [Client thread/INFO]: [STDOUT]: CLIENT enter state: WAITING_FOR_SERVER_READY
+[02:35:05] [Server thread/INFO]: [Server thread] Server side modded connection established
+[02:35:05] [Server thread/INFO]: MineRLAgent0[local:E:f7b865ff] logged in with entity id 172 at (-13.5, 66.0, 246.5)
+[02:35:05] [Server thread/INFO]: MineRLAgent0 joined the game
+[02:35:05] [Server thread/INFO]: [STDOUT]: SERVER request state: DORMANT
+[02:35:05] [Server thread/INFO]: [STDOUT]: SERVER enter state: DORMANT
+[02:35:05] [Server thread/INFO]: [STDOUT]: INCOMING MISSION: Received MissionInit directly through ServerStateMachine constructor.
+[02:35:05] [Server thread/INFO]: [STDOUT]: Mission received: MineRLTreechop-v0
+[02:35:05] [Server thread/INFO]: Received mission: §9MineRLTreechop-v0
+[02:35:05] [Server thread/INFO]: Source: §alocalhost
+[02:35:05] [Server thread/INFO]: [STDOUT]: SERVER request state: BUILDING_WORLD
+[02:35:05] [Server thread/INFO]: [STDOUT]: SERVER enter state: BUILDING_WORLD
+[02:35:05] [Server thread/INFO]: [STDOUT]: SERVER request state: WAITING_FOR_AGENTS_TO_ASSEMBLE
+[02:35:06] [Client thread/INFO]: [CHAT] Received mission: §9MineRLTreechop-v0
+[02:35:06] [Client thread/INFO]: [CHAT] Source: §alocalhost
+[02:35:06] [Client thread/INFO]: [STDERR]: Failed to tick client state episode: java.lang.NumberFormatException: For input string: "None"
+[02:35:06] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[02:35:06] [Server thread/INFO]: [STDOUT]: SERVER enter state: WAITING_FOR_AGENTS_TO_ASSEMBLE
+[02:35:06] [Server thread/INFO]: [STDOUT]: Experiment requires: 
+[02:35:06] [Server thread/INFO]: [STDOUT]: >>>> MineRLAgent0
+[02:35:06] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[02:35:06] [Server thread/INFO]: [STDOUT]: Initializing player with username MineRLAgent0 and agentname MineRLAgent0
+[02:35:06] [Client thread/INFO]: [STDOUT]: CLIENT request state: RUNNING
+[02:35:06] [Client thread/INFO]: [STDOUT]: CLIENT enter state: RUNNING
+[02:35:06] [Client thread/INFO]: [STDOUT]: Preparing reward com.microsoft.Malmo.MissionHandlers.RewardForPossessingItemImplementation@7a014bb with agent name MineRLAgent0
+[02:35:06] [Client thread/INFO]: [STDOUT]: [LOGTOPY] On Mac OSX Catalina make sure to install this OpenJDK 1.8.0_152-release-1056-b12, this prevents the NSDragRegions crash
+[02:35:06] [Server thread/INFO]: [STDOUT]: SERVER request state: RUNNING
+[02:35:06] [Server thread/INFO]: [STDOUT]: SERVER enter state: RUNNING
+[02:35:06] [Client thread/INFO]: [STDOUT]: Resized the window
+[02:35:06] [Client thread/INFO]: [STDOUT]: Unpausing
+RewardForPossessingItemImplementation - MineRLAgent0: 1
+[02:36:42] [Client thread/INFO]: [CHAT] §l29...
+[02:36:42] [Client thread/INFO]: [CHAT] §l28...
+[02:36:42] [Client thread/INFO]: [CHAT] §l27...
+[02:36:43] [Client thread/INFO]: [CHAT] §l26...
+[02:36:43] [Client thread/INFO]: [CHAT] §l25...
+[02:36:44] [Client thread/INFO]: [CHAT] §l24...
+[02:36:44] [Client thread/INFO]: [CHAT] §l23...
+[02:36:44] [Client thread/INFO]: [CHAT] §l22...
+[02:36:45] [Client thread/INFO]: [CHAT] §l21...
+[02:36:45] [Client thread/INFO]: [CHAT] §l20...
+[02:36:45] [Client thread/INFO]: [CHAT] §l19...
+[02:36:45] [Client thread/INFO]: [CHAT] §l18...
+[02:36:46] [Client thread/INFO]: [CHAT] §l17...
+[02:36:46] [Client thread/INFO]: [CHAT] §l16...
+[02:36:46] [Client thread/INFO]: [CHAT] §l15...
+[02:36:47] [Client thread/INFO]: [CHAT] §l14...
+[02:36:47] [Client thread/INFO]: [CHAT] §l13...
+[02:36:47] [Client thread/INFO]: [CHAT] §l12...
+[02:36:47] [Client thread/INFO]: [CHAT] §l11...
+[02:36:48] [Client thread/INFO]: [CHAT] §l10...
+[02:36:48] [Client thread/INFO]: [CHAT] §l9...
+[02:36:48] [Client thread/INFO]: [CHAT] §l8...
+[02:36:48] [Client thread/INFO]: [CHAT] §l7...
+[02:36:49] [Client thread/INFO]: [CHAT] §l6...
+[02:36:49] [Client thread/INFO]: [CHAT] §c§l5...
+[02:36:49] [Client thread/INFO]: [CHAT] §c§l4...
+[02:36:50] [Client thread/INFO]: [CHAT] §c§l3...
+[02:36:50] [Client thread/INFO]: [CHAT] §c§l2...
+[02:36:50] [Client thread/INFO]: [CHAT] §c§l1...
+[02:36:51] [Server thread/INFO]: [STDOUT]: SERVER request state: WAITING_FOR_AGENTS_TO_QUIT
+[02:36:51] [Server thread/INFO]: [STDOUT]: SERVER enter state: WAITING_FOR_AGENTS_TO_QUIT
+[02:36:51] [Client thread/INFO]: [CHAT] §c§l0...
+[02:36:51] [Client thread/INFO]: [STDOUT]: SM: [CLIENT_STATE_MACHINE] Mission ended for reason: null world still exists: true
+[02:36:51] [Client thread/INFO]: [STDOUT]: Unpausing
+[02:36:51] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[02:36:51] [Client thread/INFO]: [STDOUT]: CLIENT enter state: MISSION_ENDED
+[02:36:51] [Client thread/INFO]: [STDOUT]: inform the agent
+[02:36:51] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 22ms behind, skipping 0 tick(s)
+[02:36:51] [Client thread/INFO]: [STDOUT]: CLIENT request state: WAITING_FOR_SERVER_MISSION_END
+[02:36:51] [Client thread/INFO]: [STDOUT]: CLIENT enter state: WAITING_FOR_SERVER_MISSION_END
+[02:36:51] [Server thread/INFO]: [STDOUT]: SERVER request state: CLEAN_UP
+[02:36:51] [Server thread/INFO]: [STDOUT]: SERVER enter state: CLEAN_UP
+[02:36:51] [Server thread/INFO]: [STDOUT]: SERVER request state: DORMANT
+[02:36:51] [EnvServerSocketHandler/INFO]: [STDOUT]: Received from localhost:<MissionInit xmlns="http://ProjectMalmo.microsoft.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" SchemaVersion="" PlatformVersion="0.37.0"><Mission><About><Summary>MineRLTreechop-v0</Summary></About><ModSettings><MsPerTick>50</MsPerTick></ModSettings><ServerSection><HumanInteraction><Port>None</Port><MaxPlayers>10</MaxPlayers></HumanInteraction><ServerInitialConditions><Time><AllowPassageOfTime>false</AllowPassageOfTime></Time><AllowSpawning>true</AllowSpawning></ServerInitialConditions><ServerHandlers><DefaultWorldGenerator forceReset="true" generatorOptions="{&quot;coordinateScale&quot;:684.412,&quot;heightScale&quot;:684.412,&quot;lowerLimitScale&quot;:512.0,&quot;upperLimitScale&quot;:512.0,&quot;depthNoiseScaleX&quot;:200.0,&quot;depthNoiseScaleZ&quot;:200.0,&quot;depthNoiseScaleExponent&quot;:0.5,&quot;mainNoiseScaleX&quot;:80.0,&quot;mainNoiseScaleY&quot;:160.0,&quot;mainNoiseScaleZ&quot;:80.0,&quot;baseSize&quot;:8.5,&quot;stretchY&quot;:12.0,&quot;biomeDepthWeight&quot;:1.0,&quot;biomeDepthOffset&quot;:0.0,&quot;biomeScaleWeight&quot;:1.0,&quot;biomeScaleOffset&quot;:0.0,&quot;seaLevel&quot;:1,&quot;useCaves&quot;:false,&quot;useDungeons&quot;:false,&quot;dungeonChance&quot;:8,&quot;useStrongholds&quot;:false,&quot;useVillages&quot;:false,&quot;useMineShafts&quot;:false,&quot;useTemples&quot;:false,&quot;useMonuments&quot;:false,&quot;useMansions&quot;:false,&quot;useRavines&quot;:false,&quot;useWaterLakes&quot;:false,&quot;waterLakeChance&quot;:4,&quot;useLavaLakes&quot;:false,&quot;lavaLakeChance&quot;:80,&quot;useLavaOceans&quot;:false,&quot;fixedBiome&quot;:4,&quot;biomeSize&quot;:4,&quot;riverSize&quot;:1,&quot;dirtSize&quot;:33,&quot;dirtCount&quot;:10,&quot;dirtMinHeight&quot;:0,&quot;dirtMaxHeight&quot;:256,&quot;gravelSize&quot;:33,&quot;gravelCount&quot;:8,&quot;gravelMinHeight&quot;:0,&quot;gravelMaxHeight&quot;:256,&quot;graniteSize&quot;:33,&quot;graniteCount&quot;:10,&quot;graniteMinHeight&quot;:0,&quot;graniteMaxHeight&quot;:80,&quot;dioriteSize&quot;:33,&quot;dioriteCount&quot;:10,&quot;dioriteMinHeight&quot;:0,&quot;dioriteMaxHeight&quot;:80,&quot;andesiteSize&quot;:33,&quot;andesiteCount&quot;:10,&quot;andesiteMinHeight&quot;:0,&quot;andesiteMaxHeight&quot;:80,&quot;coalSize&quot;:17,&quot;coalCount&quot;:20,&quot;coalMinHeight&quot;:0,&quot;coalMaxHeight&quot;:128,&quot;ironSize&quot;:9,&quot;ironCount&quot;:20,&quot;ironMinHeight&quot;:0,&quot;ironMaxHeight&quot;:64,&quot;goldSize&quot;:9,&quot;goldCount&quot;:2,&quot;goldMinHeight&quot;:0,&quot;goldMaxHeight&quot;:32,&quot;redstoneSize&quot;:8,&quot;redstoneCount&quot;:8,&quot;redstoneMinHeight&quot;:0,&quot;redstoneMaxHeight&quot;:16,&quot;diamondSize&quot;:8,&quot;diamondCount&quot;:1,&quot;diamondMinHeight&quot;:0,&quot;diamondMaxHeight&quot;:16,&quot;lapisSize&quot;:7,&quot;lapisCount&quot;:1,&quot;lapisCenterHeight&quot;:16,&quot;lapisSpread&quot;:16}"/><ServerQuitFromTimeUp timeLimitMs="400000" description="out_of_time"/><ServerQuitWhenAnyAgentFinishes/></ServerHandlers></ServerSection><AgentSection mode="Survival"><Name>MineRLAgent0</Name><AgentStart><Inventory><InventoryObject slot="0" type="iron_axe" metadata="0" quantity="1"/></Inventory></AgentStart><AgentHandlers><FileBasedPerformanceProducer/><PauseCommand/><VideoProducer want_depth="false"><Width>64</Width><Height>64</Height></VideoProducer><HumanLevelCommands/><CameraCommands/><RewardForPossessingItem sparse="false" excludeLoops="true"><Item amount="1" reward="1.0" type="log"/></RewardForPossessingItem><AgentQuitFromPossessingItem><Item type="log" amount="64"/></AgentQuitFromPossessingItem></AgentHandlers></AgentSection></Mission><ExperimentUID>120a7f14-d3a5-4486-9c13-d45c86dc441b</ExperimentUID><ClientRole>0</ClientRole><ClientAgentConnection><ClientIPAddress>127.0.0.1</ClientIPAddress><ClientMissionControlPort>0</ClientMissionControlPort><ClientCommandsPort>0</ClientCommandsPort><AgentIPAddress>127.0.0.1</AgentIPAddress><AgentMissionControlPort>0</AgentMissionControlPort><AgentVideoPort>0</AgentVideoPort><AgentDepthPort>0</AgentDepthPort><AgentLuminancePort>0</AgentLuminancePort><AgentObservationsPort>0</AgentObservationsPort><AgentRewardsPort>0</AgentRewardsPort><AgentColourMapPort>0</AgentColourMapPort></ClientAgentConnection></MissionInit>
+[02:36:51] [Client thread/INFO]: [STDOUT]: CLIENT request state: DORMANT
+[02:36:51] [EnvServerSocketHandler/INFO]: [STDOUT]: REPLYING WITH: MALMOBUSY
+[02:36:51] [Client thread/INFO]: [STDOUT]: CLIENT enter state: DORMANT
+[02:36:51] [Client thread/INFO]: [STDOUT]: JETTISONING 0 COMMANDS
+[02:36:52] [EnvServerSocketHandler/INFO]: [STDOUT]: Received from localhost:<MissionInit xmlns="http://ProjectMalmo.microsoft.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" SchemaVersion="" PlatformVersion="0.37.0"><Mission><About><Summary>MineRLTreechop-v0</Summary></About><ModSettings><MsPerTick>50</MsPerTick></ModSettings><ServerSection><HumanInteraction><Port>None</Port><MaxPlayers>10</MaxPlayers></HumanInteraction><ServerInitialConditions><Time><AllowPassageOfTime>false</AllowPassageOfTime></Time><AllowSpawning>true</AllowSpawning></ServerInitialConditions><ServerHandlers><DefaultWorldGenerator forceReset="true" generatorOptions="{&quot;coordinateScale&quot;:684.412,&quot;heightScale&quot;:684.412,&quot;lowerLimitScale&quot;:512.0,&quot;upperLimitScale&quot;:512.0,&quot;depthNoiseScaleX&quot;:200.0,&quot;depthNoiseScaleZ&quot;:200.0,&quot;depthNoiseScaleExponent&quot;:0.5,&quot;mainNoiseScaleX&quot;:80.0,&quot;mainNoiseScaleY&quot;:160.0,&quot;mainNoiseScaleZ&quot;:80.0,&quot;baseSize&quot;:8.5,&quot;stretchY&quot;:12.0,&quot;biomeDepthWeight&quot;:1.0,&quot;biomeDepthOffset&quot;:0.0,&quot;biomeScaleWeight&quot;:1.0,&quot;biomeScaleOffset&quot;:0.0,&quot;seaLevel&quot;:1,&quot;useCaves&quot;:false,&quot;useDungeons&quot;:false,&quot;dungeonChance&quot;:8,&quot;useStrongholds&quot;:false,&quot;useVillages&quot;:false,&quot;useMineShafts&quot;:false,&quot;useTemples&quot;:false,&quot;useMonuments&quot;:false,&quot;useMansions&quot;:false,&quot;useRavines&quot;:false,&quot;useWaterLakes&quot;:false,&quot;waterLakeChance&quot;:4,&quot;useLavaLakes&quot;:false,&quot;lavaLakeChance&quot;:80,&quot;useLavaOceans&quot;:false,&quot;fixedBiome&quot;:4,&quot;biomeSize&quot;:4,&quot;riverSize&quot;:1,&quot;dirtSize&quot;:33,&quot;dirtCount&quot;:10,&quot;dirtMinHeight&quot;:0,&quot;dirtMaxHeight&quot;:256,&quot;gravelSize&quot;:33,&quot;gravelCount&quot;:8,&quot;gravelMinHeight&quot;:0,&quot;gravelMaxHeight&quot;:256,&quot;graniteSize&quot;:33,&quot;graniteCount&quot;:10,&quot;graniteMinHeight&quot;:0,&quot;graniteMaxHeight&quot;:80,&quot;dioriteSize&quot;:33,&quot;dioriteCount&quot;:10,&quot;dioriteMinHeight&quot;:0,&quot;dioriteMaxHeight&quot;:80,&quot;andesiteSize&quot;:33,&quot;andesiteCount&quot;:10,&quot;andesiteMinHeight&quot;:0,&quot;andesiteMaxHeight&quot;:80,&quot;coalSize&quot;:17,&quot;coalCount&quot;:20,&quot;coalMinHeight&quot;:0,&quot;coalMaxHeight&quot;:128,&quot;ironSize&quot;:9,&quot;ironCount&quot;:20,&quot;ironMinHeight&quot;:0,&quot;ironMaxHeight&quot;:64,&quot;goldSize&quot;:9,&quot;goldCount&quot;:2,&quot;goldMinHeight&quot;:0,&quot;goldMaxHeight&quot;:32,&quot;redstoneSize&quot;:8,&quot;redstoneCount&quot;:8,&quot;redstoneMinHeight&quot;:0,&quot;redstoneMaxHeight&quot;:16,&quot;diamondSize&quot;:8,&quot;diamondCount&quot;:1,&quot;diamondMinHeight&quot;:0,&quot;diamondMaxHeight&quot;:16,&quot;lapisSize&quot;:7,&quot;lapisCount&quot;:1,&quot;lapisCenterHeight&quot;:16,&quot;lapisSpread&quot;:16}"/><ServerQuitFromTimeUp timeLimitMs="400000" description="out_of_time"/><ServerQuitWhenAnyAgentFinishes/></ServerHandlers></ServerSection><AgentSection mode="Survival"><Name>MineRLAgent0</Name><AgentStart><Inventory><InventoryObject slot="0" type="iron_axe" metadata="0" quantity="1"/></Inventory></AgentStart><AgentHandlers><FileBasedPerformanceProducer/><PauseCommand/><VideoProducer want_depth="false"><Width>64</Width><Height>64</Height></VideoProducer><HumanLevelCommands/><CameraCommands/><RewardForPossessingItem sparse="false" excludeLoops="true"><Item amount="1" reward="1.0" type="log"/></RewardForPossessingItem><AgentQuitFromPossessingItem><Item type="log" amount="64"/></AgentQuitFromPossessingItem></AgentHandlers></AgentSection></Mission><ExperimentUID>120a7f14-d3a5-4486-9c13-d45c86dc441b</ExperimentUID><ClientRole>0</ClientRole><ClientAgentConnection><ClientIPAddress>127.0.0.1</ClientIPAddress><ClientMissionControlPort>0</ClientMissionControlPort><ClientCommandsPort>0</ClientCommandsPort><AgentIPAddress>127.0.0.1</AgentIPAddress><AgentMissionControlPort>0</AgentMissionControlPort><AgentVideoPort>0</AgentVideoPort><AgentDepthPort>0</AgentDepthPort><AgentLuminancePort>0</AgentLuminancePort><AgentObservationsPort>0</AgentObservationsPort><AgentRewardsPort>0</AgentRewardsPort><AgentColourMapPort>0</AgentColourMapPort></ClientAgentConnection></MissionInit>
+[02:36:52] [EnvServerSocketHandler/INFO]: [STDOUT]: REPLYING WITH: MALMOOK
+[02:36:52] [Client thread/INFO]: [STDOUT]: Mission received: MineRLTreechop-v0
+[02:36:52] [Client thread/INFO]: [STDOUT]: CLIENT request state: CREATING_HANDLERS
+[02:36:52] [Client thread/INFO]: [STDOUT]: CLIENT enter state: CREATING_HANDLERS
+[02:36:52] [Client thread/INFO]: [STDOUT]: CLIENT request state: EVALUATING_WORLD_REQUIREMENTS
+[02:36:52] [Client thread/INFO]: [STDOUT]: CLIENT enter state: EVALUATING_WORLD_REQUIREMENTS
+[02:36:52] [Client thread/INFO]: [STDOUT]: CLIENT request state: PAUSING_OLD_SERVER
+[02:36:52] [Client thread/INFO]: [STDOUT]: CLIENT enter state: PAUSING_OLD_SERVER
+[02:36:52] [Server thread/INFO]: Saving and pausing game...
+[02:36:52] [Server thread/INFO]: Saving chunks for level 'TEMP_0_b72f13dd-cd0c-40ce-9310-e45956bb0364'/Overworld
+[02:36:52] [Server thread/INFO]: Saving chunks for level 'TEMP_0_b72f13dd-cd0c-40ce-9310-e45956bb0364'/Nether
+[02:36:52] [Server thread/INFO]: Saving chunks for level 'TEMP_0_b72f13dd-cd0c-40ce-9310-e45956bb0364'/The End
+[02:36:52] [Client thread/INFO]: [STDOUT]: CLIENT request state: CLOSING_OLD_SERVER
+[02:36:52] [Client thread/INFO]: [STDOUT]: CLIENT enter state: CLOSING_OLD_SERVER
+[02:36:52] [Client thread/INFO]: [STDOUT]: Unpausing
+[02:36:52] [Server thread/INFO]: Stopping server
+[02:36:52] [Server thread/INFO]: Saving players
+[02:36:52] [Server thread/INFO]: MineRLAgent0 lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[02:36:52] [Server thread/INFO]: MineRLAgent0 left the game
+[02:36:52] [Server thread/INFO]: Stopping singleplayer server as player logged out
+[02:36:52] [Server thread/INFO]: Saving worlds
+[02:36:52] [Server thread/INFO]: Saving chunks for level 'TEMP_0_b72f13dd-cd0c-40ce-9310-e45956bb0364'/Overworld
+[02:36:52] [Server thread/INFO]: Saving chunks for level 'TEMP_0_b72f13dd-cd0c-40ce-9310-e45956bb0364'/Nether
+[02:36:52] [Server thread/INFO]: Saving chunks for level 'TEMP_0_b72f13dd-cd0c-40ce-9310-e45956bb0364'/The End
+[02:36:52] [Server thread/INFO]: [STDOUT]: Unpausing
+[02:36:52] [Server thread/INFO]: [STDOUT]: Unpausing
+[02:36:52] [Server thread/INFO]: [STDOUT]: Unpausing
+[02:36:52] [Server thread/INFO]: Unloading dimension 0
+[02:36:52] [Server thread/INFO]: Unloading dimension -1
+[02:36:52] [Server thread/INFO]: Unloading dimension 1
+[02:36:52] [Server thread/INFO]: Applying holder lookups
+[02:36:52] [Server thread/INFO]: Holder lookups applied
+[02:37:02] [Client thread/INFO]: [STDOUT]: CLIENT request state: CREATING_NEW_WORLD
+[02:37:02] [Client thread/INFO]: [STDOUT]: CLIENT enter state: CREATING_NEW_WORLD
+[02:37:02] [Client thread/INFO]: [STDOUT]: [LOGTOPY] GENERATOR OPTIONS = {"coordinateScale":684.412,"heightScale":684.412,"lowerLimitScale":512.0,"upperLimitScale":512.0,"depthNoiseScaleX":200.0,"depthNoiseScaleZ":200.0,"depthNoiseScaleExponent":0.5,"mainNoiseScaleX":80.0,"mainNoiseScaleY":160.0,"mainNoiseScaleZ":80.0,"baseSize":8.5,"stretchY":12.0,"biomeDepthWeight":1.0,"biomeDepthOffset":0.0,"biomeScaleWeight":1.0,"biomeScaleOffset":0.0,"seaLevel":1,"useCaves":false,"useDungeons":false,"dungeonChance":8,"useStrongholds":false,"useVillages":false,"useMineShafts":false,"useTemples":false,"useMonuments":false,"useMansions":false,"useRavines":false,"useWaterLakes":false,"waterLakeChance":4,"useLavaLakes":false,"lavaLakeChance":80,"useLavaOceans":false,"fixedBiome":4,"biomeSize":4,"riverSize":1,"dirtSize":33,"dirtCount":10,"dirtMinHeight":0,"dirtMaxHeight":256,"gravelSize":33,"gravelCount":8,"gravelMinHeight":0,"gravelMaxHeight":256,"graniteSize":33,"graniteCount":10,"graniteMinHeight":0,"graniteMaxHeight":80,"dioriteSize":33,"dioriteCount":10,"dioriteMinHeight":0,"dioriteMaxHeight":80,"andesiteSize":33,"andesiteCount":10,"andesiteMinHeight":0,"andesiteMaxHeight":80,"coalSize":17,"coalCount":20,"coalMinHeight":0,"coalMaxHeight":128,"ironSize":9,"ironCount":20,"ironMinHeight":0,"ironMaxHeight":64,"goldSize":9,"goldCount":2,"goldMinHeight":0,"goldMaxHeight":32,"redstoneSize":8,"redstoneCount":8,"redstoneMinHeight":0,"redstoneMaxHeight":16,"diamondSize":8,"diamondCount":1,"diamondMinHeight":0,"diamondMaxHeight":16,"lapisSize":7,"lapisCount":1,"lapisCenterHeight":16,"lapisSpread":16}
+[02:37:03] [Server thread/INFO]: Starting integrated minecraft server version 1.11.2
+[02:37:03] [Server thread/INFO]: Generating keypair
+[02:37:03] [Server thread/INFO]: Injecting existing block and item data into this server instance
+[02:37:03] [Server thread/INFO]: Applying holder lookups
+[02:37:03] [Server thread/INFO]: Holder lookups applied
+[02:37:03] [Server thread/INFO]: Loading dimension 0 (TEMP_0_a8f3fce2-928c-40eb-8113-a1fdafa2df72) (net.minecraft.server.integrated.IntegratedServer@675f4576)
+[02:37:03] [Server thread/INFO]: Loading dimension 1 (TEMP_0_a8f3fce2-928c-40eb-8113-a1fdafa2df72) (net.minecraft.server.integrated.IntegratedServer@675f4576)
+[02:37:03] [Server thread/INFO]: Loading dimension -1 (TEMP_0_a8f3fce2-928c-40eb-8113-a1fdafa2df72) (net.minecraft.server.integrated.IntegratedServer@675f4576)
+[02:37:03] [Server thread/INFO]: Preparing start region for level 0
+[02:37:04] [Server thread/INFO]: Preparing spawn area: 20%
+[02:37:05] [Server thread/INFO]: Preparing spawn area: 37%
+[02:37:06] [Server thread/INFO]: Preparing spawn area: 55%
+[02:37:07] [Server thread/INFO]: Preparing spawn area: 73%
+[02:37:08] [Server thread/INFO]: Preparing spawn area: 90%
+[02:37:08] [Server thread/INFO]: Changing view distance to 4, from 10
+[02:37:09] [Client thread/INFO]: Deleting level TEMP_0_b72f13dd-cd0c-40ce-9310-e45956bb0364
+[02:37:09] [Client thread/INFO]: Attempt 1...
+[02:37:09] [Server thread/INFO]: [STDOUT]: SERVER request state: WAITING_FOR_MOD_READY
+[02:37:09] [Netty Local Client IO #1/INFO]: Server protocol version 2
+[02:37:09] [Server thread/INFO]: [STDOUT]: CLIENT request state: WAITING_FOR_SERVER_READY
+[02:37:09] [Netty Server IO #3/INFO]: Client protocol version 2
+[02:37:09] [Netty Server IO #3/INFO]: Client attempting to join with 5 mods : minecraft@1.11.2,FML@8.0.99.99,malmomod@0.37.0,forge@13.20.1.2588,mcp@9.19
+[02:37:09] [Netty Local Client IO #1/INFO]: [Netty Local Client IO #1] Client side modded connection established
+[02:37:09] [Client thread/INFO]: [STDOUT]: CLIENT enter state: WAITING_FOR_SERVER_READY
+[02:37:09] [Server thread/INFO]: [STDOUT]: SERVER enter state: WAITING_FOR_MOD_READY
+[02:37:09] [Server thread/INFO]: [Server thread] Server side modded connection established
+[02:37:09] [Server thread/INFO]: MineRLAgent0[local:E:53fc41cc] logged in with entity id 52864 at (-92.5, 61.0, 248.5)
+[02:37:09] [Server thread/INFO]: MineRLAgent0 joined the game
+[02:37:09] [Server thread/INFO]: [STDOUT]: SERVER request state: DORMANT
+[02:37:09] [Server thread/INFO]: [STDOUT]: SERVER enter state: DORMANT
+[02:37:09] [Server thread/INFO]: [STDOUT]: INCOMING MISSION: Received MissionInit directly through ServerStateMachine constructor.
+[02:37:09] [Server thread/INFO]: [STDOUT]: Mission received: MineRLTreechop-v0
+[02:37:09] [Server thread/INFO]: Received mission: §9MineRLTreechop-v0
+[02:37:09] [Server thread/INFO]: Source: §alocalhost
+[02:37:09] [Server thread/INFO]: [STDOUT]: SERVER request state: BUILDING_WORLD
+[02:37:09] [Server thread/INFO]: [STDOUT]: SERVER enter state: BUILDING_WORLD
+[02:37:09] [Server thread/INFO]: [STDOUT]: SERVER request state: WAITING_FOR_AGENTS_TO_ASSEMBLE
+[02:37:09] [Server thread/INFO]: [STDOUT]: SERVER enter state: WAITING_FOR_AGENTS_TO_ASSEMBLE
+[02:37:09] [Server thread/INFO]: [STDOUT]: Experiment requires: 
+[02:37:09] [Server thread/INFO]: [STDOUT]: >>>> MineRLAgent0
+[02:37:10] [Client thread/INFO]: [CHAT] Received mission: §9MineRLTreechop-v0
+[02:37:10] [Client thread/INFO]: [CHAT] Source: §alocalhost
+[02:37:10] [Client thread/INFO]: [STDERR]: Failed to tick client state episode: java.lang.NumberFormatException: For input string: "None"
+[02:37:10] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[02:37:10] [Server thread/INFO]: [STDOUT]: Initializing player with username MineRLAgent0 and agentname MineRLAgent0
+[02:37:10] [Client thread/INFO]: [STDOUT]: CLIENT request state: RUNNING
+[02:37:10] [Client thread/INFO]: [STDOUT]: CLIENT enter state: RUNNING
+[02:37:10] [Server thread/INFO]: [STDOUT]: SERVER request state: RUNNING
+[02:37:10] [Client thread/INFO]: [STDOUT]: Preparing reward com.microsoft.Malmo.MissionHandlers.RewardForPossessingItemImplementation@1ed8b72b with agent name MineRLAgent0
+[02:37:10] [Client thread/INFO]: [STDOUT]: Unpausing
+[02:37:10] [Server thread/INFO]: [STDOUT]: SERVER enter state: RUNNING
+RewardForPossessingItemImplementation - MineRLAgent0: 1
+RewardForPossessingItemImplementation - MineRLAgent0: 2
+RewardForPossessingItemImplementation - MineRLAgent0: 3
+RewardForPossessingItemImplementation - MineRLAgent0: 1
+[02:38:53] [Client thread/INFO]: [CHAT] §l29...
+[02:38:54] [Client thread/INFO]: [CHAT] §l28...
+[02:38:54] [Client thread/INFO]: [CHAT] §l27...
+[02:38:54] [Client thread/INFO]: [CHAT] §l26...
+[02:38:54] [Client thread/INFO]: [CHAT] §l25...
+[02:38:54] [Client thread/INFO]: [CHAT] §l24...
+[02:38:54] [Client thread/INFO]: [CHAT] §l23...
+[02:38:55] [Client thread/INFO]: [CHAT] §l22...
+[02:38:55] [Client thread/INFO]: [CHAT] §l21...
+[02:38:55] [Client thread/INFO]: [CHAT] §l20...
+[02:38:55] [Client thread/INFO]: [CHAT] §l19...
+[02:38:56] [Client thread/INFO]: [CHAT] §l18...
+[02:38:56] [Client thread/INFO]: [CHAT] §l17...
+[02:38:56] [Client thread/INFO]: [CHAT] §l16...
+[02:38:56] [Client thread/INFO]: [CHAT] §l15...
+[02:38:57] [Client thread/INFO]: [CHAT] §l14...
+[02:38:57] [Client thread/INFO]: [CHAT] §l13...
+[02:38:57] [Client thread/INFO]: [CHAT] §l12...
+[02:38:58] [Client thread/INFO]: [CHAT] §l11...
+[02:38:58] [Client thread/INFO]: [CHAT] §l10...
+[02:38:58] [Client thread/INFO]: [CHAT] §l9...
+[02:38:59] [Client thread/INFO]: [CHAT] §l8...
+[02:38:59] [Client thread/INFO]: [CHAT] §l7...
+[02:38:59] [Client thread/INFO]: [CHAT] §l6...
+[02:38:59] [Client thread/INFO]: [CHAT] §c§l5...
+[02:39:00] [Client thread/INFO]: [CHAT] §c§l4...
+[02:39:00] [Client thread/INFO]: [CHAT] §c§l3...
+[02:39:00] [Client thread/INFO]: [CHAT] §c§l2...
+[02:39:01] [Client thread/INFO]: [CHAT] §c§l1...
+[02:39:01] [Server thread/INFO]: [STDOUT]: SERVER request state: WAITING_FOR_AGENTS_TO_QUIT
+[02:39:01] [Server thread/INFO]: [STDOUT]: SERVER enter state: WAITING_FOR_AGENTS_TO_QUIT
+[02:39:01] [Client thread/INFO]: [CHAT] §c§l0...
+[02:39:01] [Client thread/INFO]: [STDOUT]: SM: [CLIENT_STATE_MACHINE] Mission ended for reason: null world still exists: true
+[02:39:01] [Client thread/INFO]: [STDOUT]: Unpausing
+[02:39:01] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[02:39:01] [Client thread/INFO]: [STDOUT]: CLIENT enter state: MISSION_ENDED
+[02:39:01] [Client thread/INFO]: [STDOUT]: inform the agent
+[02:39:01] [Client thread/INFO]: [STDOUT]: CLIENT request state: WAITING_FOR_SERVER_MISSION_END
+[02:39:01] [Client thread/INFO]: [STDOUT]: CLIENT enter state: WAITING_FOR_SERVER_MISSION_END
+[02:39:01] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 14ms behind, skipping 0 tick(s)
+[02:39:01] [Server thread/INFO]: [STDOUT]: SERVER request state: CLEAN_UP
+[02:39:01] [Server thread/INFO]: [STDOUT]: SERVER enter state: CLEAN_UP
+[02:39:01] [Server thread/INFO]: [STDOUT]: SERVER request state: DORMANT
+[02:39:01] [Client thread/INFO]: [STDOUT]: CLIENT request state: DORMANT
+[02:39:01] [EnvServerSocketHandler/INFO]: [STDOUT]: Received from localhost:<MissionInit xmlns="http://ProjectMalmo.microsoft.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" SchemaVersion="" PlatformVersion="0.37.0"><Mission><About><Summary>MineRLTreechop-v0</Summary></About><ModSettings><MsPerTick>50</MsPerTick></ModSettings><ServerSection><HumanInteraction><Port>None</Port><MaxPlayers>10</MaxPlayers></HumanInteraction><ServerInitialConditions><Time><AllowPassageOfTime>false</AllowPassageOfTime></Time><AllowSpawning>true</AllowSpawning></ServerInitialConditions><ServerHandlers><DefaultWorldGenerator forceReset="true" generatorOptions="{&quot;coordinateScale&quot;:684.412,&quot;heightScale&quot;:684.412,&quot;lowerLimitScale&quot;:512.0,&quot;upperLimitScale&quot;:512.0,&quot;depthNoiseScaleX&quot;:200.0,&quot;depthNoiseScaleZ&quot;:200.0,&quot;depthNoiseScaleExponent&quot;:0.5,&quot;mainNoiseScaleX&quot;:80.0,&quot;mainNoiseScaleY&quot;:160.0,&quot;mainNoiseScaleZ&quot;:80.0,&quot;baseSize&quot;:8.5,&quot;stretchY&quot;:12.0,&quot;biomeDepthWeight&quot;:1.0,&quot;biomeDepthOffset&quot;:0.0,&quot;biomeScaleWeight&quot;:1.0,&quot;biomeScaleOffset&quot;:0.0,&quot;seaLevel&quot;:1,&quot;useCaves&quot;:false,&quot;useDungeons&quot;:false,&quot;dungeonChance&quot;:8,&quot;useStrongholds&quot;:false,&quot;useVillages&quot;:false,&quot;useMineShafts&quot;:false,&quot;useTemples&quot;:false,&quot;useMonuments&quot;:false,&quot;useMansions&quot;:false,&quot;useRavines&quot;:false,&quot;useWaterLakes&quot;:false,&quot;waterLakeChance&quot;:4,&quot;useLavaLakes&quot;:false,&quot;lavaLakeChance&quot;:80,&quot;useLavaOceans&quot;:false,&quot;fixedBiome&quot;:4,&quot;biomeSize&quot;:4,&quot;riverSize&quot;:1,&quot;dirtSize&quot;:33,&quot;dirtCount&quot;:10,&quot;dirtMinHeight&quot;:0,&quot;dirtMaxHeight&quot;:256,&quot;gravelSize&quot;:33,&quot;gravelCount&quot;:8,&quot;gravelMinHeight&quot;:0,&quot;gravelMaxHeight&quot;:256,&quot;graniteSize&quot;:33,&quot;graniteCount&quot;:10,&quot;graniteMinHeight&quot;:0,&quot;graniteMaxHeight&quot;:80,&quot;dioriteSize&quot;:33,&quot;dioriteCount&quot;:10,&quot;dioriteMinHeight&quot;:0,&quot;dioriteMaxHeight&quot;:80,&quot;andesiteSize&quot;:33,&quot;andesiteCount&quot;:10,&quot;andesiteMinHeight&quot;:0,&quot;andesiteMaxHeight&quot;:80,&quot;coalSize&quot;:17,&quot;coalCount&quot;:20,&quot;coalMinHeight&quot;:0,&quot;coalMaxHeight&quot;:128,&quot;ironSize&quot;:9,&quot;ironCount&quot;:20,&quot;ironMinHeight&quot;:0,&quot;ironMaxHeight&quot;:64,&quot;goldSize&quot;:9,&quot;goldCount&quot;:2,&quot;goldMinHeight&quot;:0,&quot;goldMaxHeight&quot;:32,&quot;redstoneSize&quot;:8,&quot;redstoneCount&quot;:8,&quot;redstoneMinHeight&quot;:0,&quot;redstoneMaxHeight&quot;:16,&quot;diamondSize&quot;:8,&quot;diamondCount&quot;:1,&quot;diamondMinHeight&quot;:0,&quot;diamondMaxHeight&quot;:16,&quot;lapisSize&quot;:7,&quot;lapisCount&quot;:1,&quot;lapisCenterHeight&quot;:16,&quot;lapisSpread&quot;:16}"/><ServerQuitFromTimeUp timeLimitMs="400000" description="out_of_time"/><ServerQuitWhenAnyAgentFinishes/></ServerHandlers></ServerSection><AgentSection mode="Survival"><Name>MineRLAgent0</Name><AgentStart><Inventory><InventoryObject slot="0" type="iron_axe" metadata="0" quantity="1"/></Inventory></AgentStart><AgentHandlers><FileBasedPerformanceProducer/><PauseCommand/><VideoProducer want_depth="false"><Width>64</Width><Height>64</Height></VideoProducer><HumanLevelCommands/><CameraCommands/><RewardForPossessingItem sparse="false" excludeLoops="true"><Item amount="1" reward="1.0" type="log"/></RewardForPossessingItem><AgentQuitFromPossessingItem><Item type="log" amount="64"/></AgentQuitFromPossessingItem></AgentHandlers></AgentSection></Mission><ExperimentUID>9eb7bb9f-cd76-4272-8657-d1ea246abbcb</ExperimentUID><ClientRole>0</ClientRole><ClientAgentConnection><ClientIPAddress>127.0.0.1</ClientIPAddress><ClientMissionControlPort>0</ClientMissionControlPort><ClientCommandsPort>0</ClientCommandsPort><AgentIPAddress>127.0.0.1</AgentIPAddress><AgentMissionControlPort>0</AgentMissionControlPort><AgentVideoPort>0</AgentVideoPort><AgentDepthPort>0</AgentDepthPort><AgentLuminancePort>0</AgentLuminancePort><AgentObservationsPort>0</AgentObservationsPort><AgentRewardsPort>0</AgentRewardsPort><AgentColourMapPort>0</AgentColourMapPort></ClientAgentConnection></MissionInit>
+[02:39:01] [EnvServerSocketHandler/INFO]: [STDOUT]: REPLYING WITH: MALMOBUSY
+[02:39:01] [Client thread/INFO]: [STDOUT]: CLIENT enter state: DORMANT
+[02:39:01] [Client thread/INFO]: [STDOUT]: JETTISONING 0 COMMANDS
+[02:39:02] [EnvServerSocketHandler/INFO]: [STDOUT]: Received from localhost:<MissionInit xmlns="http://ProjectMalmo.microsoft.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" SchemaVersion="" PlatformVersion="0.37.0"><Mission><About><Summary>MineRLTreechop-v0</Summary></About><ModSettings><MsPerTick>50</MsPerTick></ModSettings><ServerSection><HumanInteraction><Port>None</Port><MaxPlayers>10</MaxPlayers></HumanInteraction><ServerInitialConditions><Time><AllowPassageOfTime>false</AllowPassageOfTime></Time><AllowSpawning>true</AllowSpawning></ServerInitialConditions><ServerHandlers><DefaultWorldGenerator forceReset="true" generatorOptions="{&quot;coordinateScale&quot;:684.412,&quot;heightScale&quot;:684.412,&quot;lowerLimitScale&quot;:512.0,&quot;upperLimitScale&quot;:512.0,&quot;depthNoiseScaleX&quot;:200.0,&quot;depthNoiseScaleZ&quot;:200.0,&quot;depthNoiseScaleExponent&quot;:0.5,&quot;mainNoiseScaleX&quot;:80.0,&quot;mainNoiseScaleY&quot;:160.0,&quot;mainNoiseScaleZ&quot;:80.0,&quot;baseSize&quot;:8.5,&quot;stretchY&quot;:12.0,&quot;biomeDepthWeight&quot;:1.0,&quot;biomeDepthOffset&quot;:0.0,&quot;biomeScaleWeight&quot;:1.0,&quot;biomeScaleOffset&quot;:0.0,&quot;seaLevel&quot;:1,&quot;useCaves&quot;:false,&quot;useDungeons&quot;:false,&quot;dungeonChance&quot;:8,&quot;useStrongholds&quot;:false,&quot;useVillages&quot;:false,&quot;useMineShafts&quot;:false,&quot;useTemples&quot;:false,&quot;useMonuments&quot;:false,&quot;useMansions&quot;:false,&quot;useRavines&quot;:false,&quot;useWaterLakes&quot;:false,&quot;waterLakeChance&quot;:4,&quot;useLavaLakes&quot;:false,&quot;lavaLakeChance&quot;:80,&quot;useLavaOceans&quot;:false,&quot;fixedBiome&quot;:4,&quot;biomeSize&quot;:4,&quot;riverSize&quot;:1,&quot;dirtSize&quot;:33,&quot;dirtCount&quot;:10,&quot;dirtMinHeight&quot;:0,&quot;dirtMaxHeight&quot;:256,&quot;gravelSize&quot;:33,&quot;gravelCount&quot;:8,&quot;gravelMinHeight&quot;:0,&quot;gravelMaxHeight&quot;:256,&quot;graniteSize&quot;:33,&quot;graniteCount&quot;:10,&quot;graniteMinHeight&quot;:0,&quot;graniteMaxHeight&quot;:80,&quot;dioriteSize&quot;:33,&quot;dioriteCount&quot;:10,&quot;dioriteMinHeight&quot;:0,&quot;dioriteMaxHeight&quot;:80,&quot;andesiteSize&quot;:33,&quot;andesiteCount&quot;:10,&quot;andesiteMinHeight&quot;:0,&quot;andesiteMaxHeight&quot;:80,&quot;coalSize&quot;:17,&quot;coalCount&quot;:20,&quot;coalMinHeight&quot;:0,&quot;coalMaxHeight&quot;:128,&quot;ironSize&quot;:9,&quot;ironCount&quot;:20,&quot;ironMinHeight&quot;:0,&quot;ironMaxHeight&quot;:64,&quot;goldSize&quot;:9,&quot;goldCount&quot;:2,&quot;goldMinHeight&quot;:0,&quot;goldMaxHeight&quot;:32,&quot;redstoneSize&quot;:8,&quot;redstoneCount&quot;:8,&quot;redstoneMinHeight&quot;:0,&quot;redstoneMaxHeight&quot;:16,&quot;diamondSize&quot;:8,&quot;diamondCount&quot;:1,&quot;diamondMinHeight&quot;:0,&quot;diamondMaxHeight&quot;:16,&quot;lapisSize&quot;:7,&quot;lapisCount&quot;:1,&quot;lapisCenterHeight&quot;:16,&quot;lapisSpread&quot;:16}"/><ServerQuitFromTimeUp timeLimitMs="400000" description="out_of_time"/><ServerQuitWhenAnyAgentFinishes/></ServerHandlers></ServerSection><AgentSection mode="Survival"><Name>MineRLAgent0</Name><AgentStart><Inventory><InventoryObject slot="0" type="iron_axe" metadata="0" quantity="1"/></Inventory></AgentStart><AgentHandlers><FileBasedPerformanceProducer/><PauseCommand/><VideoProducer want_depth="false"><Width>64</Width><Height>64</Height></VideoProducer><HumanLevelCommands/><CameraCommands/><RewardForPossessingItem sparse="false" excludeLoops="true"><Item amount="1" reward="1.0" type="log"/></RewardForPossessingItem><AgentQuitFromPossessingItem><Item type="log" amount="64"/></AgentQuitFromPossessingItem></AgentHandlers></AgentSection></Mission><ExperimentUID>9eb7bb9f-cd76-4272-8657-d1ea246abbcb</ExperimentUID><ClientRole>0</ClientRole><ClientAgentConnection><ClientIPAddress>127.0.0.1</ClientIPAddress><ClientMissionControlPort>0</ClientMissionControlPort><ClientCommandsPort>0</ClientCommandsPort><AgentIPAddress>127.0.0.1</AgentIPAddress><AgentMissionControlPort>0</AgentMissionControlPort><AgentVideoPort>0</AgentVideoPort><AgentDepthPort>0</AgentDepthPort><AgentLuminancePort>0</AgentLuminancePort><AgentObservationsPort>0</AgentObservationsPort><AgentRewardsPort>0</AgentRewardsPort><AgentColourMapPort>0</AgentColourMapPort></ClientAgentConnection></MissionInit>
+[02:39:02] [EnvServerSocketHandler/INFO]: [STDOUT]: REPLYING WITH: MALMOOK
+[02:39:02] [Client thread/INFO]: [STDOUT]: Mission received: MineRLTreechop-v0
+[02:39:02] [Client thread/INFO]: [STDOUT]: CLIENT request state: CREATING_HANDLERS
+[02:39:02] [Client thread/INFO]: [STDOUT]: CLIENT enter state: CREATING_HANDLERS
+[02:39:02] [Client thread/INFO]: [STDOUT]: CLIENT request state: EVALUATING_WORLD_REQUIREMENTS
+[02:39:02] [Client thread/INFO]: [STDOUT]: CLIENT enter state: EVALUATING_WORLD_REQUIREMENTS
+[02:39:02] [Client thread/INFO]: [STDOUT]: CLIENT request state: PAUSING_OLD_SERVER
+[02:39:02] [Client thread/INFO]: [STDOUT]: CLIENT enter state: PAUSING_OLD_SERVER
+[02:39:02] [Server thread/INFO]: Saving and pausing game...
+[02:39:02] [Server thread/INFO]: Saving chunks for level 'TEMP_0_a8f3fce2-928c-40eb-8113-a1fdafa2df72'/Overworld
+[02:39:02] [Server thread/INFO]: Saving chunks for level 'TEMP_0_a8f3fce2-928c-40eb-8113-a1fdafa2df72'/Nether
+[02:39:02] [Server thread/INFO]: Saving chunks for level 'TEMP_0_a8f3fce2-928c-40eb-8113-a1fdafa2df72'/The End
+[02:39:02] [Client thread/INFO]: [STDOUT]: CLIENT request state: CLOSING_OLD_SERVER
+[02:39:02] [Client thread/INFO]: [STDOUT]: CLIENT enter state: CLOSING_OLD_SERVER
+[02:39:02] [Client thread/INFO]: [STDOUT]: Unpausing
+[02:39:02] [Server thread/INFO]: Stopping server
+[02:39:02] [Server thread/INFO]: Saving players
+[02:39:02] [Server thread/INFO]: MineRLAgent0 lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[02:39:02] [Server thread/INFO]: MineRLAgent0 left the game
+[02:39:02] [Server thread/INFO]: Stopping singleplayer server as player logged out
+[02:39:02] [Server thread/INFO]: Saving worlds
+[02:39:02] [Server thread/INFO]: Saving chunks for level 'TEMP_0_a8f3fce2-928c-40eb-8113-a1fdafa2df72'/Overworld
+[02:39:02] [Server thread/INFO]: Saving chunks for level 'TEMP_0_a8f3fce2-928c-40eb-8113-a1fdafa2df72'/Nether
+[02:39:02] [Server thread/INFO]: Saving chunks for level 'TEMP_0_a8f3fce2-928c-40eb-8113-a1fdafa2df72'/The End
+[02:39:02] [Server thread/INFO]: [STDOUT]: Unpausing
+[02:39:02] [Server thread/INFO]: [STDOUT]: Unpausing
+[02:39:02] [Server thread/INFO]: [STDOUT]: Unpausing
+[02:39:02] [Server thread/INFO]: Unloading dimension 0
+[02:39:02] [Server thread/INFO]: Unloading dimension -1
+[02:39:02] [Server thread/INFO]: Unloading dimension 1
+[02:39:02] [Server thread/INFO]: Applying holder lookups
+[02:39:02] [Server thread/INFO]: Holder lookups applied
+[02:39:12] [Client thread/INFO]: [STDOUT]: CLIENT request state: CREATING_NEW_WORLD
+[02:39:12] [Client thread/INFO]: [STDOUT]: CLIENT enter state: CREATING_NEW_WORLD
+[02:39:12] [Client thread/INFO]: [STDOUT]: [LOGTOPY] GENERATOR OPTIONS = {"coordinateScale":684.412,"heightScale":684.412,"lowerLimitScale":512.0,"upperLimitScale":512.0,"depthNoiseScaleX":200.0,"depthNoiseScaleZ":200.0,"depthNoiseScaleExponent":0.5,"mainNoiseScaleX":80.0,"mainNoiseScaleY":160.0,"mainNoiseScaleZ":80.0,"baseSize":8.5,"stretchY":12.0,"biomeDepthWeight":1.0,"biomeDepthOffset":0.0,"biomeScaleWeight":1.0,"biomeScaleOffset":0.0,"seaLevel":1,"useCaves":false,"useDungeons":false,"dungeonChance":8,"useStrongholds":false,"useVillages":false,"useMineShafts":false,"useTemples":false,"useMonuments":false,"useMansions":false,"useRavines":false,"useWaterLakes":false,"waterLakeChance":4,"useLavaLakes":false,"lavaLakeChance":80,"useLavaOceans":false,"fixedBiome":4,"biomeSize":4,"riverSize":1,"dirtSize":33,"dirtCount":10,"dirtMinHeight":0,"dirtMaxHeight":256,"gravelSize":33,"gravelCount":8,"gravelMinHeight":0,"gravelMaxHeight":256,"graniteSize":33,"graniteCount":10,"graniteMinHeight":0,"graniteMaxHeight":80,"dioriteSize":33,"dioriteCount":10,"dioriteMinHeight":0,"dioriteMaxHeight":80,"andesiteSize":33,"andesiteCount":10,"andesiteMinHeight":0,"andesiteMaxHeight":80,"coalSize":17,"coalCount":20,"coalMinHeight":0,"coalMaxHeight":128,"ironSize":9,"ironCount":20,"ironMinHeight":0,"ironMaxHeight":64,"goldSize":9,"goldCount":2,"goldMinHeight":0,"goldMaxHeight":32,"redstoneSize":8,"redstoneCount":8,"redstoneMinHeight":0,"redstoneMaxHeight":16,"diamondSize":8,"diamondCount":1,"diamondMinHeight":0,"diamondMaxHeight":16,"lapisSize":7,"lapisCount":1,"lapisCenterHeight":16,"lapisSpread":16}
+[02:39:13] [Server thread/INFO]: Starting integrated minecraft server version 1.11.2
+[02:39:13] [Server thread/INFO]: Generating keypair
+[02:39:13] [Server thread/INFO]: Injecting existing block and item data into this server instance
+[02:39:13] [Server thread/INFO]: Applying holder lookups
+[02:39:13] [Server thread/INFO]: Holder lookups applied
+[02:39:13] [Server thread/INFO]: Loading dimension 0 (TEMP_0_d950ee7c-7906-4bfe-8a77-7020c21f253b) (net.minecraft.server.integrated.IntegratedServer@4dab8b3c)
+[02:39:13] [Server thread/INFO]: Loading dimension 1 (TEMP_0_d950ee7c-7906-4bfe-8a77-7020c21f253b) (net.minecraft.server.integrated.IntegratedServer@4dab8b3c)
+[02:39:13] [Server thread/INFO]: Loading dimension -1 (TEMP_0_d950ee7c-7906-4bfe-8a77-7020c21f253b) (net.minecraft.server.integrated.IntegratedServer@4dab8b3c)
+[02:39:13] [Server thread/INFO]: Preparing start region for level 0
+[02:39:14] [Server thread/INFO]: Preparing spawn area: 19%
+[02:39:15] [Server thread/INFO]: Preparing spawn area: 37%
+[02:39:16] [Server thread/INFO]: Preparing spawn area: 53%
+[02:39:17] [Server thread/INFO]: Preparing spawn area: 70%
+[02:39:18] [Server thread/INFO]: Preparing spawn area: 87%
+[02:39:19] [Server thread/INFO]: Changing view distance to 4, from 10
+[02:39:19] [Client thread/INFO]: Deleting level TEMP_0_a8f3fce2-928c-40eb-8113-a1fdafa2df72
+[02:39:19] [Client thread/INFO]: Attempt 1...
+[02:39:19] [Server thread/INFO]: [STDOUT]: SERVER request state: WAITING_FOR_MOD_READY
+[02:39:19] [Netty Local Client IO #2/INFO]: Server protocol version 2
+[02:39:19] [Netty Server IO #5/INFO]: Client protocol version 2
+[02:39:19] [Netty Server IO #5/INFO]: Client attempting to join with 5 mods : minecraft@1.11.2,FML@8.0.99.99,malmomod@0.37.0,forge@13.20.1.2588,mcp@9.19
+[02:39:19] [Server thread/INFO]: [STDOUT]: CLIENT request state: WAITING_FOR_SERVER_READY
+[02:39:19] [Netty Local Client IO #2/INFO]: [Netty Local Client IO #2] Client side modded connection established
+[02:39:19] [Client thread/INFO]: [STDOUT]: CLIENT enter state: WAITING_FOR_SERVER_READY
+[02:39:19] [Server thread/INFO]: [STDOUT]: SERVER enter state: WAITING_FOR_MOD_READY
+[02:39:19] [Server thread/INFO]: [Server thread] Server side modded connection established
+[02:39:19] [Server thread/INFO]: MineRLAgent0[local:E:f609654b] logged in with entity id 117366 at (34.5, 62.0, 248.5)
+[02:39:19] [Server thread/INFO]: MineRLAgent0 joined the game
+[02:39:19] [Server thread/INFO]: [STDOUT]: SERVER request state: DORMANT
+[02:39:19] [Server thread/INFO]: [STDOUT]: SERVER enter state: DORMANT
+[02:39:19] [Server thread/INFO]: [STDOUT]: INCOMING MISSION: Received MissionInit directly through ServerStateMachine constructor.
+[02:39:19] [Server thread/INFO]: [STDOUT]: Mission received: MineRLTreechop-v0
+[02:39:19] [Server thread/INFO]: Received mission: §9MineRLTreechop-v0
+[02:39:19] [Server thread/INFO]: Source: §alocalhost
+[02:39:19] [Server thread/INFO]: [STDOUT]: SERVER request state: BUILDING_WORLD
+[02:39:19] [Server thread/INFO]: [STDOUT]: SERVER enter state: BUILDING_WORLD
+[02:39:19] [Server thread/INFO]: [STDOUT]: SERVER request state: WAITING_FOR_AGENTS_TO_ASSEMBLE
+[02:39:20] [Client thread/INFO]: [CHAT] Received mission: §9MineRLTreechop-v0
+[02:39:20] [Client thread/INFO]: [CHAT] Source: §alocalhost
+[02:39:20] [Client thread/INFO]: [STDERR]: Failed to tick client state episode: java.lang.NumberFormatException: For input string: "None"
+[02:39:20] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[02:39:20] [Server thread/INFO]: [STDOUT]: SERVER enter state: WAITING_FOR_AGENTS_TO_ASSEMBLE
+[02:39:20] [Server thread/INFO]: [STDOUT]: Experiment requires: 
+[02:39:20] [Server thread/INFO]: [STDOUT]: >>>> MineRLAgent0
+[02:39:20] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[02:39:20] [Server thread/INFO]: [STDOUT]: Initializing player with username MineRLAgent0 and agentname MineRLAgent0
+[02:39:20] [Client thread/INFO]: [STDOUT]: CLIENT request state: RUNNING
+[02:39:20] [Client thread/INFO]: [STDOUT]: CLIENT enter state: RUNNING
+[02:39:20] [Client thread/INFO]: [STDOUT]: Preparing reward com.microsoft.Malmo.MissionHandlers.RewardForPossessingItemImplementation@732bd47c with agent name MineRLAgent0
+[02:39:20] [Client thread/INFO]: [STDOUT]: Unpausing
+[02:39:20] [Server thread/INFO]: [STDOUT]: SERVER request state: RUNNING
+[02:39:20] [Server thread/INFO]: [STDOUT]: SERVER enter state: RUNNING
+RewardForPossessingItemImplementation - MineRLAgent0: 1
+RewardForPossessingItemImplementation - MineRLAgent0: 2
+RewardForPossessingItemImplementation - MineRLAgent0: 3
+RewardForPossessingItemImplementation - MineRLAgent0: 4
+[02:40:52] [Client thread/INFO]: [CHAT] §l29...
+[02:40:52] [Client thread/INFO]: [CHAT] §l28...
+[02:40:53] [Client thread/INFO]: [CHAT] §l27...
+[02:40:53] [Client thread/INFO]: [CHAT] §l26...
+[02:40:54] [Client thread/INFO]: [CHAT] §l25...
+[02:40:54] [Client thread/INFO]: [CHAT] §l24...
+[02:40:54] [Client thread/INFO]: [CHAT] §l23...
+[02:40:55] [Client thread/INFO]: [CHAT] §l22...
+[02:40:55] [Client thread/INFO]: [CHAT] §l21...
+[02:40:56] [Client thread/INFO]: [CHAT] §l20...
+[02:40:56] [Client thread/INFO]: [CHAT] §l19...
+[02:40:56] [Client thread/INFO]: [CHAT] §l18...
+[02:40:57] [Client thread/INFO]: [CHAT] §l17...
+[02:40:57] [Client thread/INFO]: [CHAT] §l16...
+[02:40:57] [Client thread/INFO]: [CHAT] §l15...
+[02:40:57] [Client thread/INFO]: [CHAT] §l14...
+[02:40:58] [Client thread/INFO]: [CHAT] §l13...
+[02:40:58] [Client thread/INFO]: [CHAT] §l12...
+[02:40:58] [Client thread/INFO]: [CHAT] §l11...
+[02:40:58] [Client thread/INFO]: [CHAT] §l10...
+[02:40:58] [Client thread/INFO]: [CHAT] §l9...
+[02:40:59] [Client thread/INFO]: [CHAT] §l8...
+[02:40:59] [Client thread/INFO]: [CHAT] §l7...
+[02:40:59] [Client thread/INFO]: [CHAT] §l6...
+[02:40:59] [Client thread/INFO]: [CHAT] §c§l5...
+[02:40:59] [Client thread/INFO]: [CHAT] §c§l4...
+[02:40:59] [Client thread/INFO]: [CHAT] §c§l3...
+[02:40:59] [Client thread/INFO]: [CHAT] §c§l2...
+[02:40:59] [Client thread/INFO]: [CHAT] §c§l1...
+[02:40:59] [Server thread/INFO]: [STDOUT]: SERVER request state: WAITING_FOR_AGENTS_TO_QUIT
+[02:40:59] [Server thread/INFO]: [STDOUT]: SERVER enter state: WAITING_FOR_AGENTS_TO_QUIT
+[02:40:59] [Client thread/INFO]: [CHAT] §c§l0...
+[02:40:59] [Client thread/INFO]: [STDOUT]: SM: [CLIENT_STATE_MACHINE] Mission ended for reason: null world still exists: true
+[02:40:59] [Client thread/INFO]: [STDOUT]: Unpausing
+[02:40:59] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[02:40:59] [Client thread/INFO]: [STDOUT]: CLIENT enter state: MISSION_ENDED
+[02:40:59] [Client thread/INFO]: [STDOUT]: inform the agent
+[02:40:59] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 18ms behind, skipping 0 tick(s)
+[02:40:59] [Client thread/INFO]: [STDOUT]: CLIENT request state: WAITING_FOR_SERVER_MISSION_END
+[02:40:59] [Client thread/INFO]: [STDOUT]: CLIENT enter state: WAITING_FOR_SERVER_MISSION_END
+[02:40:59] [Server thread/INFO]: [STDOUT]: SERVER request state: CLEAN_UP
+[02:40:59] [Server thread/INFO]: [STDOUT]: SERVER enter state: CLEAN_UP
+[02:40:59] [Server thread/INFO]: [STDOUT]: SERVER request state: DORMANT
+[02:40:59] [Client thread/INFO]: [STDOUT]: CLIENT request state: DORMANT
+[02:40:59] [EnvServerSocketHandler/INFO]: [STDOUT]: Received from localhost:<MissionInit xmlns="http://ProjectMalmo.microsoft.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" SchemaVersion="" PlatformVersion="0.37.0"><Mission><About><Summary>MineRLTreechop-v0</Summary></About><ModSettings><MsPerTick>50</MsPerTick></ModSettings><ServerSection><HumanInteraction><Port>None</Port><MaxPlayers>10</MaxPlayers></HumanInteraction><ServerInitialConditions><Time><AllowPassageOfTime>false</AllowPassageOfTime></Time><AllowSpawning>true</AllowSpawning></ServerInitialConditions><ServerHandlers><DefaultWorldGenerator forceReset="true" generatorOptions="{&quot;coordinateScale&quot;:684.412,&quot;heightScale&quot;:684.412,&quot;lowerLimitScale&quot;:512.0,&quot;upperLimitScale&quot;:512.0,&quot;depthNoiseScaleX&quot;:200.0,&quot;depthNoiseScaleZ&quot;:200.0,&quot;depthNoiseScaleExponent&quot;:0.5,&quot;mainNoiseScaleX&quot;:80.0,&quot;mainNoiseScaleY&quot;:160.0,&quot;mainNoiseScaleZ&quot;:80.0,&quot;baseSize&quot;:8.5,&quot;stretchY&quot;:12.0,&quot;biomeDepthWeight&quot;:1.0,&quot;biomeDepthOffset&quot;:0.0,&quot;biomeScaleWeight&quot;:1.0,&quot;biomeScaleOffset&quot;:0.0,&quot;seaLevel&quot;:1,&quot;useCaves&quot;:false,&quot;useDungeons&quot;:false,&quot;dungeonChance&quot;:8,&quot;useStrongholds&quot;:false,&quot;useVillages&quot;:false,&quot;useMineShafts&quot;:false,&quot;useTemples&quot;:false,&quot;useMonuments&quot;:false,&quot;useMansions&quot;:false,&quot;useRavines&quot;:false,&quot;useWaterLakes&quot;:false,&quot;waterLakeChance&quot;:4,&quot;useLavaLakes&quot;:false,&quot;lavaLakeChance&quot;:80,&quot;useLavaOceans&quot;:false,&quot;fixedBiome&quot;:4,&quot;biomeSize&quot;:4,&quot;riverSize&quot;:1,&quot;dirtSize&quot;:33,&quot;dirtCount&quot;:10,&quot;dirtMinHeight&quot;:0,&quot;dirtMaxHeight&quot;:256,&quot;gravelSize&quot;:33,&quot;gravelCount&quot;:8,&quot;gravelMinHeight&quot;:0,&quot;gravelMaxHeight&quot;:256,&quot;graniteSize&quot;:33,&quot;graniteCount&quot;:10,&quot;graniteMinHeight&quot;:0,&quot;graniteMaxHeight&quot;:80,&quot;dioriteSize&quot;:33,&quot;dioriteCount&quot;:10,&quot;dioriteMinHeight&quot;:0,&quot;dioriteMaxHeight&quot;:80,&quot;andesiteSize&quot;:33,&quot;andesiteCount&quot;:10,&quot;andesiteMinHeight&quot;:0,&quot;andesiteMaxHeight&quot;:80,&quot;coalSize&quot;:17,&quot;coalCount&quot;:20,&quot;coalMinHeight&quot;:0,&quot;coalMaxHeight&quot;:128,&quot;ironSize&quot;:9,&quot;ironCount&quot;:20,&quot;ironMinHeight&quot;:0,&quot;ironMaxHeight&quot;:64,&quot;goldSize&quot;:9,&quot;goldCount&quot;:2,&quot;goldMinHeight&quot;:0,&quot;goldMaxHeight&quot;:32,&quot;redstoneSize&quot;:8,&quot;redstoneCount&quot;:8,&quot;redstoneMinHeight&quot;:0,&quot;redstoneMaxHeight&quot;:16,&quot;diamondSize&quot;:8,&quot;diamondCount&quot;:1,&quot;diamondMinHeight&quot;:0,&quot;diamondMaxHeight&quot;:16,&quot;lapisSize&quot;:7,&quot;lapisCount&quot;:1,&quot;lapisCenterHeight&quot;:16,&quot;lapisSpread&quot;:16}"/><ServerQuitFromTimeUp timeLimitMs="400000" description="out_of_time"/><ServerQuitWhenAnyAgentFinishes/></ServerHandlers></ServerSection><AgentSection mode="Survival"><Name>MineRLAgent0</Name><AgentStart><Inventory><InventoryObject slot="0" type="iron_axe" metadata="0" quantity="1"/></Inventory></AgentStart><AgentHandlers><FileBasedPerformanceProducer/><PauseCommand/><VideoProducer want_depth="false"><Width>64</Width><Height>64</Height></VideoProducer><HumanLevelCommands/><CameraCommands/><RewardForPossessingItem sparse="false" excludeLoops="true"><Item amount="1" reward="1.0" type="log"/></RewardForPossessingItem><AgentQuitFromPossessingItem><Item type="log" amount="64"/></AgentQuitFromPossessingItem></AgentHandlers></AgentSection></Mission><ExperimentUID>6df8e89d-3b0d-49c0-b986-556f9e80ed5d</ExperimentUID><ClientRole>0</ClientRole><ClientAgentConnection><ClientIPAddress>127.0.0.1</ClientIPAddress><ClientMissionControlPort>0</ClientMissionControlPort><ClientCommandsPort>0</ClientCommandsPort><AgentIPAddress>127.0.0.1</AgentIPAddress><AgentMissionControlPort>0</AgentMissionControlPort><AgentVideoPort>0</AgentVideoPort><AgentDepthPort>0</AgentDepthPort><AgentLuminancePort>0</AgentLuminancePort><AgentObservationsPort>0</AgentObservationsPort><AgentRewardsPort>0</AgentRewardsPort><AgentColourMapPort>0</AgentColourMapPort></ClientAgentConnection></MissionInit>
+[02:40:59] [EnvServerSocketHandler/INFO]: [STDOUT]: REPLYING WITH: MALMOBUSY
+[02:40:59] [Client thread/INFO]: [STDOUT]: CLIENT enter state: DORMANT
+[02:40:59] [Client thread/INFO]: [STDOUT]: JETTISONING 0 COMMANDS
+[02:41:00] [EnvServerSocketHandler/INFO]: [STDOUT]: Received from localhost:<MissionInit xmlns="http://ProjectMalmo.microsoft.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" SchemaVersion="" PlatformVersion="0.37.0"><Mission><About><Summary>MineRLTreechop-v0</Summary></About><ModSettings><MsPerTick>50</MsPerTick></ModSettings><ServerSection><HumanInteraction><Port>None</Port><MaxPlayers>10</MaxPlayers></HumanInteraction><ServerInitialConditions><Time><AllowPassageOfTime>false</AllowPassageOfTime></Time><AllowSpawning>true</AllowSpawning></ServerInitialConditions><ServerHandlers><DefaultWorldGenerator forceReset="true" generatorOptions="{&quot;coordinateScale&quot;:684.412,&quot;heightScale&quot;:684.412,&quot;lowerLimitScale&quot;:512.0,&quot;upperLimitScale&quot;:512.0,&quot;depthNoiseScaleX&quot;:200.0,&quot;depthNoiseScaleZ&quot;:200.0,&quot;depthNoiseScaleExponent&quot;:0.5,&quot;mainNoiseScaleX&quot;:80.0,&quot;mainNoiseScaleY&quot;:160.0,&quot;mainNoiseScaleZ&quot;:80.0,&quot;baseSize&quot;:8.5,&quot;stretchY&quot;:12.0,&quot;biomeDepthWeight&quot;:1.0,&quot;biomeDepthOffset&quot;:0.0,&quot;biomeScaleWeight&quot;:1.0,&quot;biomeScaleOffset&quot;:0.0,&quot;seaLevel&quot;:1,&quot;useCaves&quot;:false,&quot;useDungeons&quot;:false,&quot;dungeonChance&quot;:8,&quot;useStrongholds&quot;:false,&quot;useVillages&quot;:false,&quot;useMineShafts&quot;:false,&quot;useTemples&quot;:false,&quot;useMonuments&quot;:false,&quot;useMansions&quot;:false,&quot;useRavines&quot;:false,&quot;useWaterLakes&quot;:false,&quot;waterLakeChance&quot;:4,&quot;useLavaLakes&quot;:false,&quot;lavaLakeChance&quot;:80,&quot;useLavaOceans&quot;:false,&quot;fixedBiome&quot;:4,&quot;biomeSize&quot;:4,&quot;riverSize&quot;:1,&quot;dirtSize&quot;:33,&quot;dirtCount&quot;:10,&quot;dirtMinHeight&quot;:0,&quot;dirtMaxHeight&quot;:256,&quot;gravelSize&quot;:33,&quot;gravelCount&quot;:8,&quot;gravelMinHeight&quot;:0,&quot;gravelMaxHeight&quot;:256,&quot;graniteSize&quot;:33,&quot;graniteCount&quot;:10,&quot;graniteMinHeight&quot;:0,&quot;graniteMaxHeight&quot;:80,&quot;dioriteSize&quot;:33,&quot;dioriteCount&quot;:10,&quot;dioriteMinHeight&quot;:0,&quot;dioriteMaxHeight&quot;:80,&quot;andesiteSize&quot;:33,&quot;andesiteCount&quot;:10,&quot;andesiteMinHeight&quot;:0,&quot;andesiteMaxHeight&quot;:80,&quot;coalSize&quot;:17,&quot;coalCount&quot;:20,&quot;coalMinHeight&quot;:0,&quot;coalMaxHeight&quot;:128,&quot;ironSize&quot;:9,&quot;ironCount&quot;:20,&quot;ironMinHeight&quot;:0,&quot;ironMaxHeight&quot;:64,&quot;goldSize&quot;:9,&quot;goldCount&quot;:2,&quot;goldMinHeight&quot;:0,&quot;goldMaxHeight&quot;:32,&quot;redstoneSize&quot;:8,&quot;redstoneCount&quot;:8,&quot;redstoneMinHeight&quot;:0,&quot;redstoneMaxHeight&quot;:16,&quot;diamondSize&quot;:8,&quot;diamondCount&quot;:1,&quot;diamondMinHeight&quot;:0,&quot;diamondMaxHeight&quot;:16,&quot;lapisSize&quot;:7,&quot;lapisCount&quot;:1,&quot;lapisCenterHeight&quot;:16,&quot;lapisSpread&quot;:16}"/><ServerQuitFromTimeUp timeLimitMs="400000" description="out_of_time"/><ServerQuitWhenAnyAgentFinishes/></ServerHandlers></ServerSection><AgentSection mode="Survival"><Name>MineRLAgent0</Name><AgentStart><Inventory><InventoryObject slot="0" type="iron_axe" metadata="0" quantity="1"/></Inventory></AgentStart><AgentHandlers><FileBasedPerformanceProducer/><PauseCommand/><VideoProducer want_depth="false"><Width>64</Width><Height>64</Height></VideoProducer><HumanLevelCommands/><CameraCommands/><RewardForPossessingItem sparse="false" excludeLoops="true"><Item amount="1" reward="1.0" type="log"/></RewardForPossessingItem><AgentQuitFromPossessingItem><Item type="log" amount="64"/></AgentQuitFromPossessingItem></AgentHandlers></AgentSection></Mission><ExperimentUID>6df8e89d-3b0d-49c0-b986-556f9e80ed5d</ExperimentUID><ClientRole>0</ClientRole><ClientAgentConnection><ClientIPAddress>127.0.0.1</ClientIPAddress><ClientMissionControlPort>0</ClientMissionControlPort><ClientCommandsPort>0</ClientCommandsPort><AgentIPAddress>127.0.0.1</AgentIPAddress><AgentMissionControlPort>0</AgentMissionControlPort><AgentVideoPort>0</AgentVideoPort><AgentDepthPort>0</AgentDepthPort><AgentLuminancePort>0</AgentLuminancePort><AgentObservationsPort>0</AgentObservationsPort><AgentRewardsPort>0</AgentRewardsPort><AgentColourMapPort>0</AgentColourMapPort></ClientAgentConnection></MissionInit>
+[02:41:00] [EnvServerSocketHandler/INFO]: [STDOUT]: REPLYING WITH: MALMOOK
+[02:41:01] [Client thread/INFO]: [STDOUT]: Mission received: MineRLTreechop-v0
+[02:41:01] [Client thread/INFO]: [STDOUT]: CLIENT request state: CREATING_HANDLERS
+[02:41:01] [Client thread/INFO]: [STDOUT]: CLIENT enter state: CREATING_HANDLERS
+[02:41:01] [Client thread/INFO]: [STDOUT]: CLIENT request state: EVALUATING_WORLD_REQUIREMENTS
+[02:41:01] [Client thread/INFO]: [STDOUT]: CLIENT enter state: EVALUATING_WORLD_REQUIREMENTS
+[02:41:01] [Client thread/INFO]: [STDOUT]: CLIENT request state: PAUSING_OLD_SERVER
+[02:41:01] [Client thread/INFO]: [STDOUT]: CLIENT enter state: PAUSING_OLD_SERVER
+[02:41:01] [Server thread/INFO]: Saving and pausing game...
+[02:41:01] [Server thread/INFO]: Saving chunks for level 'TEMP_0_d950ee7c-7906-4bfe-8a77-7020c21f253b'/Overworld
+[02:41:01] [Server thread/INFO]: Saving chunks for level 'TEMP_0_d950ee7c-7906-4bfe-8a77-7020c21f253b'/Nether
+[02:41:01] [Server thread/INFO]: Saving chunks for level 'TEMP_0_d950ee7c-7906-4bfe-8a77-7020c21f253b'/The End
+[02:41:01] [Client thread/INFO]: [STDOUT]: CLIENT request state: CLOSING_OLD_SERVER
+[02:41:01] [Client thread/INFO]: [STDOUT]: CLIENT enter state: CLOSING_OLD_SERVER
+[02:41:01] [Client thread/INFO]: [STDOUT]: Unpausing
+[02:41:01] [Server thread/INFO]: Stopping server
+[02:41:01] [Server thread/INFO]: Saving players
+[02:41:01] [Server thread/INFO]: MineRLAgent0 lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[02:41:01] [Server thread/INFO]: MineRLAgent0 left the game
+[02:41:01] [Server thread/INFO]: Stopping singleplayer server as player logged out
+[02:41:01] [Server thread/INFO]: Saving worlds
+[02:41:01] [Server thread/INFO]: Saving chunks for level 'TEMP_0_d950ee7c-7906-4bfe-8a77-7020c21f253b'/Overworld
+[02:41:01] [Server thread/INFO]: Saving chunks for level 'TEMP_0_d950ee7c-7906-4bfe-8a77-7020c21f253b'/Nether
+[02:41:01] [Server thread/INFO]: Saving chunks for level 'TEMP_0_d950ee7c-7906-4bfe-8a77-7020c21f253b'/The End
+[02:41:01] [Server thread/INFO]: [STDOUT]: Unpausing
+[02:41:01] [Server thread/INFO]: [STDOUT]: Unpausing
+[02:41:01] [Server thread/INFO]: [STDOUT]: Unpausing
+[02:41:01] [Server thread/INFO]: Unloading dimension 0
+[02:41:01] [Server thread/INFO]: Unloading dimension -1
+[02:41:01] [Server thread/INFO]: Unloading dimension 1
+[02:41:01] [Server thread/INFO]: Applying holder lookups
+[02:41:01] [Server thread/INFO]: Holder lookups applied
+[02:41:11] [Client thread/INFO]: [STDOUT]: CLIENT request state: CREATING_NEW_WORLD
+[02:41:11] [Client thread/INFO]: [STDOUT]: CLIENT enter state: CREATING_NEW_WORLD
+[02:41:11] [Client thread/INFO]: [STDOUT]: [LOGTOPY] GENERATOR OPTIONS = {"coordinateScale":684.412,"heightScale":684.412,"lowerLimitScale":512.0,"upperLimitScale":512.0,"depthNoiseScaleX":200.0,"depthNoiseScaleZ":200.0,"depthNoiseScaleExponent":0.5,"mainNoiseScaleX":80.0,"mainNoiseScaleY":160.0,"mainNoiseScaleZ":80.0,"baseSize":8.5,"stretchY":12.0,"biomeDepthWeight":1.0,"biomeDepthOffset":0.0,"biomeScaleWeight":1.0,"biomeScaleOffset":0.0,"seaLevel":1,"useCaves":false,"useDungeons":false,"dungeonChance":8,"useStrongholds":false,"useVillages":false,"useMineShafts":false,"useTemples":false,"useMonuments":false,"useMansions":false,"useRavines":false,"useWaterLakes":false,"waterLakeChance":4,"useLavaLakes":false,"lavaLakeChance":80,"useLavaOceans":false,"fixedBiome":4,"biomeSize":4,"riverSize":1,"dirtSize":33,"dirtCount":10,"dirtMinHeight":0,"dirtMaxHeight":256,"gravelSize":33,"gravelCount":8,"gravelMinHeight":0,"gravelMaxHeight":256,"graniteSize":33,"graniteCount":10,"graniteMinHeight":0,"graniteMaxHeight":80,"dioriteSize":33,"dioriteCount":10,"dioriteMinHeight":0,"dioriteMaxHeight":80,"andesiteSize":33,"andesiteCount":10,"andesiteMinHeight":0,"andesiteMaxHeight":80,"coalSize":17,"coalCount":20,"coalMinHeight":0,"coalMaxHeight":128,"ironSize":9,"ironCount":20,"ironMinHeight":0,"ironMaxHeight":64,"goldSize":9,"goldCount":2,"goldMinHeight":0,"goldMaxHeight":32,"redstoneSize":8,"redstoneCount":8,"redstoneMinHeight":0,"redstoneMaxHeight":16,"diamondSize":8,"diamondCount":1,"diamondMinHeight":0,"diamondMaxHeight":16,"lapisSize":7,"lapisCount":1,"lapisCenterHeight":16,"lapisSpread":16}
+[02:41:11] [Server thread/INFO]: Starting integrated minecraft server version 1.11.2
+[02:41:11] [Server thread/INFO]: Generating keypair
+[02:41:11] [Server thread/INFO]: Injecting existing block and item data into this server instance
+[02:41:11] [Server thread/INFO]: Applying holder lookups
+[02:41:11] [Server thread/INFO]: Holder lookups applied
+[02:41:11] [Server thread/INFO]: Loading dimension 0 (TEMP_0_e6d8e0e6-4a7a-491a-95b7-a34a0b74a421) (net.minecraft.server.integrated.IntegratedServer@7fb5353d)
+[02:41:11] [Server thread/INFO]: Loading dimension 1 (TEMP_0_e6d8e0e6-4a7a-491a-95b7-a34a0b74a421) (net.minecraft.server.integrated.IntegratedServer@7fb5353d)
+[02:41:11] [Server thread/INFO]: Loading dimension -1 (TEMP_0_e6d8e0e6-4a7a-491a-95b7-a34a0b74a421) (net.minecraft.server.integrated.IntegratedServer@7fb5353d)
+[02:41:11] [Server thread/INFO]: Preparing start region for level 0
+[02:41:12] [Server thread/INFO]: Preparing spawn area: 19%
+[02:41:13] [Server thread/INFO]: Preparing spawn area: 37%
+[02:41:14] [Server thread/INFO]: Preparing spawn area: 55%
+[02:41:15] [Server thread/INFO]: Preparing spawn area: 72%
+[02:41:16] [Server thread/INFO]: Preparing spawn area: 90%
+[02:41:17] [Server thread/INFO]: Changing view distance to 4, from 10
+[02:41:17] [Client thread/INFO]: Deleting level TEMP_0_d950ee7c-7906-4bfe-8a77-7020c21f253b
+[02:41:17] [Client thread/INFO]: Attempt 1...
+[02:41:17] [Server thread/INFO]: [STDOUT]: SERVER request state: WAITING_FOR_MOD_READY
+[02:41:17] [Netty Local Client IO #3/INFO]: Server protocol version 2
+[02:41:17] [Netty Server IO #7/INFO]: Client protocol version 2
+[02:41:17] [Netty Server IO #7/INFO]: Client attempting to join with 5 mods : minecraft@1.11.2,FML@8.0.99.99,malmomod@0.37.0,forge@13.20.1.2588,mcp@9.19
+[02:41:17] [Server thread/INFO]: [STDOUT]: CLIENT request state: WAITING_FOR_SERVER_READY
+[02:41:17] [Netty Local Client IO #3/INFO]: [Netty Local Client IO #3] Client side modded connection established
+[02:41:17] [Client thread/INFO]: [STDOUT]: CLIENT enter state: WAITING_FOR_SERVER_READY
+[02:41:17] [Server thread/INFO]: [STDOUT]: SERVER enter state: WAITING_FOR_MOD_READY
+[02:41:18] [Server thread/INFO]: [Server thread] Server side modded connection established
+[02:41:18] [Server thread/INFO]: MineRLAgent0[local:E:a0359232] logged in with entity id 175145 at (-99.5, 58.0, 250.5)
+[02:41:18] [Server thread/INFO]: MineRLAgent0 joined the game
+[02:41:18] [Server thread/INFO]: [STDOUT]: SERVER request state: DORMANT
+[02:41:18] [Server thread/INFO]: [STDOUT]: SERVER enter state: DORMANT
+[02:41:18] [Server thread/INFO]: [STDOUT]: INCOMING MISSION: Received MissionInit directly through ServerStateMachine constructor.
+[02:41:18] [Server thread/INFO]: [STDOUT]: Mission received: MineRLTreechop-v0
+[02:41:18] [Server thread/INFO]: Received mission: §9MineRLTreechop-v0
+[02:41:18] [Server thread/INFO]: Source: §alocalhost
+[02:41:18] [Server thread/INFO]: [STDOUT]: SERVER request state: BUILDING_WORLD
+[02:41:18] [Server thread/INFO]: [STDOUT]: SERVER enter state: BUILDING_WORLD
+[02:41:18] [Server thread/INFO]: [STDOUT]: SERVER request state: WAITING_FOR_AGENTS_TO_ASSEMBLE
+[02:41:18] [Server thread/INFO]: [STDOUT]: SERVER enter state: WAITING_FOR_AGENTS_TO_ASSEMBLE
+[02:41:18] [Server thread/INFO]: [STDOUT]: Experiment requires: 
+[02:41:18] [Server thread/INFO]: [STDOUT]: >>>> MineRLAgent0
+[02:41:18] [Client thread/INFO]: [CHAT] Received mission: §9MineRLTreechop-v0
+[02:41:18] [Client thread/INFO]: [CHAT] Source: §alocalhost
+[02:41:18] [Client thread/INFO]: [STDERR]: Failed to tick client state episode: java.lang.NumberFormatException: For input string: "None"
+[02:41:18] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[02:41:18] [Server thread/INFO]: [STDOUT]: Initializing player with username MineRLAgent0 and agentname MineRLAgent0
+[02:41:18] [Client thread/INFO]: [STDOUT]: CLIENT request state: RUNNING
+[02:41:18] [Client thread/INFO]: [STDOUT]: CLIENT enter state: RUNNING
+[02:41:18] [Client thread/INFO]: [STDOUT]: Preparing reward com.microsoft.Malmo.MissionHandlers.RewardForPossessingItemImplementation@beea42 with agent name MineRLAgent0
+[02:41:18] [Client thread/INFO]: [STDOUT]: Unpausing
+[02:41:18] [Server thread/INFO]: [STDOUT]: SERVER request state: RUNNING
+[02:41:18] [Server thread/INFO]: [STDOUT]: SERVER enter state: RUNNING
+RewardForPossessingItemImplementation - MineRLAgent0: 1
+RewardForPossessingItemImplementation - MineRLAgent0: 2
+RewardForPossessingItemImplementation - MineRLAgent0: 1
+RewardForPossessingItemImplementation - MineRLAgent0: 2
+RewardForPossessingItemImplementation - MineRLAgent0: 1
+RewardForPossessingItemImplementation - MineRLAgent0: 2
+RewardForPossessingItemImplementation - MineRLAgent0: 3
+[02:42:56] [Client thread/INFO]: [CHAT] §l29...
+[02:42:56] [Client thread/INFO]: [CHAT] §l28...
+[02:42:56] [Client thread/INFO]: [CHAT] §l27...
+[02:42:56] [Client thread/INFO]: [CHAT] §l26...
+[02:42:57] [Client thread/INFO]: [CHAT] §l25...
+[02:42:57] [Client thread/INFO]: [CHAT] §l24...
+[02:42:57] [Client thread/INFO]: [CHAT] §l23...
+[02:42:57] [Client thread/INFO]: [CHAT] §l22...
+[02:42:58] [Client thread/INFO]: [CHAT] §l21...
+[02:42:58] [Client thread/INFO]: [CHAT] §l20...
+[02:42:58] [Client thread/INFO]: [CHAT] §l19...
+[02:42:59] [Client thread/INFO]: [CHAT] §l18...
+[02:42:59] [Client thread/INFO]: [CHAT] §l17...
+[02:42:59] [Client thread/INFO]: [CHAT] §l16...
+[02:42:59] [Client thread/INFO]: [CHAT] §l15...
+[02:42:59] [Client thread/INFO]: [CHAT] §l14...
+[02:43:00] [Client thread/INFO]: [CHAT] §l13...
+[02:43:00] [Client thread/INFO]: [CHAT] §l12...
+[02:43:00] [Client thread/INFO]: [CHAT] §l11...
+[02:43:00] [Client thread/INFO]: [CHAT] §l10...
+[02:43:00] [Client thread/INFO]: [CHAT] §l9...
+[02:43:01] [Client thread/INFO]: [CHAT] §l8...
+[02:43:01] [Client thread/INFO]: [CHAT] §l7...
+[02:43:01] [Client thread/INFO]: [CHAT] §l6...
+[02:43:01] [Client thread/INFO]: [CHAT] §c§l5...
+[02:43:01] [Client thread/INFO]: [CHAT] §c§l4...
+[02:43:02] [Client thread/INFO]: [CHAT] §c§l3...
+[02:43:02] [Client thread/INFO]: [CHAT] §c§l2...
+[02:43:02] [Client thread/INFO]: [CHAT] §c§l1...
+[02:43:02] [Server thread/INFO]: [STDOUT]: SERVER request state: WAITING_FOR_AGENTS_TO_QUIT
+[02:43:02] [Server thread/INFO]: [STDOUT]: SERVER enter state: WAITING_FOR_AGENTS_TO_QUIT
+[02:43:02] [Client thread/INFO]: [CHAT] §c§l0...
+[02:43:02] [Client thread/INFO]: [STDOUT]: SM: [CLIENT_STATE_MACHINE] Mission ended for reason: null world still exists: true
+[02:43:02] [Client thread/INFO]: [STDOUT]: Unpausing
+[02:43:02] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[02:43:02] [Client thread/INFO]: [STDOUT]: CLIENT enter state: MISSION_ENDED
+[02:43:02] [Client thread/INFO]: [STDOUT]: inform the agent
+[02:43:02] [Client thread/INFO]: [STDOUT]: CLIENT request state: WAITING_FOR_SERVER_MISSION_END
+[02:43:02] [Client thread/INFO]: [STDOUT]: CLIENT enter state: WAITING_FOR_SERVER_MISSION_END
+[02:43:02] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 8ms behind, skipping 0 tick(s)
+[02:43:02] [Server thread/INFO]: [STDOUT]: SERVER request state: CLEAN_UP
+[02:43:02] [Server thread/INFO]: [STDOUT]: SERVER enter state: CLEAN_UP
+[02:43:02] [Server thread/INFO]: [STDOUT]: SERVER request state: DORMANT
+[02:43:02] [Client thread/INFO]: [STDOUT]: CLIENT request state: DORMANT
+[02:43:02] [EnvServerSocketHandler/INFO]: [STDOUT]: Received from localhost:<MissionInit xmlns="http://ProjectMalmo.microsoft.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" SchemaVersion="" PlatformVersion="0.37.0"><Mission><About><Summary>MineRLTreechop-v0</Summary></About><ModSettings><MsPerTick>50</MsPerTick></ModSettings><ServerSection><HumanInteraction><Port>None</Port><MaxPlayers>10</MaxPlayers></HumanInteraction><ServerInitialConditions><Time><AllowPassageOfTime>false</AllowPassageOfTime></Time><AllowSpawning>true</AllowSpawning></ServerInitialConditions><ServerHandlers><DefaultWorldGenerator forceReset="true" generatorOptions="{&quot;coordinateScale&quot;:684.412,&quot;heightScale&quot;:684.412,&quot;lowerLimitScale&quot;:512.0,&quot;upperLimitScale&quot;:512.0,&quot;depthNoiseScaleX&quot;:200.0,&quot;depthNoiseScaleZ&quot;:200.0,&quot;depthNoiseScaleExponent&quot;:0.5,&quot;mainNoiseScaleX&quot;:80.0,&quot;mainNoiseScaleY&quot;:160.0,&quot;mainNoiseScaleZ&quot;:80.0,&quot;baseSize&quot;:8.5,&quot;stretchY&quot;:12.0,&quot;biomeDepthWeight&quot;:1.0,&quot;biomeDepthOffset&quot;:0.0,&quot;biomeScaleWeight&quot;:1.0,&quot;biomeScaleOffset&quot;:0.0,&quot;seaLevel&quot;:1,&quot;useCaves&quot;:false,&quot;useDungeons&quot;:false,&quot;dungeonChance&quot;:8,&quot;useStrongholds&quot;:false,&quot;useVillages&quot;:false,&quot;useMineShafts&quot;:false,&quot;useTemples&quot;:false,&quot;useMonuments&quot;:false,&quot;useMansions&quot;:false,&quot;useRavines&quot;:false,&quot;useWaterLakes&quot;:false,&quot;waterLakeChance&quot;:4,&quot;useLavaLakes&quot;:false,&quot;lavaLakeChance&quot;:80,&quot;useLavaOceans&quot;:false,&quot;fixedBiome&quot;:4,&quot;biomeSize&quot;:4,&quot;riverSize&quot;:1,&quot;dirtSize&quot;:33,&quot;dirtCount&quot;:10,&quot;dirtMinHeight&quot;:0,&quot;dirtMaxHeight&quot;:256,&quot;gravelSize&quot;:33,&quot;gravelCount&quot;:8,&quot;gravelMinHeight&quot;:0,&quot;gravelMaxHeight&quot;:256,&quot;graniteSize&quot;:33,&quot;graniteCount&quot;:10,&quot;graniteMinHeight&quot;:0,&quot;graniteMaxHeight&quot;:80,&quot;dioriteSize&quot;:33,&quot;dioriteCount&quot;:10,&quot;dioriteMinHeight&quot;:0,&quot;dioriteMaxHeight&quot;:80,&quot;andesiteSize&quot;:33,&quot;andesiteCount&quot;:10,&quot;andesiteMinHeight&quot;:0,&quot;andesiteMaxHeight&quot;:80,&quot;coalSize&quot;:17,&quot;coalCount&quot;:20,&quot;coalMinHeight&quot;:0,&quot;coalMaxHeight&quot;:128,&quot;ironSize&quot;:9,&quot;ironCount&quot;:20,&quot;ironMinHeight&quot;:0,&quot;ironMaxHeight&quot;:64,&quot;goldSize&quot;:9,&quot;goldCount&quot;:2,&quot;goldMinHeight&quot;:0,&quot;goldMaxHeight&quot;:32,&quot;redstoneSize&quot;:8,&quot;redstoneCount&quot;:8,&quot;redstoneMinHeight&quot;:0,&quot;redstoneMaxHeight&quot;:16,&quot;diamondSize&quot;:8,&quot;diamondCount&quot;:1,&quot;diamondMinHeight&quot;:0,&quot;diamondMaxHeight&quot;:16,&quot;lapisSize&quot;:7,&quot;lapisCount&quot;:1,&quot;lapisCenterHeight&quot;:16,&quot;lapisSpread&quot;:16}"/><ServerQuitFromTimeUp timeLimitMs="400000" description="out_of_time"/><ServerQuitWhenAnyAgentFinishes/></ServerHandlers></ServerSection><AgentSection mode="Survival"><Name>MineRLAgent0</Name><AgentStart><Inventory><InventoryObject slot="0" type="iron_axe" metadata="0" quantity="1"/></Inventory></AgentStart><AgentHandlers><FileBasedPerformanceProducer/><PauseCommand/><VideoProducer want_depth="false"><Width>64</Width><Height>64</Height></VideoProducer><HumanLevelCommands/><CameraCommands/><RewardForPossessingItem sparse="false" excludeLoops="true"><Item amount="1" reward="1.0" type="log"/></RewardForPossessingItem><AgentQuitFromPossessingItem><Item type="log" amount="64"/></AgentQuitFromPossessingItem></AgentHandlers></AgentSection></Mission><ExperimentUID>919c602f-e60b-446c-b16a-9888e8450c25</ExperimentUID><ClientRole>0</ClientRole><ClientAgentConnection><ClientIPAddress>127.0.0.1</ClientIPAddress><ClientMissionControlPort>0</ClientMissionControlPort><ClientCommandsPort>0</ClientCommandsPort><AgentIPAddress>127.0.0.1</AgentIPAddress><AgentMissionControlPort>0</AgentMissionControlPort><AgentVideoPort>0</AgentVideoPort><AgentDepthPort>0</AgentDepthPort><AgentLuminancePort>0</AgentLuminancePort><AgentObservationsPort>0</AgentObservationsPort><AgentRewardsPort>0</AgentRewardsPort><AgentColourMapPort>0</AgentColourMapPort></ClientAgentConnection></MissionInit>
+[02:43:02] [EnvServerSocketHandler/INFO]: [STDOUT]: REPLYING WITH: MALMOBUSY
+[02:43:02] [Client thread/INFO]: [STDOUT]: CLIENT enter state: DORMANT
+[02:43:02] [Client thread/INFO]: [STDOUT]: JETTISONING 0 COMMANDS
+[02:43:03] [EnvServerSocketHandler/INFO]: [STDOUT]: Received from localhost:<MissionInit xmlns="http://ProjectMalmo.microsoft.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" SchemaVersion="" PlatformVersion="0.37.0"><Mission><About><Summary>MineRLTreechop-v0</Summary></About><ModSettings><MsPerTick>50</MsPerTick></ModSettings><ServerSection><HumanInteraction><Port>None</Port><MaxPlayers>10</MaxPlayers></HumanInteraction><ServerInitialConditions><Time><AllowPassageOfTime>false</AllowPassageOfTime></Time><AllowSpawning>true</AllowSpawning></ServerInitialConditions><ServerHandlers><DefaultWorldGenerator forceReset="true" generatorOptions="{&quot;coordinateScale&quot;:684.412,&quot;heightScale&quot;:684.412,&quot;lowerLimitScale&quot;:512.0,&quot;upperLimitScale&quot;:512.0,&quot;depthNoiseScaleX&quot;:200.0,&quot;depthNoiseScaleZ&quot;:200.0,&quot;depthNoiseScaleExponent&quot;:0.5,&quot;mainNoiseScaleX&quot;:80.0,&quot;mainNoiseScaleY&quot;:160.0,&quot;mainNoiseScaleZ&quot;:80.0,&quot;baseSize&quot;:8.5,&quot;stretchY&quot;:12.0,&quot;biomeDepthWeight&quot;:1.0,&quot;biomeDepthOffset&quot;:0.0,&quot;biomeScaleWeight&quot;:1.0,&quot;biomeScaleOffset&quot;:0.0,&quot;seaLevel&quot;:1,&quot;useCaves&quot;:false,&quot;useDungeons&quot;:false,&quot;dungeonChance&quot;:8,&quot;useStrongholds&quot;:false,&quot;useVillages&quot;:false,&quot;useMineShafts&quot;:false,&quot;useTemples&quot;:false,&quot;useMonuments&quot;:false,&quot;useMansions&quot;:false,&quot;useRavines&quot;:false,&quot;useWaterLakes&quot;:false,&quot;waterLakeChance&quot;:4,&quot;useLavaLakes&quot;:false,&quot;lavaLakeChance&quot;:80,&quot;useLavaOceans&quot;:false,&quot;fixedBiome&quot;:4,&quot;biomeSize&quot;:4,&quot;riverSize&quot;:1,&quot;dirtSize&quot;:33,&quot;dirtCount&quot;:10,&quot;dirtMinHeight&quot;:0,&quot;dirtMaxHeight&quot;:256,&quot;gravelSize&quot;:33,&quot;gravelCount&quot;:8,&quot;gravelMinHeight&quot;:0,&quot;gravelMaxHeight&quot;:256,&quot;graniteSize&quot;:33,&quot;graniteCount&quot;:10,&quot;graniteMinHeight&quot;:0,&quot;graniteMaxHeight&quot;:80,&quot;dioriteSize&quot;:33,&quot;dioriteCount&quot;:10,&quot;dioriteMinHeight&quot;:0,&quot;dioriteMaxHeight&quot;:80,&quot;andesiteSize&quot;:33,&quot;andesiteCount&quot;:10,&quot;andesiteMinHeight&quot;:0,&quot;andesiteMaxHeight&quot;:80,&quot;coalSize&quot;:17,&quot;coalCount&quot;:20,&quot;coalMinHeight&quot;:0,&quot;coalMaxHeight&quot;:128,&quot;ironSize&quot;:9,&quot;ironCount&quot;:20,&quot;ironMinHeight&quot;:0,&quot;ironMaxHeight&quot;:64,&quot;goldSize&quot;:9,&quot;goldCount&quot;:2,&quot;goldMinHeight&quot;:0,&quot;goldMaxHeight&quot;:32,&quot;redstoneSize&quot;:8,&quot;redstoneCount&quot;:8,&quot;redstoneMinHeight&quot;:0,&quot;redstoneMaxHeight&quot;:16,&quot;diamondSize&quot;:8,&quot;diamondCount&quot;:1,&quot;diamondMinHeight&quot;:0,&quot;diamondMaxHeight&quot;:16,&quot;lapisSize&quot;:7,&quot;lapisCount&quot;:1,&quot;lapisCenterHeight&quot;:16,&quot;lapisSpread&quot;:16}"/><ServerQuitFromTimeUp timeLimitMs="400000" description="out_of_time"/><ServerQuitWhenAnyAgentFinishes/></ServerHandlers></ServerSection><AgentSection mode="Survival"><Name>MineRLAgent0</Name><AgentStart><Inventory><InventoryObject slot="0" type="iron_axe" metadata="0" quantity="1"/></Inventory></AgentStart><AgentHandlers><FileBasedPerformanceProducer/><PauseCommand/><VideoProducer want_depth="false"><Width>64</Width><Height>64</Height></VideoProducer><HumanLevelCommands/><CameraCommands/><RewardForPossessingItem sparse="false" excludeLoops="true"><Item amount="1" reward="1.0" type="log"/></RewardForPossessingItem><AgentQuitFromPossessingItem><Item type="log" amount="64"/></AgentQuitFromPossessingItem></AgentHandlers></AgentSection></Mission><ExperimentUID>919c602f-e60b-446c-b16a-9888e8450c25</ExperimentUID><ClientRole>0</ClientRole><ClientAgentConnection><ClientIPAddress>127.0.0.1</ClientIPAddress><ClientMissionControlPort>0</ClientMissionControlPort><ClientCommandsPort>0</ClientCommandsPort><AgentIPAddress>127.0.0.1</AgentIPAddress><AgentMissionControlPort>0</AgentMissionControlPort><AgentVideoPort>0</AgentVideoPort><AgentDepthPort>0</AgentDepthPort><AgentLuminancePort>0</AgentLuminancePort><AgentObservationsPort>0</AgentObservationsPort><AgentRewardsPort>0</AgentRewardsPort><AgentColourMapPort>0</AgentColourMapPort></ClientAgentConnection></MissionInit>
+[02:43:03] [EnvServerSocketHandler/INFO]: [STDOUT]: REPLYING WITH: MALMOOK
+[02:43:03] [Client thread/INFO]: [STDOUT]: Mission received: MineRLTreechop-v0
+[02:43:03] [Client thread/INFO]: [STDOUT]: CLIENT request state: CREATING_HANDLERS
+[02:43:03] [Client thread/INFO]: [STDOUT]: CLIENT enter state: CREATING_HANDLERS
+[02:43:03] [Client thread/INFO]: [STDOUT]: CLIENT request state: EVALUATING_WORLD_REQUIREMENTS
+[02:43:03] [Client thread/INFO]: [STDOUT]: CLIENT enter state: EVALUATING_WORLD_REQUIREMENTS
+[02:43:03] [Client thread/INFO]: [STDOUT]: CLIENT request state: PAUSING_OLD_SERVER
+[02:43:03] [Client thread/INFO]: [STDOUT]: CLIENT enter state: PAUSING_OLD_SERVER
+[02:43:03] [Server thread/INFO]: Saving and pausing game...
+[02:43:03] [Server thread/INFO]: Saving chunks for level 'TEMP_0_e6d8e0e6-4a7a-491a-95b7-a34a0b74a421'/Overworld
+[02:43:03] [Server thread/INFO]: Saving chunks for level 'TEMP_0_e6d8e0e6-4a7a-491a-95b7-a34a0b74a421'/Nether
+[02:43:03] [Server thread/INFO]: Saving chunks for level 'TEMP_0_e6d8e0e6-4a7a-491a-95b7-a34a0b74a421'/The End
+[02:43:04] [Client thread/INFO]: [STDOUT]: CLIENT request state: CLOSING_OLD_SERVER
+[02:43:04] [Client thread/INFO]: [STDOUT]: CLIENT enter state: CLOSING_OLD_SERVER
+[02:43:04] [Client thread/INFO]: [STDOUT]: Unpausing
+[02:43:04] [Server thread/INFO]: Stopping server
+[02:43:04] [Server thread/INFO]: Saving players
+[02:43:04] [Server thread/INFO]: MineRLAgent0 lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[02:43:04] [Server thread/INFO]: MineRLAgent0 left the game
+[02:43:04] [Server thread/INFO]: Stopping singleplayer server as player logged out
+[02:43:04] [Server thread/INFO]: Saving worlds
+[02:43:04] [Server thread/INFO]: Saving chunks for level 'TEMP_0_e6d8e0e6-4a7a-491a-95b7-a34a0b74a421'/Overworld
+[02:43:04] [Server thread/INFO]: Saving chunks for level 'TEMP_0_e6d8e0e6-4a7a-491a-95b7-a34a0b74a421'/Nether
+[02:43:04] [Server thread/INFO]: Saving chunks for level 'TEMP_0_e6d8e0e6-4a7a-491a-95b7-a34a0b74a421'/The End
+[02:43:04] [Server thread/INFO]: [STDOUT]: Unpausing
+[02:43:04] [Server thread/INFO]: [STDOUT]: Unpausing
+[02:43:04] [Server thread/INFO]: [STDOUT]: Unpausing
+[02:43:04] [Server thread/INFO]: Unloading dimension 0
+[02:43:04] [Server thread/INFO]: Unloading dimension -1
+[02:43:04] [Server thread/INFO]: Unloading dimension 1
+[02:43:04] [Server thread/INFO]: Applying holder lookups
+[02:43:04] [Server thread/INFO]: Holder lookups applied
