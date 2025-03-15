@@ -12,35 +12,7 @@ NUM_INTERACTIONS = -1
 image_folder = f'expert/{ENV_ID}/imgs'
 os.makedirs(image_folder, exist_ok=True)
 
-
-def convert_action(action, camera_margin=5):
-    """
-    attack          0
-    forward         1
-    forward+jump    2
-    camera_1        3
-    camera_2        4
-    camera_3        5
-    camera_4        6
-    """
-    if action['camera'][0] < -camera_margin:
-        return 3
-    elif action['camera'][0] > camera_margin:
-        return 4
-    elif action['camera'][1] < -camera_margin:
-        return 5
-    elif action['camera'][1] > camera_margin:
-        return 6
-    elif action['forward'] == 1:
-        if action['jump'] == 1:
-            return 2
-        else:
-            return 1
-    elif action['attack'] == 1:
-        return 0
-    else:
-        # No reasonable mapping (would be no-op)
-        return -1
+env = gym.make(ENV_ID)
 
 
 def gen_expert():
@@ -57,17 +29,13 @@ def gen_expert():
         new_traj = True
         for obs, act, rew, _, done in data.load_data(trajectory_name):
             if NUM_INTERACTIONS != -1 and count >= NUM_INTERACTIONS:
-                return {'actions': np.array(expert_actions).reshape((len(expert_actions), 1)),
+                return {'actions': np.array(expert_actions),
                         'obs': np.array(expert_obs, dtype=np.dtype('<U64')),
                         'rewards': np.array(expert_rewards),
                         'episode_returns': np.array(expert_episode_returns),
                         'episode_starts': np.array(expert_episode_starts)}
 
-            act_ = convert_action(act)
-            if act_ == -1:
-                continue
-
-            expert_actions.append(act_)
+            expert_actions.append(gym.spaces.utils.flatten(env.action_space, act))
 
             if new_traj:
                 expert_episode_returns.append(0.0)
@@ -88,7 +56,7 @@ def gen_expert():
 
             count += 1
 
-    return {'actions': np.array(expert_actions).reshape((len(expert_actions), 1)),
+    return {'actions': np.array(expert_actions),
             'obs': np.array(expert_obs, dtype=np.dtype('<U64')),
             'rewards': np.array(expert_rewards),
             'episode_returns': np.array(expert_episode_returns),
