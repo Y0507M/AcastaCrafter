@@ -1,0 +1,2 @@
+2025-03-18 14:05:51 YashPC process_watcher[7678] INFO Process watcher started between parent 7608 and child 7625 
+2025-03-18 14:06:28 YashPC process_watcher[7678] INFO Child is not running anymore, launcher can terminate.

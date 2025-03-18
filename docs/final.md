@@ -66,10 +66,15 @@ We evaluated our agent's performance using both quantitative and qualitative met
 
 * MineRL Documentation & GitHub: Installation guidance and training setup.
 * Stable Baselines Documentation: Reinforcement learning algorithms and implementation details.
-* OpenAI VPT Paper: Information on the pre-trained models.
+* OpenAI VPT Research Paper: Information on the pre-trained models. (https://github.com/openai/Video-Pre-Training)
 * imitation library documentation: imitation learning from expert dataset.
 * Stable-baselines documentation: behavior cloning pre-train.
 * Stable-Baselines-Team/rl-colab-notebooks: Example of using BC pre-train with stable-baselines3.
+* Stable-Baselines3 Imitation Learning Guide (https://imitation.readthedocs.io/en/latest/index.html)
+* Reinforcement Learning Colab Examples (https://github.com/Stable-Baselines-Team/rl-colab-notebooks/blob/sb3/pretraining.ipynb)
+* Schulman, J., et al. "Proximal Policy Optimization Algorithms." arXiv preprint, 2017.
+* OpenAI Gym and MuJoCo Documentation.
+* TensorFlow/PyTorch Reinforcement Learning Libraries.
 
 ## AI Tool Usage
 
