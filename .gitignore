@@ -5,6 +5,9 @@ data/
 events.out.tfevents.*
 *.pid
 
+# Ignore the saved models
+*.pth
+
 # Ignore all log files
 *.log
 *.out

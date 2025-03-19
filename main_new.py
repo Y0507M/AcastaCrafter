@@ -52,54 +52,71 @@ class MineRLObservationWrapper(ObservationWrapper):
 
 
 class MineRLActionWrapper(ActionWrapper):
-    def __init__(self, env, task):
+    def __init__(self, env):
         super().__init__(env)
-        self.hold_attack_steps = 90
-        self.attack_counter = 0
 
-        if task == "movement":
-            self._actions = [
-                {'forward': 1}, {'jump': 1}, {'camera': [0, 5]}, {'camera': [0, -5]}
-            ]  # Only movement actions
-        elif task == "wood_collection":
-            self._actions = [
-                {'forward': 1}, {'jump': 1}, {'attack': 1}, {'break': 1}, {'camera': [0, 5]}, {'camera': [0, -5]}
-            ]
-        else:
-            self._actions = [
-                {'forward': 1},                               # Move forward
-                {'attack': 1},                                # Mine/attack
-                {'jump': 1},                                  # Jump
-                {'craft': 'planks'},                          # Craft planks
-                {'craft': 'stick'},                           # Craft sticks
-                {'craft': 'crafting_table'},                  # Craft crafting table
-                {'craft': 'wooden_pickaxe'},                  # Craft wooden pickaxe
-                {'craft': 'stone_pickaxe'},                   # Craft stone pickaxe
-                {'craft': 'furnace'},                         # Craft furnace
-                {'craft': 'iron_pickaxe'},                    # Craft iron pickaxe
-                {'craft': 'diamond_shovel'},                  # Craft diamond shovel
-                {'equip': 'wooden_pickaxe'},                  # Equip wooden pickaxe
-                {'equip': 'stone_pickaxe'},                   # Equip stone pickaxe
-                {'equip': 'iron_pickaxe'},                    # Equip iron pickaxe
-                {'camera': [0, 5]},                           # Look right
-                {'camera': [0, -5]},                          # Look left
-            ]
-        self.action_space = Discrete(len(self._actions))
+        # Define the target action space
+        self.TARGET_ACTION_SPACE = {
+            "ESC": Discrete(2),
+            "attack": Discrete(2),
+            "back": Discrete(2),
+            "camera": Box(low=-180.0, high=180.0, shape=(2,)),
+            "drop": Discrete(2),
+            "forward": Discrete(2),
+            "hotbar.1": Discrete(2),
+            "hotbar.2": Discrete(2),
+            "hotbar.3": Discrete(2),
+            "hotbar.4": Discrete(2),
+            "hotbar.5": Discrete(2),
+            "hotbar.6": Discrete(2),
+            "hotbar.7": Discrete(2),
+            "hotbar.8": Discrete(2),
+            "hotbar.9": Discrete(2),
+            "inventory": Discrete(2),
+            "jump": Discrete(2),
+            "left": Discrete(2),
+            "pickItem": Discrete(2),
+            "right": Discrete(2),
+            "sneak": Discrete(2),
+            "sprint": Discrete(2),
+            "swapHands": Discrete(2),
+            "use": Discrete(2)
+        }
 
-    def action(self, action_idx):
-        if self.attack_counter > 0:
-            # If in attack-hold mode, keep returning attack action
-            self.attack_counter -= 1
-            return {'attack': 1}
+        # Count discrete and continuous actions
+        self.discrete_keys = [k for k, v in self.TARGET_ACTION_SPACE.items() if isinstance(v, Discrete)]
+        self.camera_keys = [k for k, v in self.TARGET_ACTION_SPACE.items() if isinstance(v, Box)]
 
-        selected_action = self._actions[action_idx]
+        # Number of discrete and continuous actions
+        discrete_actions = len(self.discrete_keys)
+        camera_actions = sum(v.shape[0] for k, v in self.TARGET_ACTION_SPACE.items() if isinstance(v, Box))
 
-        if 'break' in selected_action:
-            # Start holding attack for `hold_attack_steps` steps (default 90)
-            self.attack_counter = self.hold_attack_steps - 1
-            return {'attack': 1}
+        # Define new action space as Box
+        self.action_space = Box(
+            low=np.array([0] * discrete_actions + [-180.0] * camera_actions),
+            high=np.array([1] * discrete_actions + [180.0] * camera_actions),
+            dtype=np.float32
+        )
 
-        return selected_action
+    def action(self, action_array):
+        """
+        Convert the flattened action array back to dictionary format.
+        """
+        action_dict = {}
+        index = 0
+
+        # Process discrete actions
+        for key in self.discrete_keys:
+            action_dict[key] = int(action_array[index] > 0.5)  # Convert float [0,1] to binary {0,1}
+            index += 1
+
+        # Process camera actions
+        for key in self.camera_keys:
+            action_dict[key] = action_array[index:index + 2]  # Extract the 2D camera movement
+            index += 2  # Move index forward
+
+        return action_dict
+
 
 # Define Reward Wrapper with First-Time Inventory Entry Tracking
 class MineRLRewardWrapper(RewardWrapper):
@@ -176,13 +193,13 @@ class MineRLRewardWrapper(RewardWrapper):
         return reward
 
 class CustomCNN(BaseFeaturesExtractor):
-    def __init__(self, observation_space, features_dim=256):
+    def __init__(self, observation_space: gym.spaces.Dict, features_dim: int = 256):
         super(CustomCNN, self).__init__(observation_space, features_dim)
 
-        # Get inventory feature size
+        # Extract inventory size
         inventory_size = observation_space.spaces["inventory"].shape[0]
 
-        # CNN for image processing
+        # Define CNN for processing images
         self.cnn = nn.Sequential(
             nn.Conv2d(3, 32, kernel_size=8, stride=4), nn.ReLU(),
             nn.Conv2d(32, 64, kernel_size=4, stride=2), nn.ReLU(),
@@ -190,39 +207,42 @@ class CustomCNN(BaseFeaturesExtractor):
             nn.Flatten()
         )
 
+        # Get CNN output size dynamically
         with th.no_grad():
             sample_input = th.zeros(1, 3, 360, 640)  # Simulate batch with 1 image
             n_flatten = self.cnn(sample_input).shape[1]
 
-        # Fully connected layers for inventory
+        # MLP for inventory
         self.inventory_fc = nn.Sequential(
             nn.Linear(inventory_size, 64), nn.ReLU(),
             nn.Linear(64, 32), nn.ReLU()
         )
 
-        # Combine CNN and inventory outputs
+        # Final FC layer to merge CNN and inventory
         self.final_fc = nn.Sequential(
             nn.Linear(n_flatten + 32, features_dim), nn.ReLU()
         )
 
     def forward(self, observations):
-        # Process image
+        # Process the image (pov)
         image_features = self.cnn(observations["pov"])
 
-        # Process inventory
+        # Process the inventory vector
         inventory_features = self.inventory_fc(observations["inventory"].float())
 
-        # Concatenate both
+        # Concatenate both processed features
         combined = th.cat([image_features, inventory_features], dim=1)
 
         return self.final_fc(combined)
+
+
 
 def create_env(task, max_episode_steps=1000):
     env = gym.make("MineRLObtainDiamondShovel-v0")
     env.make_interactive(port=None, realtime=False)
     env = TimeLimit(env, max_episode_steps=max_episode_steps)
     env = MineRLObservationWrapper(env)
-    env = MineRLActionWrapper(env, task)
+    env = MineRLActionWrapper(env)
     env = MineRLRewardWrapper(env, task)
 
     print("\n--- DEBUG: ENVIRONMENT SPACES ---")
