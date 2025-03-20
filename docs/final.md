@@ -7,6 +7,8 @@ title:  Final Report
 
 ## Video
 
+[[![AcastaCrafterFinalDemenstrationVideo]](https://youtu.be/Yfm7elNke0s)](https://youtu.be/5iHhqbLMmSU)
+
 ## Project Summary
 Our project aimed to develop an AI agent capable of autonomously navigating and performing tasks in a Minecraft environment, specifically focusing on the "MineRLTreechop-v0" environment. Initially, we intended to train an agent to obtain diamonds in a complex, underground setting. However, due to various technical challenges, including compatibility issues with HPC3 and the complexity of the environment, we shifted our focus to mastering the simpler task of chopping trees.
 
