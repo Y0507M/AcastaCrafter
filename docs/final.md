@@ -48,14 +48,15 @@ Our main approach involved a two-stage training process: behavior cloning (BC) f
 
 ## Evaluation
 
-We evaluated our agent's performance using both quantitative and qualitative methods. (this section is subject to change based on video recording.)
+We evaluated our agent's performance using both quantitative and qualitative methods.
 
 ### Quantitative Evaluation
-(Some ideas are)
 * We tracked the number of logs collected per episode.
 * We compared the performance of our trained models with the baseline random-action agent.
 * We plotted the episode reward over training steps to see the learning progress.
 * Due to environment termination issues, getting consistent reward values was very difficult.
+
+![MineCraft](https://raw.githubusercontent.com/Y0507M/AcastaCrafter/main/docs/_assets/EpisodeReward.png)
 
 ### Qualitative Evaluation
 
@@ -63,6 +64,7 @@ We evaluated our agent's performance using both quantitative and qualitative met
 * We observed the agent's ability to navigate towards trees and perform the chopping action.
 * We successfully recorded one episode of the agent successfully chopping a tree.
 
+<img src="https://raw.githubusercontent.com/Y0507M/AcastaCrafter/main/docs/_assets/success.gif" width="256" height="256" />
 
 ## References
 
