@@ -58,6 +58,8 @@ We evaluated our agent's performance using both quantitative and qualitative met
 
 ![MineCraft](https://raw.githubusercontent.com/Y0507M/AcastaCrafter/main/docs/_assets/EpisodeReward.png)
 
+**Our best agent could collect more than 20 logs in 2_000_000 steps while the random agent (baseline) couldn't collect any log.**
+
 ### Qualitative Evaluation
 
 * We recorded videos of the agent's behavior to visually assess its performance.
